@@ -1,3 +1,13 @@
-export { default as IMAGESample } from "./Section.svg";
 export { default as CommonBackIcon } from "./common-back.svg";
 export { default as MultiBackIcon } from "./multi-back.svg";
+export { default as ObsessiveCompulsiveDisorderImage } from "./obsessive-compulsive-disorder.svg";
+export { default as BodyDysmorphicDisordersImage } from "./body-dysmorphic-disorder.svg";
+export { default as ObsessiveCompulsiveDisorderPageImage } from "./obsessive-compulsive-disorder-img.svg";
+export { default as BodyDysmorphicDisorderPageImage } from "./body-dysmorphic-disorder-img.svg";
+export { default as AnorexiaNervosaIcon } from "./anorexia-nervosa-icon.svg";
+export { default as BulimiaNervosaIcon } from "./bulimia-nervosa-icon.svg";
+export { default as BingeEatingDisorderIcon } from "./binge-eating-disorder-icon.svg";
+export { default as AnorexiaNervosaPageImage } from "./anorexia-nervosa-page-img.svg";
+export { default as BulimiaNervosaPageImage } from "./bulimia-nervosa-img.svg";
+export { default as BingeEatingDisorderPageImage } from "./binge-eating-disorder-img.svg";
+export { default as PostTraumaticStressDisorderImage } from "./post-traumatic-stress-disorder-img.svg";
