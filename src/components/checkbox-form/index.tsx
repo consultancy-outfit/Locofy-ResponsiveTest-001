@@ -56,7 +56,7 @@ export const CheckboxForm: React.FC<CheckboxFormProps> = ({ onChange }) => {
   };
 
   return (
-    <Box display="flex" alignItems="center" gap={1}>
+    <Box display={{ sm: "flex", xs: "unset" }} alignItems="center" gap={1}>
       <Typography
         variant="h5"
         color="#5A5867"
