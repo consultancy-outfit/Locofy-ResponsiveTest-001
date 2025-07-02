@@ -1,4 +1,5 @@
-import { ApplicationsAppsItrg04ApplicationPortfolioManagementImage } from "@/assets";
+
+import { ApplicationsAppsItrag04ApplicationPortfolioManagementImage } from "@/assets";
 import { CommonPage } from "@/components";
 import React from "react";
 
@@ -6,7 +7,7 @@ const ApplicationsAppsItrg04ApplicationPortfolioManagementPage = () => {
   return (
     <CommonPage
       pageTitle="Applications(Apps)/ ITRG04-Application Portfolio Management"
-      src={ApplicationsAppsItrg04ApplicationPortfolioManagementImage}
+      src={ApplicationsAppsItrag04ApplicationPortfolioManagementImage}
       backRoute="/"
     />
   );

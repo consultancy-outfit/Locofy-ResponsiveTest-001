@@ -1,4 +1,4 @@
-import { StrategyGovernanceApo01ItManagementPoliciesImage } from "@/assets";
+import { StrategyGovernanceAPO01ITManagementPoliciesImage,} from "@/assets";
 import { CommonPage } from "@/components";
 import React from "react";
 
@@ -6,7 +6,7 @@ const StrategyGovernanceApo01ItManagementPoliciesPage = () => {
   return (
     <CommonPage
       pageTitle="Strategy & Governance/ APO01-IT Management & Policies"
-      src={StrategyGovernanceApo01ItManagementPoliciesImage}
+      src={StrategyGovernanceAPO01ITManagementPoliciesImage}
       backRoute="/"
     />
   );

@@ -1,4 +1,5 @@
-import { StrategyGovernanceEdm01ItGovernanceImage } from "@/assets";
+
+import { StrategyGovernanceEDM01ITGovernanceImage } from "@/assets";
 import { CommonPage } from "@/components";
 import React from "react";
 
@@ -6,7 +7,7 @@ const StrategyGovernanceEdm01ItGovernancePage = () => {
   return (
     <CommonPage
       pageTitle="Strategy & Governance/ EDM01-IT  Governance"
-      src={StrategyGovernanceEdm01ItGovernanceImage}
+      src={StrategyGovernanceEDM01ITGovernanceImage}
       backRoute="/"
     />
   );
