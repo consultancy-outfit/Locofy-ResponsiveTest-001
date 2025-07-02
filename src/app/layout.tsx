@@ -34,7 +34,7 @@ export const metadata: Metadata = {
     },
   },
   openGraph: {
-    title: "Mental Health",
+    title: "COBIT 2019",
     description: "Concise visual breakdowns and structured diagrams for clear, accessible insight.",
     url: "https://courthearing.netlify.app/",
     type: "website",
