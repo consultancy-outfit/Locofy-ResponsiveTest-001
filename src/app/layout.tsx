@@ -8,7 +8,7 @@ const outfit = Outfit({
   variable: '--font-outfit',
 });
 export const metadata: Metadata = {
-  title: "Mental Health",
+  title: "Cobit",
   description: "Concise visual breakdowns and structured diagrams for clear, accessible insight.",
   icons: {
     icon: [
