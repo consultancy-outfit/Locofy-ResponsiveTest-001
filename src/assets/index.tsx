@@ -100,3 +100,4 @@ export { default as PsychiatricAssessmentMentalHealthDisordersImg11 } from "./Ps
 export { default as PsychiatricAssessmentMentalHealthDisordersImg12 } from "./PsychiatricAssessmentMentalHealthDisordersImg12.svg";
 export { default as PsychiatricAssessmentMentalHealthDisordersImg13 } from "./PsychiatricAssessmentMentalHealthDisordersImg13.svg";
 export { default as PsychiatricAssessmentMentalHealthDisordersImg14 } from "./PsychiatricAssessmentMentalHealthDisordersImg14.svg";
+export { default as dashboardIcon1 } from "./dashboard-icon1.svg";
