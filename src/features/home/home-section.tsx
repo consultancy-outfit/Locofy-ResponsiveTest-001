@@ -6,11 +6,18 @@ import { colorLegends, mainSection } from "@/assets";
 import React, { useEffect, useRef, useState } from "react";
 import { Box, Button, Stack, Typography } from "@mui/material";
 import KeyboardArrowDownIcon from "@mui/icons-material/KeyboardArrowDown";
+import { CommonBackIcon } from "@/assets/common-assets";
+import { useRouter } from "next/navigation";
 
 export const HomeSection = () => {
   const [isOpen, setIsOpen] = useState(false);
   const legendRef = useRef<HTMLDivElement>(null);
   const iconRef = useRef<HTMLDivElement>(null);
+  const router = useRouter();
+
+  const onBackIconClick = () => {
+    router.push("/apprenticeshipjourney-1");
+  };
 
   const toggleDropdown = (e: React.MouseEvent) => {
     e.stopPropagation();
@@ -38,17 +45,33 @@ export const HomeSection = () => {
 
   return (
     <Box sx={{ p: 3, position: "relative" }}>
-      <Typography
-        variant="h3"
-        my={1}
-        color="#5A5867"
-        fontSize={{ xs: "1rem", md: "1.5rem" }}
-        fontWeight={600}
-        ml={2}
+      <Stack
+        flexDirection={"row"}
+        alignItems={"center"}
+        mt={{ md: 2, xs: 1 }}
+        mb={{ md: 4, sm: 3, xs: 2 }}
       >
-        Mental Health Listing Process
-      </Typography>
-
+        {/* <Image
+          src={CommonBackIcon}
+          alt={"Apprenticeship Journey "}
+          width={40}
+          height={40}
+          onClick={onBackIconClick}
+          style={{ cursor: "pointer" }}
+        /> */}
+        <Typography
+          variant="h5"
+          color="#5A5867"
+          fontSize={{ xs: "0.8rem", sm: "18px", md: "22px" }}
+          fontWeight={{ md: 600, xs: 500 }}
+          ml={{ md: 2, xs: 1 }}
+          sx={{
+            fontFamily: "inherit",
+          }}
+        >
+          Apprenticeship Journey
+        </Typography>
+      </Stack>
       <Stack
         flexDirection="row"
         alignItems={"center"}
@@ -64,8 +87,7 @@ export const HomeSection = () => {
           fontWeight={600}
           ml={2}
         >
-          Sequence Diagram for Process for Determining Unfitness to Stand Trial
-          Based on Mental Health
+          Sequence Diagram
         </Typography>
 
         <Typography
@@ -114,10 +136,13 @@ export const HomeSection = () => {
             fontWeight={600}
             ml={2}
           >
-            End-to-End Mental health Listing Process
+            {/* End-to-End Mental health Listing Process */}
           </Typography>
 
-          <Link href="/apprenticeshipjourney-1" style={{ textDecoration: "none" }}>
+          <Link
+            href="/apprenticeshipjourney-1"
+            style={{ textDecoration: "none" }}
+          >
             <Button
               sx={{
                 color: "#000",
@@ -129,7 +154,7 @@ export const HomeSection = () => {
                 padding: "5px",
               }}
             >
-              Detail Breakdown for Court Hearing & Psychiatric Evaluation
+              🔗Apprenticeship Journey
             </Button>
           </Link>
         </Stack>
@@ -143,19 +168,42 @@ export const HomeSection = () => {
         />
 
         {isOpen && (
-          <Box
-            ref={legendRef}
-            sx={{ position: "absolute", top: "150px", right: "50px" }}
-            onClick={(e) => e.stopPropagation()}
-          >
-            <Image
-              src={colorLegends}
-              alt="Color Legend"
-              width={40}
-              height={40}
-              style={{ width: "100%", height: "100%" }}
+          <>
+            <Box
+              sx={{
+                position: "fixed",
+                top: 0,
+                left: 0,
+                width: "100vw",
+                height: "100vh",
+                background: "rgba(0,0,0,0.3)",
+                zIndex: 1200,
+              }}
+              onClick={() => setIsOpen(false)}
             />
-          </Box>
+            <Box
+              ref={legendRef}
+              sx={{
+                position: "absolute",
+                top: "150px",
+                right: "50px",
+                background: "#fff",
+                borderRadius: "10px",
+                boxShadow: 3,
+                p: 1,
+                zIndex: 1300,
+              }}
+              onClick={(e) => e.stopPropagation()}
+            >
+              <Image
+                src={colorLegends}
+                alt="Color Legend"
+                width={40}
+                height={40}
+                style={{ width: "100%", height: "100%" }}
+              />
+            </Box>
+          </>
         )}
       </Box>
     </Box>
