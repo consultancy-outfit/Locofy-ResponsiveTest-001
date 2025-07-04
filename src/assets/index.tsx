@@ -75,7 +75,6 @@ export { default as EnglandApprenticeshipCertificsteExampleImage } from "./Engla
 export { default as ApprenticeshipJourneyDiagramsImage } from "./ApprenticeshipJourneyDiagramsImage.svg";
 export { default as GatewayMeetingRecordingFormGuidanceImage } from "./GatewayMeetingRecordingFormGuidanceImage.svg";
 export { default as PostProgrammeApprenticeEvaluationFormImage } from "./PostProgrammeApprenticeEvaluationFormImage.svg";
-// export { default as ApprenticeshipJourneyImage } from "./ApprenticeshipJourneyImage.svg";
 export { default as ApprenticeshipsListingProcessImage } from "./ApprenticeshipsListingProcessImage.svg";
 export { default as FindAnEndPointAssessmentOrganisationEpaoForYouApprenticeImage } from "./FindAnEndPointAssessmentOrganisationEpaoForYouApprenticeImage.svg";
 export { default as WtdEmployerAllocatingFundsCreatingCohortsImage } from "./WtdEmployerAllocatingFundsCreatingCohortsImage.svg";
@@ -95,7 +94,6 @@ export { default as img6Apprenticeshipjourney1Image } from "./img6Apprenticeship
 export { default as img7Apprenticeshipjourney1Image } from "./img7Apprenticeshipjourney1Image.svg";
 export { default as img8Apprenticeshipjourney1Image } from "./img8Apprenticeshipjourney1Image.svg";
 export { default as img9Apprenticeshipjourney1Image } from "./img9Apprenticeshipjourney1Image.svg";
-export { default as ApprenticeshipjourneyImage } from "./ApprenticeshipjourneyImage.svg";
 export { default as OverviewImage } from "./OverviewImage.svg";
 export { default as ApprenticeLearnerImage } from "./ApprenticeLearnerImage.svg";
 export { default as EmployerImage } from "./EmployerImage.svg";
@@ -103,3 +101,5 @@ export { default as CollegeInstituteImage } from "./CollegeInstituteImage.svg";
 export { default as EpaoEndPointAssessmentOrganisationImage } from "./EpaoEndPointAssessmentOrganisationImage.svg";
 export { default as GovernmentRegulatoryActorsImage } from "./GovernmentRegulatoryActorsImage.svg";
 export { default as KeyDocumentsRequiredForComplianceImage } from "./KeyDocumentsRequiredForComplianceImage.svg";
+export { default as mainSection } from "./mainSection.svg";
+export { default as colorLegends } from "./colorLegends.svg";
