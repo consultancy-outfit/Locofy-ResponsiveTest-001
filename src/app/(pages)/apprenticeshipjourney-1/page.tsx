@@ -17,42 +17,42 @@ import React from "react";
 const Apprenticeshipjourney1PageData = [
   {
     key: "apprenticeshipjourney-1",
-    link: "/",
+    link: "/overview",
     icon: img1Apprenticeshipjourney1Image,
   },
   {
     key: "apprenticeshipjourney-2",
-    link: "/",
+    link: "/apprentice-learner",
     icon: img2Apprenticeshipjourney1Image,
   },
   {
     key: "apprenticeshipjourney-3",
-    link: "/",
+    link: "/employer",
     icon: img3Apprenticeshipjourney1Image,
   },
   {
     key: "apprenticeshipjourney-4",
-    link: "/",
+    link: "/college-institute",
     icon: img4Apprenticeshipjourney1Image,
   },
   {
     key: "apprenticeshipjourney-5",
-    link: "/",
+    link: "/epao-end-point-assessment-organisation",
     icon: img5Apprenticeshipjourney1Image,
   },
   {
     key: "apprenticeshipjourney-6",
-    link: "/",
+    link: "/government-regulatory-actors",
     icon: img6Apprenticeshipjourney1Image,
   },
   {
     key: "apprenticeshipjourney-7",
-    link: "/",
+    link: "/key-documents-required-for-compliance",
     icon: img7Apprenticeshipjourney1Image,
   },
   {
     key: "apprenticeshipjourney-8",
-    link: "/",
+    link: "/apprenticeship-documents",
     icon: img8Apprenticeshipjourney1Image,
   },
   {
