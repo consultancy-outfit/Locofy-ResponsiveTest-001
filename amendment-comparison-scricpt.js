@@ -7,10 +7,13 @@ const assetsDir = path.join(__dirname, "src", "assets");
 
 // List of pages to create
 const pages = [
-  "Introduction",
-  "Amendment Comparison - Introduction",
-  "Part (1) ",
-  "Amendment Comparison - Application of Act ",
+  "2023_10_OTJT_Evidence_Collection_Template_-_23_24_Rules_v1.0 (2)",
+  "Introduction to Work-Based Projects",
+  "lesson-observation-sample",
+  "Reflective Learning Journal (RLJ)",
+  "Scheme of work Mortgage Adviser Level 3",
+  "Weekly journal example",
+  "Apprenticeship Workplace Assignments Examples"
 ];
 
 // Convert to PascalCase
@@ -52,7 +55,7 @@ const ${pascal}Page = () => {
       pageTitle={\`Mental Health / Mental Health Act 1983 / ${title}\`}
       src={${imageName}}
       backRoute="/"
-      amendmentButtonRoute="/eating-disorders"
+      amendmentButtonRoute="/training-delivery-off-the-job-learning"
     />
   );
 };
