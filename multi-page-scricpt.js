@@ -1,40 +1,34 @@
-const fs = require("fs");
-const path = require("path");
+const fs = require('fs');
+const path = require('path');
 
 // Define the base directory
-const baseDir = path.join(__dirname, "src", "app", "(pages)");
-const assetsDir = path.join(__dirname, "src", "assets");
+const baseDir = path.join(__dirname, 'src', 'app', '(pages)');
+const assetsDir = path.join(__dirname, 'src', 'assets');
 
 // List of pages with pageTitle, image counts, and links
 const pages = [
-  {
-    title: "abc",
-    pageTitle: "abc",
-    imageCount: 1,
-    links: ["/",  ],
-  },
-
+  { title: "Mental Health Act 1983", pageTitle: "Mental Health Act 1983", imageCount: 13, links: ["/", "/","/", "/","/", "/","/", "/","/", "/","/", "/","/", ] },
 ];
 
 // Convert to PascalCase
-const toPascalCase = (str) =>
+const toPascalCase = str =>
   str
-    .replace(/[^a-zA-Z0-9]+/g, " ")
-    .split(" ")
-    .map((word) => word.charAt(0).toUpperCase() + word.slice(1).toLowerCase())
-    .join("");
+    .replace(/[^a-zA-Z0-9]+/g, ' ')
+    .split(' ')
+    .map(word => word.charAt(0).toUpperCase() + word.slice(1).toLowerCase())
+    .join('');
 
 // Convert to kebab-case
-const toKebabCase = (str) =>
+const toKebabCase = str =>
   str
-    .replace(/[&/()]+/g, "")
-    .replace(/[^a-zA-Z0-9]+/g, "-")
+    .replace(/[&/()]+/g, '')
+    .replace(/[^a-zA-Z0-9]+/g, '-')
     .toLowerCase()
-    .replace(/^-+|-+$/g, "");
+    .replace(/^-+|-+$/g, '');
 
 for (const { title, pageTitle, imageCount = 2, links = [] } of pages) {
   const kebab = toKebabCase(title);
-  const pascal = toPascalCase(title.replace(/ & /g, ""));
+  const pascal = toPascalCase(title.replace(/ & /g, '')); 
 
   // Create directory for the page
   const dir = path.join(baseDir, kebab);
@@ -48,14 +42,14 @@ for (const { title, pageTitle, imageCount = 2, links = [] } of pages) {
     const svgFile = `${imageName}.svg`;
     const link = links[i] || `/${kebab}/${i + 1}`; // Use custom link if available, otherwise default
     arrayData.push({
-      key: `${kebab.split("-")[0]}-${i + 1}`, // Use first part of kebab as key base with index
+      key: `${kebab.split('-')[0]}-${i + 1}`, // Use first part of kebab as key base with index
       link: link,
       icon: imageName,
       title: `${title} Item ${i + 1}`, // Default item title
     });
 
     // Append to existing index.tsx in assets
-    const indexTsxPath = path.join(assetsDir, "index.tsx");
+    const indexTsxPath = path.join(assetsDir, 'index.tsx');
     const imageExport = `export { default as ${imageName} } from "./${svgFile}";\n`;
     fs.appendFileSync(indexTsxPath, imageExport);
   }
@@ -64,21 +58,17 @@ for (const { title, pageTitle, imageCount = 2, links = [] } of pages) {
   const pageContent = `"use client";
 import { MultiPathPage } from "@/components";
 import {
-  ${arrayData.map((item) => item.icon).join(",\n  ")}
+  ${arrayData.map(item => item.icon).join(',\n  ')}
 } from "@/assets";
 import React from "react";
 
 const ${pascal}PageData = [
-  ${arrayData
-    .map(
-      (item) => `{
+  ${arrayData.map(item => `{
     key: "${item.key}",
     link: "${item.link}",
     icon: ${item.icon},
-    title: "",
-  }`
-    )
-    .join(",\n  ")}
+    title: "${item.title}",
+  }`).join(',\n  ')}
 ];
 
 const ${pascal}Page = () => {
@@ -93,9 +83,7 @@ const ${pascal}Page = () => {
 
 export default ${pascal}Page;
 `;
-  fs.writeFileSync(path.join(dir, "page.tsx"), pageContent, "utf8");
+  fs.writeFileSync(path.join(dir, 'page.tsx'), pageContent, 'utf8');
 }
 
-console.log(
-  "Dynamic MultiPath pages with fixed image names, titles, links, and image exports have been created."
-);
+console.log("Dynamic MultiPath pages with fixed image names, titles, links, and image exports have been created.");
