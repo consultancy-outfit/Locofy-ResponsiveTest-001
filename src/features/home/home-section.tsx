@@ -117,7 +117,7 @@ export const HomeSection = () => {
             End-to-End Mental health Listing Process
           </Typography>
 
-          <Link href="/court-hearing" style={{ textDecoration: "none" }}>
+          <Link href="/apprenticeshipjourney-1" style={{ textDecoration: "none" }}>
             <Button
               sx={{
                 color: "#000",
