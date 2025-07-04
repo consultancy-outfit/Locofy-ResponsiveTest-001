@@ -8,59 +8,12 @@ const assetsDir = path.join(__dirname, "src", "assets");
 // List of pages with pageTitle, image counts, and links
 const pages = [
   {
-    title: "Gateway, Completion & Evaluation",
-    pageTitle: "Gateway, Completion & Evaluation",
-    imageCount: 3,
-    links: ["/", "/", "/"],
+    title: "abc",
+    pageTitle: "abc",
+    imageCount: 1,
+    links: ["/",  ],
   },
-  // {
-  //   title: "Onboarding & Initial Setup",
-  //   pageTitle: "Onboarding & Initial Setup",
-  //   imageCount: 8,
-  //   links: ["/", "/", "/", "/", "/", "/", "/", "/"],
-  // },
 
-  // {
-  //   title: "Training Delivery & Off-the-Job Learning",
-  //   pageTitle: "Training Delivery & Off-the-Job Learning",
-  //   imageCount: 7,
-  //   links: ["/", "/", "/", "/", "/", "/", "/",],
-  // },
-
-  // {
-  //   title: "Functional Skills Support",
-  //   pageTitle: "Functional Skills Support",
-  //   imageCount: 3,
-  //   links: ["/", "/", "/", ],
-  // },
-
-  // {
-  //   title: "Progress Reviews & Tracking",
-  //   pageTitle: "Progress Reviews & Tracking",
-  //   imageCount: 7,
-  //   links: ["/", "/", "/", "/", "/", "/", "/",],
-  // },
-
-  // {
-  //   title: "Portfolio & Assessment Evidence",
-  //   pageTitle: "Portfolio & Assessment Evidence",
-  //   imageCount: 3,
-  //   links: ["/", "/", "/", ],
-  // },
-
-  // {
-  //   title: "Safeguarding, Plagiarism & Conduct",
-  //   pageTitle: "Safeguarding, Plagiarism & Conduct",
-  //   imageCount: 3,
-  //   links: ["/", "/", "/", ],
-  // },
-
-  // {
-  //   title: "Data, Attendance & Tracking Systems",
-  //   pageTitle: "Data, Attendance & Tracking Systems",
-  //   imageCount: 2,
-  //   links: ["/", "/",],
-  // },
 ];
 
 // Convert to PascalCase
@@ -122,7 +75,7 @@ const ${pascal}PageData = [
     key: "${item.key}",
     link: "${item.link}",
     icon: ${item.icon},
-    title: "${item.title}",
+    title: "",
   }`
     )
     .join(",\n  ")}
