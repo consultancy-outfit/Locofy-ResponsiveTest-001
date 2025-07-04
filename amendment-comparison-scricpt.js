@@ -7,13 +7,9 @@ const assetsDir = path.join(__dirname, "src", "assets");
 
 // List of pages to create
 const pages = [
-  "2023_10_OTJT_Evidence_Collection_Template_-_23_24_Rules_v1.0 (2)",
-  "Introduction to Work-Based Projects",
-  "lesson-observation-sample",
-  "Reflective Learning Journal (RLJ)",
-  "Scheme of work Mortgage Adviser Level 3",
-  "Weekly journal example",
-  "Apprenticeship Workplace Assignments Examples"
+  "Attendance-Proof-Template-384478251",
+  "Maytas Hub",
+  
 ];
 
 // Convert to PascalCase
@@ -55,7 +51,7 @@ const ${pascal}Page = () => {
       pageTitle={\`Mental Health / Mental Health Act 1983 / ${title}\`}
       src={${imageName}}
       backRoute="/"
-      amendmentButtonRoute="/training-delivery-off-the-job-learning"
+      amendmentButtonRoute="/progress-reviews-tracking"
     />
   );
 };

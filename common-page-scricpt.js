@@ -7,11 +7,17 @@ const assetsDir = path.join(__dirname, 'src', 'assets');
 
 // List of pages to create
 const pages = [
-  "Amendment Comparison - Application of Act",
-  "Amendment Comparison",
-
+  "Apprenticeships  Listing Process",
+  "Find an End-Point Assessment Organisation (EPAO) for you apprentice",
+  "WTD Employer Allocating Funds & Creating Cohorts",
+  "WTD Employer DAS setup Guide",
+  "WTD How to Check Your Balance on Your DAS Account",
+  "WTD How to Close Down Completed Learners on DAS",
+  "WTD How to Recover your DAS Account Guide",
+  "Overview of Apprenticeship Delivery Process",
+  "Learner Support Needs Assessment",
+  "Induction Checklist and Feedback Form"
 ];
-
 // Convert to PascalCase
 const toPascalCase = str =>
   str
@@ -46,7 +52,7 @@ import React from "react";
 const ${pascal}Page = () => {
   return (
     <CommonPage
-      pageTitle={\`Mental Health / Mental Health Act 1983 / ${title}\`}
+      pageTitle={\`Apprenticeships / ${title}\`}
       src={${imageName}}
       backRoute="/"
     />
