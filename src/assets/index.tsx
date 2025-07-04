@@ -86,3 +86,12 @@ export { default as WtdHowToRecoverYourDasAccountGuideImage } from "./WtdHowToRe
 export { default as OverviewOfApprenticeshipDeliveryProcessImage } from "./OverviewOfApprenticeshipDeliveryProcessImage.svg";
 export { default as LearnerSupportNeedsAssessmentImage } from "./LearnerSupportNeedsAssessmentImage.svg";
 export { default as InductionChecklistAndFeedbackFormImage } from "./InductionChecklistAndFeedbackFormImage.svg";
+export { default as img1Apprenticeshipjourney1Image } from "./img1Apprenticeshipjourney1Image.svg";
+export { default as img2Apprenticeshipjourney1Image } from "./img2Apprenticeshipjourney1Image.svg";
+export { default as img3Apprenticeshipjourney1Image } from "./img3Apprenticeshipjourney1Image.svg";
+export { default as img4Apprenticeshipjourney1Image } from "./img4Apprenticeshipjourney1Image.svg";
+export { default as img5Apprenticeshipjourney1Image } from "./img5Apprenticeshipjourney1Image.svg";
+export { default as img6Apprenticeshipjourney1Image } from "./img6Apprenticeshipjourney1Image.svg";
+export { default as img7Apprenticeshipjourney1Image } from "./img7Apprenticeshipjourney1Image.svg";
+export { default as img8Apprenticeshipjourney1Image } from "./img8Apprenticeshipjourney1Image.svg";
+export { default as img9Apprenticeshipjourney1Image } from "./img9Apprenticeshipjourney1Image.svg";
