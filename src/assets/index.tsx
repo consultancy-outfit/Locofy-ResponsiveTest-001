@@ -199,3 +199,12 @@ export { default as img1SubjectContentFunctionalSkillsEnglishMainImage } from ".
 export { default as img2SubjectContentFunctionalSkillsEnglishMainImage } from "./img2SubjectContentFunctionalSkillsEnglishMainImage.svg";
 export { default as img3SubjectContentFunctionalSkillsEnglishMainImage } from "./img3SubjectContentFunctionalSkillsEnglishMainImage.svg";
 export { default as img4SubjectContentFunctionalSkillsEnglishMainImage } from "./img4SubjectContentFunctionalSkillsEnglishMainImage.svg";
+export { default as Appendixone } from "./Appendix-1.svg";
+export { default as AppendixTwo } from "./Appendix-2.svg";
+export { default as AppendixThree } from "./Appendix-3.svg";
+export { default as AppendixFour } from "./AppendixFour.svg";
+export { default as GuidanceDocumentRedimg1 } from "./GuidanceDocumentRedimg1.svg";
+export { default as GuidanceDocumentRedimg2 } from "./GuidanceDocumentRedimg2.svg";
+export { default as GuidanceDocumentRedimg3 } from "./GuidanceDocumentRedimg3.svg";
+export { default as GuidanceDocumentRedimg4 } from "./GuidanceDocumentRedimg4.svg";
+
