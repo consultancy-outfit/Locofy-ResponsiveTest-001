@@ -9,7 +9,7 @@ const IntroductionToWorkBasedProjectsPage = () => {
     <AmendmentComparison
       pageTitle={`Mental Health / Mental Health Act 1983 / Introduction to Work-Based Projects`}
       src={IntroductionToWorkBasedProjectsImage}
-      backRoute="/"
+      backRoute="/training-delivery-off-the-job-learning"
       amendmentButtonRoute="/training-delivery-off-the-job-learning"
     />
   );

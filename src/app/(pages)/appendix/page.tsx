@@ -7,7 +7,7 @@ const AppendixPage = () => {
     <CommonPage
       pageTitle={`Apprenticeships / Funding Rules / Apprenticeship funding rules 2024_to_2025 / Appendix`}
       src={AppendixImage}
-      backRoute="/apprenticeship-funding-rules-2024-to-2025"
+      backRoute="/functional-skills-english-conditions-and-requirements"
     />
   );
 };

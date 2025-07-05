@@ -11,25 +11,25 @@ import React from "react";
 const FunctionalSkillsEnglishConditionsAndRequirementsPageData = [
   {
     key: "functional-1",
-    link: "/introduction-functional-skills-mathematics-conditions-and-requirements",
+    link: "/functional-skills-english-conditions-and-requirements-2024-introduction",
     icon: img1FunctionalSkillsEnglishConditionsAndRequirementsImage,
     title: "Introduction",
   },
   {
     key: "functional-2",
-    link: "/subject-level-conditions-functional-skills-mathematics-conditions-and-requirements",
+    link: "/functional-skills-english-conditions-and-requirements-2024-subject-level-conditions",
     icon: img2FunctionalSkillsEnglishConditionsAndRequirementsImage,
     title: "Subject Level Conditions",
   },
   {
     key: "functional-3",
-    link: "/requirements-for-functional-skills-qualifications",
+    link: "/requirements-for-functional-skills-qualifications-in-english",
     icon: img3FunctionalSkillsEnglishConditionsAndRequirementsImage,
     title: "Requirements for Functional Skills  qualifications in Mathematics",
   },
   {
     key: "functional-4",
-    link: "/functional-skills-mathematic-conditions-and-requirements",
+    link: "/appendix",
     icon: img4FunctionalSkillsEnglishConditionsAndRequirementsImage,
     title: "Appendix 1: subject content (published by the  Department for Education)",
   }

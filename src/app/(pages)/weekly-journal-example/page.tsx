@@ -9,7 +9,7 @@ const WeeklyJournalExamplePage = () => {
     <AmendmentComparison
       pageTitle={`Mental Health / Mental Health Act 1983 / Weekly journal example`}
       src={WeeklyJournalExampleImage}
-      backRoute="/"
+      backRoute="/training-delivery-off-the-job-learning"
       amendmentButtonRoute="/training-delivery-off-the-job-learning"
     />
   );

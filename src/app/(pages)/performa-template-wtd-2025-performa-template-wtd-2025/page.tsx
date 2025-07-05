@@ -9,7 +9,7 @@ const PerformaTemplateWtd2025PerformaTemplateWtd2025Page = () => {
     <AmendmentComparison
       pageTitle={`Mental Health / Mental Health Act 1983 / Performa Template WTD 2025/ Performa Template WTD 2025`}
       src={PerformaTemplateWtd2025PerformaTemplateWtd2025Image}
-      backRoute="/"
+      backRoute="/onboarding-initial-setup"
       amendmentButtonRoute="/onboarding-initial-setup"
     />
   );

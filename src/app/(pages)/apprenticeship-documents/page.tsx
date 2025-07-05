@@ -27,7 +27,7 @@ const ApprenticeshipDocumentsPageData = [
   },
   {
     key: "apprenticeship-3",
-    link: "/",
+    link: "/functional-skills-support",
     icon: img3ApprenticeshipDocumentsImage,
     title: "Functional Skills Support",
   },

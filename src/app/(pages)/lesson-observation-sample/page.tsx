@@ -9,7 +9,7 @@ const LessonObservationSamplePage = () => {
     <AmendmentComparison
       pageTitle={`Mental Health / Mental Health Act 1983 / lesson-observation-sample`}
       src={LessonObservationSampleImage}
-      backRoute="/"
+      backRoute="/training-delivery-off-the-job-learning"
       amendmentButtonRoute="/training-delivery-off-the-job-learning"
     />
   );

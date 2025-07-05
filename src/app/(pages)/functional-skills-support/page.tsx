@@ -10,13 +10,13 @@ import React from "react";
 const FunctionalSkillsSupportPageData = [
   {
     key: "functional-1",
-    link: "/",
+    link: "/functional-skills-english-conditions-and-requirements",
     icon: img1FunctionalSkillsSupportImage,
     title: "Functional_Skills_English_Conditions_and_Requirements_2024",
   },
   {
     key: "functional-2",
-    link: "/",
+    link: "/functional-skills-mathematics-levels-1-and-2",
     icon: img2FunctionalSkillsSupportImage,
     title: "Functional_Skills_Mathematics_Conditions_and_Requirements_2024",
   },
