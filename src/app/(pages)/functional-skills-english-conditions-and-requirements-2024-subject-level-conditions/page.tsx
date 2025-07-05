@@ -5,9 +5,9 @@ import React from "react";
 const FunctionalSkillsEnglishConditionsAndRequirements2024SubjectLevelConditionsPage = () => {
   return (
     <CommonPage
-      pageTitle={`Apprenticeships / Funding Rules / Apprenticeship funding rules 2024_to_2025 / Functional_Skills_English_Conditions_and_Requirements_2024 / Subject Level Conditions`}
+      pageTitle={`Apprenticeship Journey  / Apprenticeship Documents / Functional Skills Support / Functional_Skills_English_Conditions_and_Requirements_2024 / Subject Level Conditions`}
       src={FunctionalSkillsEnglishConditionsAndRequirements2024SubjectLevelConditionsImage}
-      backRoute="/apprenticeship-funding-rules-2024-to-2025"
+      backRoute="/functional-skills-english-conditions-and-requirements-main"
     />
   );
 };

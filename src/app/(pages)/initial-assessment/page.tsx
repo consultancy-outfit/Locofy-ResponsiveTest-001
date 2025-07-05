@@ -5,7 +5,7 @@ import React from "react";
 const InitialAssessmentPage = () => {
   return (
     <CommonPage
-      pageTitle={`Apprenticeships / Funding Rules / Apprenticeship funding rules 2024_to_2025 / Initial Assessment`}
+      pageTitle={`Apprenticeship Journey / Apprenticeship Documents /Initial Assessment`}
       src={InitialAssessmentImage}
       backRoute="/apprenticeship-funding-rules-2024-to-2025"
     />

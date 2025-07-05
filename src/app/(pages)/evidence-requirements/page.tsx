@@ -5,7 +5,7 @@ import React from "react";
 const EvidenceRequirementsPage = () => {
   return (
     <CommonPage
-      pageTitle={`Apprenticeships / Funding Rules / Apprenticeship funding rules 2024_to_2025 / Evidence Requirements`}
+      pageTitle={`Apprenticeship Journey / Apprenticeship Documents /Evidence Requirements`}
       src={EvidenceRequirementsImage}
       backRoute="/apprenticeship-funding-rules-2024-to-2025"
     />

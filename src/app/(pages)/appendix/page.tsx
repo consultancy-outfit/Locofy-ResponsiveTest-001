@@ -8,9 +8,9 @@ export default function AppendixPage() {
   return (
     <FourPageCommon
       src={images}
-      pageTitle="Apprenticeships / Funding Rules / Apprenticeship funding rules 2024_to_2025 / Appendix"
+      pageTitle="Apprenticeship Journey / Apprenticeship Documents /Appendix"
       imageLinks={routes}
-      backRoute="/appendix"
+      backRoute="/subject-content-functional-skills-english-main"
     />
   );
 }

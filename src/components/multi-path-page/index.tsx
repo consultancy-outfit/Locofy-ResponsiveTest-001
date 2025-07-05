@@ -1,10 +1,10 @@
 "use client";
 import React, { useCallback } from "react";
 import Image from "next/image";
-import { Box, Card, CardContent, Grid, Stack, Typography } from "@mui/material";
+import { Box, Button, Card, CardContent, Grid, Stack, Typography } from "@mui/material";
 import { useRouter } from "next/navigation";
 import { MultiBackIcon } from "@/assets/common-assets";
-
+import ArrowDropDownCircleOutlinedIcon from '@mui/icons-material/ArrowDropDownCircleOutlined';
 type MultiPathPageItem = {
   key: string;
   link?: string;
@@ -41,27 +41,59 @@ const MultiPathPage: React.FC<MultiPathPageProps> = ({
         alignItems={"center"}
         mt={{ md: 2, xs: 1 }}
         mb={{ md: 5, sm: 3, xs: 2 }}
+        justifyContent="space-between"
       >
-        <Image
-          src={MultiBackIcon}
-          alt={pageTitle}
-          width={40}
-          height={40}
-          onClick={onBackIconClick}
-          style={{ cursor: "pointer" }}
-        />
-        <Typography
-          variant="h5"
-          color="#0246BC"
-          fontSize={fontSize}
-          fontWeight={{ md: 600, xs: 500 }}
-          ml={{ md: 2, xs: 1 }}
+        <Box display="flex" alignItems="center" flexGrow={1}>
+          <Image
+            src={MultiBackIcon}
+            alt={pageTitle}
+            width={40}
+            height={40}
+            onClick={onBackIconClick}
+            style={{ cursor: "pointer" }}
+          />
+          <Typography
+            variant="h5"
+            color="#0246BC"
+            fontSize={fontSize}
+            fontWeight={{ md: 600, xs: 500 }}
+            ml={{ md: 2, xs: 1 }}
+            sx={{
+              fontFamily: "inherit",
+            }}
+          >
+            {pageTitle}
+          </Typography>
+        </Box>
+        <Button
+          variant="text"
+          onClick={() => router.push("/glossary-for-use-with-this-subject-content")}
           sx={{
-            fontFamily: "inherit",
+            backgroundColor: "transparent",
+            color: "#000",
+            '&:hover': {
+              backgroundColor: "transparent",
+            },
+            '&:active': {
+              backgroundColor: "transparent",
+            },
+            '&:focus': {
+              backgroundColor: "transparent",
+            },
+            boxShadow: 'none',
+            cursor: "pointer",
+            fontSize: { xs: "0.7rem", sm: "0.9rem", md: "1rem" },
+            padding: { xs: "6px 12px", md: "8px 16px" },
+            textTransform: "capitalize",
+            ml: { md: 2, xs: 1 },
+            display: 'flex',
+            alignItems: 'center',
+            gap: 1,
           }}
+          endIcon={<ArrowDropDownCircleOutlinedIcon fontSize="small" color="inherit" />}
         >
-          {pageTitle}
-        </Typography>
+          Glossary
+        </Button>
       </Stack>
       <Grid container spacing={2} alignItems="stretch">
         {!!arrayData.length &&

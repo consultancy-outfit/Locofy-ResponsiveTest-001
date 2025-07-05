@@ -218,3 +218,5 @@ export { default as PortfolioOfEvidenceMappingAndTrackingFormTqukImage } from ".
 export { default as AssessmentPlanExampleImage } from "./AssessmentPlanExampleImage.svg";
 export { default as TptaPortfolioOfEvidenceTemplateImage } from "./TptaPortfolioOfEvidenceTemplateImage.svg";
 export { default as CertificateImage } from "./CertificateImage.svg";
+export { default as MathImage } from "./MathImage.svg";
+export { default as RequirementsthreeImage } from "./RequirementsthreeImage.svg";

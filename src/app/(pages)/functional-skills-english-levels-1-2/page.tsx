@@ -5,9 +5,9 @@ import React from "react";
 const FunctionalSkillsEnglishLevels12Page = () => {
   return (
     <CommonPage
-      pageTitle={`Apprenticeships / Funding Rules / Apprenticeship funding rules 2024_to_2025 / Functional Skills English – Levels 1 & 2`}
+      pageTitle={`Apprenticeship Journey / Apprenticeship Documents / Functional Skills English Cond and Req / Subject content  FS:  English / Functional Skills English – Levels 1 & 2`}
       src={FunctionalSkillsEnglishLevels12Image}
-      backRoute="/apprenticeship-funding-rules-2024-to-2025"
+      backRoute="/subject-content-functional-skills-english-main"
     />
   );
 };

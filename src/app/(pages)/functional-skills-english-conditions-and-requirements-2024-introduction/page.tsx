@@ -6,11 +6,11 @@ const FunctionalSkillsEnglishConditionsAndRequirements2024IntroductionPage =
   () => {
     return (
       <CommonPage
-        pageTitle={`Apprenticeships / Funding Rules / Apprenticeship funding rules 2024_to_2025 / Functional_Skills_English_Conditions_and_Requirements_2024 / Introduction`}
+        pageTitle={`Apprenticeship Journey / Apprenticeship Documents / Functional Skills Support / Functional_Skills_English_Conditions_and_Requirements_2024 / Introduction`}
         src={
           FunctionalSkillsEnglishConditionsAndRequirements2024IntroductionImage
         }
-        backRoute="/functional-skills-english-conditions-and-requirements"
+        backRoute="/functional-skills-english-conditions-and-requirements-main"
       />
     );
   };

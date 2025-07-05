@@ -5,7 +5,7 @@ import React from "react";
 const ApprenticeshipFundingRules2024To2025DocumentOverviewPage = () => {
   return (
     <CommonPage
-      pageTitle={`Apprenticeships / Funding Rules / Apprenticeship funding rules 2024_to_2025 / Introduction and Purpose`}
+      pageTitle={`Apprenticeship Journey / Apprenticeship Documents /Introduction and Purpose`}
       src={ApprenticeshipFundingRules2024To2025DocumentOverviewImage}
       backRoute="/apprenticeship-funding-rules-2024-to-2025"
     />

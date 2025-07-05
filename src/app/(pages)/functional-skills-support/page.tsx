@@ -10,7 +10,7 @@ import React from "react";
 const FunctionalSkillsSupportPageData = [
   {
     key: "functional-1",
-    link: "/functional-skills-english-conditions-and-requirements",
+    link: "/functional-skills-english-conditions-and-requirements-main",
     icon: img1FunctionalSkillsSupportImage,
     title: "functional-skills-english-conditions-and-requirements-main",
   },

@@ -5,9 +5,9 @@ import React from "react";
 const RequirementsForFunctionalSkillsQualificationsInEnglishPage = () => {
   return (
     <CommonPage
-      pageTitle={`Apprenticeships / Funding Rules / Apprenticeship funding rules 2024_to_2025 / Requirements for Functional Skills  qualifications in English`}
+      pageTitle={`Apprenticeship Journey  / Apprenticeship Docs  / FS Support / FS English Cond & Req 2024 / Requirements for Functional Skills  qualifications in English`}
       src={RequirementsForFunctionalSkillsQualificationsInEnglishImage}
-      backRoute="/apprenticeship-funding-rules-2024-to-2025"
+      backRoute="/functional-skills-english-conditions-and-requirements-main"
     />
   );
 };

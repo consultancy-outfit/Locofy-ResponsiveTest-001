@@ -9,7 +9,7 @@ const CompletedApprenticeProgressReviewExemplarWordDocPage = () => {
     <AmendmentComparison
       pageTitle={`Apprenticeship Journey / Apprenticeship Documents / completed-apprentice-progress-review-exemplar-word-doc`}
       src={CompletedApprenticeProgressReviewExemplarWordDocImage}
-      backRoute="/"
+      backRoute="/progress-reviews-tracking"
       // amendmentButtonRoute="/progress-reviews-tracking"
     />
   );

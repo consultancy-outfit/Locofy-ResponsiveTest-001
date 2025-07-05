@@ -36,11 +36,11 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Apprenticeship Pathway Guide",
     description: "Explore structured apprenticeship journeys through expertly designed diagrams. Gain clear insight into roles, stages, and career growth with easy-to-follow visual breakdowns.",
-    url: "https://courthearing.netlify.app/",
+    url: "https://apprenticeshipguide.netlify.app/",
     type: "website",
     images: [
       {
-        url: "https://courthearing.netlify.app/og.png",
+        url: "https://apprenticeshipguide.netlify.app/og.png",
         type: "image/png",
         width: 1200,
         height: 630,

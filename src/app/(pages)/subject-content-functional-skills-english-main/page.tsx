@@ -40,7 +40,7 @@ const SubjectContentFunctionalSkillsEnglishMainPage = () => {
     <MultiPathPage
       arrayData={SubjectContentFunctionalSkillsEnglishMainPageData}
       pageTitle="Subject content functional skills: English"
-      backRoute="/functional-skills-support"
+      backRoute="/functional-skills-english-conditions-and-requirements-main"
     />
   );
 };

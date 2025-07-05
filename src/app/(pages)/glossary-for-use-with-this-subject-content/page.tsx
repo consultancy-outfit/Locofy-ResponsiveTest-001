@@ -5,9 +5,10 @@ import React from "react";
 const GlossaryForUseWithThisSubjectContentPage = () => {
   return (
     <CommonPage
-      pageTitle={`Apprenticeships / Funding Rules / Apprenticeship funding rules 2024_to_2025 / Glossary for use with this Subject Content`}
+      pageTitle={`Apprenticeship Journey / Apprenticeship Documents /Subject content  FS:  English / Intro & Purpose 
+ / Glossary`}
       src={GlossaryForUseWithThisSubjectContentImage}
-      backRoute="/apprenticeship-funding-rules-2024-to-2025"
+      backRoute="/glossary-for-use-with-this-subject-content"
     />
   );
 };

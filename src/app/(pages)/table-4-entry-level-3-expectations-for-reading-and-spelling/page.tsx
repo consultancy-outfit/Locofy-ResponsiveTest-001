@@ -5,9 +5,9 @@ import React from "react";
 const Table4EntryLevel3ExpectationsForReadingAndSpellingPage = () => {
   return (
     <CommonPage
-      pageTitle={`Apprenticeships / Funding Rules / Apprenticeship funding rules 2024_to_2025 / Table 4:Entry Level 3 – Expectations for Reading and Spelling`}
+      pageTitle={`Apprenticeship Journey / Apprenticeship Documents /Table 4:Entry Level 3 – Expectations for Reading and Spelling`}
       src={Table4EntryLevel3ExpectationsForReadingAndSpellingImage}
-      backRoute="/apprenticeship-funding-rules-2024-to-2025"
+      backRoute="/appendix"
     />
   );
 };
