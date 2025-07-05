@@ -26,7 +26,7 @@ const DataAttendancetrackingSystemsPage = () => {
     <MultiPathPage
       arrayData={DataAttendancetrackingSystemsPageData}
       pageTitle="Data, Attendance & Tracking Systems"
-      backRoute="/court-hearing"
+       backRoute="/apprenticeship-documents"
     />
   );
 };

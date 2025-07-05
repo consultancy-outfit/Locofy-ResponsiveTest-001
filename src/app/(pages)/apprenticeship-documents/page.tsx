@@ -68,7 +68,7 @@ const ApprenticeshipDocumentsPage = () => {
     <MultiPathPage
       arrayData={ApprenticeshipDocumentsPageData}
       pageTitle="Apprenticeship Documents"
-      backRoute="/court-hearing"
+       backRoute="/apprenticeship-documents"
     />
   );
 };

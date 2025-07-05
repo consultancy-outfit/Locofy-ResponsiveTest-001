@@ -61,7 +61,7 @@ const ProgressReviewstrackingPage = () => {
     <MultiPathPage
       arrayData={ProgressReviewstrackingPageData}
       pageTitle="Progress Reviews & Tracking"
-      backRoute="/court-hearing"
+       backRoute="/apprenticeship-documents"
     />
   );
 };

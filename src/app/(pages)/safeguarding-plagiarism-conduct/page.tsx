@@ -33,7 +33,7 @@ const SafeguardingPlagiarismconductPage = () => {
     <MultiPathPage
       arrayData={SafeguardingPlagiarismconductPageData}
       pageTitle="Safeguarding, Plagiarism & Conduct"
-      backRoute="/court-hearing"
+       backRoute="/apprenticeship-documents"
     />
   );
 };

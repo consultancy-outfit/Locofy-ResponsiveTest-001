@@ -9,7 +9,7 @@ const SkillScanPage = () => {
     <AmendmentComparison
       pageTitle={`Mental Health / Mental Health Act 1983 / Skill Scan`}
       src={SkillScanImage}
-      backRoute="/"
+      backRoute="/onboarding-initial-setup"
       amendmentButtonRoute="/onboarding-initial-setup"
     />
   );

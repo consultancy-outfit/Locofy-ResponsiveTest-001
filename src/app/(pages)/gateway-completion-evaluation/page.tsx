@@ -33,7 +33,7 @@ const GatewayCompletionevaluationPage = () => {
     <MultiPathPage
       arrayData={GatewayCompletionevaluationPageData}
       pageTitle="Gateway, Completion & Evaluation"
-      backRoute="/court-hearing"
+       backRoute="/apprenticeship-documents"
     />
   );
 };

@@ -9,8 +9,8 @@ const ApprenticeshipTrainingPlanSpecificationPage = () => {
     <AmendmentComparison
       pageTitle={`Mental Health / Mental Health Act 1983 / Apprenticeship-Training-Plan-Specification`}
       src={ApprenticeshipTrainingPlanSpecificationImage}
-      backRoute="/"
-      amendmentButtonRoute="/onboarding-initial-setup"
+      backRoute="/onboarding-initial-setup"
+      // amendmentButtonRoute="/onboarding-initial-setup"
     />
   );
 };

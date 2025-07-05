@@ -61,7 +61,7 @@ const TrainingDeliveryoffTheJobLearningPage = () => {
     <MultiPathPage
       arrayData={TrainingDeliveryoffTheJobLearningPageData}
       pageTitle="Training Delivery & Off-the-Job Learning"
-      backRoute="/court-hearing"
+      backRoute="/apprenticeship-documents"
     />
   );
 };

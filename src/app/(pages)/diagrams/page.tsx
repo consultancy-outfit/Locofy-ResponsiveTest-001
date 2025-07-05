@@ -9,8 +9,8 @@ const DiagramsPage = () => {
     <AmendmentComparison
       pageTitle={`Apprenticeship Journey  / Apprenticeship Documents / Employer-Training-Plan-Toolkit-for-Apprenticeships / Diagrams`}
       src={DiagramsImage}
-      backRoute="/progress-reviews-tracking"
-      amendmentButtonRoute="/progress-reviews-tracking"
+      backRoute="/onboarding-initial-setup"
+      // amendmentButtonRoute="/progress-reviews-tracking"
     />
   );
 };

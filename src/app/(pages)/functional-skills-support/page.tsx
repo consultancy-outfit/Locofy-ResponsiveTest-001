@@ -33,7 +33,7 @@ const FunctionalSkillsSupportPage = () => {
     <MultiPathPage
       arrayData={FunctionalSkillsSupportPageData}
       pageTitle="Functional Skills Support"
-      backRoute="/court-hearing"
+      backRoute="/apprenticeship-documents"
     />
   );
 };

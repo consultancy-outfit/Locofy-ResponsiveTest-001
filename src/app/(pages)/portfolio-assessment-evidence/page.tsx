@@ -33,7 +33,7 @@ const PortfolioassessmentEvidencePage = () => {
     <MultiPathPage
       arrayData={PortfolioassessmentEvidencePageData}
       pageTitle="Portfolio & Assessment Evidence"
-      backRoute="/court-hearing"
+      backRoute="/apprenticeship-documents"
     />
   );
 };

@@ -68,7 +68,7 @@ const OnboardinginitialSetupPage = () => {
     <MultiPathPage
       arrayData={OnboardinginitialSetupPageData}
       pageTitle="Onboarding & Initial Setup"
-      backRoute="/court-hearing"
+      backRoute="/apprenticeship-documents"
     />
   );
 };
