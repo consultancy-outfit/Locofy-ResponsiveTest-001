@@ -9,8 +9,8 @@ const ApprenticeEmploymentOfferLetterPage = () => {
     <AmendmentComparison
       pageTitle={`Mental Health / Mental Health Act 1983 / Apprentice Employment Offer Letter`}
       src={ApprenticeEmploymentOfferLetterImage}
-      backRoute="/"
-      amendmentButtonRoute="/onboarding-initial-setup"
+      backRoute="/onboarding-initial-setup"
+      // amendmentButtonRoute="/onboarding-initial-setup"
     />
   );
 };

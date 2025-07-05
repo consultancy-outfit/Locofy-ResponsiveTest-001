@@ -9,8 +9,8 @@ const App3ChecklistmanagementuniversityapprenticeshipsPage = () => {
     <AmendmentComparison
       pageTitle={`Mental Health / Mental Health Act 1983 / APP3_ChecklistManagementUniversityApprenticeships`}
       src={App3ChecklistmanagementuniversityapprenticeshipsImage}
-      backRoute="/"
-      amendmentButtonRoute="/onboarding-initial-setup"
+      backRoute="/onboarding-initial-setup"
+      // amendmentButtonRoute="/onboarding-initial-setup"
     />
   );
 };

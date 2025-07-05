@@ -9,8 +9,8 @@ const A1aLearningSupportPlanBasicMarch21V11Page = () => {
     <AmendmentComparison
       pageTitle={`Mental Health / Mental Health Act 1983 / a1a-Learning-Support-Plan-Basic-March-21-V1-1`}
       src={A1aLearningSupportPlanBasicMarch21V11Image}
-      backRoute="/"
-      amendmentButtonRoute="/onboarding-initial-setup"
+      backRoute="/onboarding-initial-setup"
+      // amendmentButtonRoute="/onboarding-initial-setup"
     />
   );
 };

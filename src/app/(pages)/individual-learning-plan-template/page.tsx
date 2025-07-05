@@ -9,7 +9,7 @@ const IndividualLearningPlanTemplatePage = () => {
     <AmendmentComparison
       pageTitle={`Mental Health / Mental Health Act 1983 / Individual_Learning_Plan_Template`}
       src={IndividualLearningPlanTemplateImage}
-      backRoute="/"
+     backRoute="/onboarding-initial-setup"
       amendmentButtonRoute="/onboarding-initial-setup"
     />
   );

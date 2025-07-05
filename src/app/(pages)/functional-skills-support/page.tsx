@@ -12,19 +12,19 @@ const FunctionalSkillsSupportPageData = [
     key: "functional-1",
     link: "/",
     icon: img1FunctionalSkillsSupportImage,
-    title: "Functional Skills Support Item 1",
+    title: "Functional_Skills_English_Conditions_and_Requirements_2024",
   },
   {
     key: "functional-2",
     link: "/",
-    icon: img2FunctionalSkillsSupportImage,
-    title: "Functional Skills Support Item 2",
+    icon: img2FunctionalSkillsSupportImage,git 
+    title: "Functional_Skills_Mathematics_Conditions_and_Requirements_2024",
   },
   {
     key: "functional-3",
     link: "/",
     icon: img3FunctionalSkillsSupportImage,
-    title: "Functional Skills Support Item 3",
+    title: "Functional-skills-criteria-for-ict",
   }
 ];
 
@@ -33,7 +33,7 @@ const FunctionalSkillsSupportPage = () => {
     <MultiPathPage
       arrayData={FunctionalSkillsSupportPageData}
       pageTitle="Functional Skills Support"
-      backRoute="/court-hearing"
+      backRoute="/apprenticeship-documents"
     />
   );
 };

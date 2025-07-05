@@ -12,19 +12,19 @@ const PortfolioassessmentEvidencePageData = [
     key: "portfolio-1",
     link: "/",
     icon: img1PortfolioassessmentEvidenceImage,
-    title: "Portfolio & Assessment Evidence Item 1",
+    title: "guidance-document-for-witness-testimony-pdf",
   },
   {
     key: "portfolio-2",
     link: "/",
     icon: img2PortfolioassessmentEvidenceImage,
-    title: "Portfolio & Assessment Evidence Item 2",
+    title: "Portfolio-of-Evidence-Mapping-and-Tracking-Form-TQUK",
   },
   {
     key: "portfolio-3",
     link: "/",
     icon: img3PortfolioassessmentEvidenceImage,
-    title: "Portfolio & Assessment Evidence Item 3",
+    title: "tpta-portfolio-of-evidence-template",
   }
 ];
 
@@ -33,7 +33,7 @@ const PortfolioassessmentEvidencePage = () => {
     <MultiPathPage
       arrayData={PortfolioassessmentEvidencePageData}
       pageTitle="Portfolio & Assessment Evidence"
-      backRoute="/court-hearing"
+      backRoute="/apprenticeship-documents"
     />
   );
 };
