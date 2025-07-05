@@ -10,7 +10,7 @@ const EmployerTrainingPlanToolkitForApprenticeshipsPage = () => {
       pageTitle={`Apprenticeship Journey  / Apprenticeship Documents / Employer-Training-Plan-Toolkit-for-Apprenticeships`}
       src={EmployerTrainingPlanToolkitForApprenticeshipsImage}
       backRoute="/progress-reviews-tracking"
-      amendmentButtonRoute="/employer-training-plan-toolkit-for-apprenticeships"
+      // amendmentButtonRoute="/employer-training-plan-toolkit-for-apprenticeships"
     />
   );
 };

@@ -7,10 +7,10 @@ import React from "react";
 const AwdSetaGoodPracticeProgressReviewFormPage = () => {
   return (
     <AmendmentComparison
-      pageTitle={`Mental Health / Mental Health Act 1983 / AWD-SETA-Good-Practice-Progress-Review-Form`}
+      pageTitle={`Apprenticeship Journey / Apprenticeship Documents /AWD-SETA-Good-Practice-Progress-Review-Form`}
       src={AwdSetaGoodPracticeProgressReviewFormImage}
       backRoute="/progress-reviews-tracking"
-      amendmentButtonRoute="/awd-seta-good-practice-progress-review-form"
+      // amendmentButtonRoute="/awd-seta-good-practice-progress-review-form"
     />
   );
 };

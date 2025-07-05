@@ -64,7 +64,7 @@ const AmendmentComparison: React.FC<CommonPageProps> = ({
         </Box>
 
         {/* Right Section: Button */}
-        <Box ml={{ md: "auto" }} >
+        {/* <Box ml={{ md: "auto" }} >
           <Button
             variant="contained"
             onClick={onAmendmentButtonClick}
@@ -82,7 +82,7 @@ const AmendmentComparison: React.FC<CommonPageProps> = ({
           >
             Amendment Comparison
           </Button>
-        </Box>
+        </Box> */}
       </Stack>
 
       <Box mb={{ md: 4, sm: 3, xs: 2 }}>

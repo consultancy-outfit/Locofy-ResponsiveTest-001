@@ -12,7 +12,7 @@ export default function ApprenticeshipsListingProcessPage() {
   const router = useRouter();
   const pageTitle = `Apprenticeships / Apprenticeships Listing Process`;
   const backRoute = "/apprenticeshipjourney-1";
-  const relevantDiagramsRoute = "/apprenticeship-documents";
+  const relevantDiagramsRoute = "/apprenticeship";
   const amendmentComparisonRoute = "/overview-of-apprenticeship-delivery-process";
 
   const onBackIconClick = useCallback(() => {

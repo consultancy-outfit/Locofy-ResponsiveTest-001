@@ -10,7 +10,7 @@ const SchemeOfWorkMortgageAdviserLevel3Page = () => {
       pageTitle={`Apprenticeship Documents  / Apprenticeship Documents /  Scheme of work Mortgage Adviser Level 3`}
       src={SchemeOfWorkMortgageAdviserLevel3Image}
       backRoute="/training-delivery-off-the-job-learning"
-      amendmentButtonRoute="/scheme-of-work-mortgage-adviser-level-3"
+      // amendmentButtonRoute="/scheme-of-work-mortgage-adviser-level-3"
     />
   );
 };

@@ -10,7 +10,7 @@ const IndividualLearnerProgressReviewFormPage = () => {
       pageTitle={`Apprenticeship Journey / Apprenticeship Documents  / Individual Learner Progress Review Form`}
       src={IndividualLearnerProgressReviewFormImage}
       backRoute="/progress-reviews-tracking"
-      amendmentButtonRoute="/individual-learner-progress-review-form"
+      // amendmentButtonRoute="/individual-learner-progress-review-form"
     />
   );
 };

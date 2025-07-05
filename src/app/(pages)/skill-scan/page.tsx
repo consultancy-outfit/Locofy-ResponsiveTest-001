@@ -13,7 +13,6 @@ export default function SkillScanPage() {
   const pageTitle = `Apprenticeship Journey  / Apprenticeship Documents  / Skill Scan `;
   const backRoute = "/onboarding-initial-setup";
   const relevantDiagramsRoute = "/skill-scan-diagram";
-  const amendmentComparisonRoute = "/skill-scan";
 
   const onBackIconClick = useCallback(() => {
     router.push(backRoute);
@@ -23,9 +22,7 @@ export default function SkillScanPage() {
     router.push(relevantDiagramsRoute);
   }, [router, relevantDiagramsRoute]);
 
-  const onAmendmentButtonClick = useCallback(() => {
-    router.push(amendmentComparisonRoute);
-  }, [router, amendmentComparisonRoute]);
+  
 
   return (
     <Box p={{ md: 3, xs: 2 }}>
@@ -87,23 +84,29 @@ export default function SkillScanPage() {
           >
             Relevant Diagrams
           </Button>
-          <Button
-            variant="contained"
-            onClick={onAmendmentButtonClick}
-            sx={{
-              backgroundColor: "#5A5867",
-              color: "#FFFFFF",
-              "&:hover": {
-                backgroundColor: "#4A4857",
-              },
-              cursor: "pointer",
-              fontSize: { xs: "0.7rem", sm: "0.9rem", md: "1rem" },
-              padding: { xs: "6px 12px", md: "8px 16px" },
-              textTransform: "capitalize",
-            }}
+          <a
+            href="https://orcalo-my.sharepoint.com/:x:/g/personal/iram_bashir_consultancyoutfit_co_uk/EXoK3E6fB-lNniFObpF3MRwBQp81Sc5k27nBgJmWhHL9uA?e=uWj8Cq"
+            target="_blank"
+            rel="noopener noreferrer"
+            style={{ textDecoration: "none" }}
           >
-            Amendment Comparison
-          </Button>
+            <Button
+              variant="contained"
+              sx={{
+                backgroundColor: "#5A5867",
+                color: "#FFFFFF",
+                "&:hover": {
+                  backgroundColor: "#4A4857",
+                },
+                cursor: "pointer",
+                fontSize: { xs: "0.7rem", sm: "0.9rem", md: "1rem" },
+                padding: { xs: "6px 12px", md: "8px 16px" },
+                textTransform: "capitalize",
+              }}
+            >
+              Amendment Comparison
+            </Button>
+          </a>
         </Box>
       </Stack>
       <Image

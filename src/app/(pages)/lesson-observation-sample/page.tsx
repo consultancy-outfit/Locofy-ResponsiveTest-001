@@ -10,7 +10,7 @@ const LessonObservationSamplePage = () => {
       pageTitle={`Apprenticeship Documents  / Apprenticeship Documents /  lesson-observation-sample`}
       src={LessonObservationSampleImage}
       backRoute="/training-delivery-off-the-job-learning"
-      amendmentButtonRoute="/lesson-observation-sample"
+      // amendmentButtonRoute="/lesson-observation-sample"
     />
   );
 };

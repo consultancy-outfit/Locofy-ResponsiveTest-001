@@ -7,10 +7,10 @@ import React from "react";
 const CompletedApprenticeProgressReviewExemplarWordDocPage = () => {
   return (
     <AmendmentComparison
-      pageTitle={`Mental Health / Mental Health Act 1983 / completed-apprentice-progress-review-exemplar-word-doc`}
+      pageTitle={`Apprenticeship Journey / Apprenticeship Documents / completed-apprentice-progress-review-exemplar-word-doc`}
       src={CompletedApprenticeProgressReviewExemplarWordDocImage}
       backRoute="/"
-      amendmentButtonRoute="/progress-reviews-tracking"
+      // amendmentButtonRoute="/progress-reviews-tracking"
     />
   );
 };

@@ -10,7 +10,7 @@ const ApprenticeEmploymentOfferLetterPage = () => {
       pageTitle={`Apprenticeship Journey / Apprenticeship Documents / Apprentice Employment Offer Letter`}
       src={ApprenticeEmploymentOfferLetterImage}
       backRoute="/onboarding-initial-setup"
-      // 
+      
     />
   );
 };

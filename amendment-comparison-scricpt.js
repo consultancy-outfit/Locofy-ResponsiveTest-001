@@ -48,10 +48,9 @@ import React from "react";
 const ${pascal}Page = () => {
   return (
     <AmendmentComparison
-      pageTitle={\`Mental Health / Mental Health Act 1983 / ${title}\`}
+      pageTitle={\`Apprenticeship Journey / Apprenticeship Documents /${title}\`}
       src={${imageName}}
       backRoute="/"
-      amendmentButtonRoute="/progress-reviews-tracking"
     />
   );
 };

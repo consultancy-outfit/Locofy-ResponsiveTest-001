@@ -10,7 +10,7 @@ const IntroductionToWorkBasedProjectsPage = () => {
       pageTitle={`Apprenticeship Documents  / Apprenticeship Documents /  Introduction to Work-Based Projects`}
       src={IntroductionToWorkBasedProjectsImage}
       backRoute="/training-delivery-off-the-job-learning"
-      amendmentButtonRoute="/introduction-to-work-based-projects"
+      // amendmentButtonRoute="/introduction-to-work-based-projects"
     />
   );
 };

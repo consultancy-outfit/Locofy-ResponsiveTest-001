@@ -10,7 +10,7 @@ const ExampleGroupProgressTrackerAccreditedPage = () => {
       pageTitle={`Apprenticeship Journey / Apprenticeship Journey / example-group-progress-tracker-accredited`}
       src={ExampleGroupProgressTrackerAccreditedImage}
       backRoute="/progress-reviews-tracking"
-      amendmentButtonRoute="/example-group-progress-tracker-accredited"
+      // amendmentButtonRoute="/example-group-progress-tracker-accredited"
     />
   );
 };

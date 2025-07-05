@@ -10,7 +10,7 @@ const ApprenticeshipWorkplaceAssignmentsExamplesPage = () => {
       pageTitle={`Apprenticeship Documents  / Apprenticeship Documents / Apprenticeship Workplace Assignments Examples`}
       src={ApprenticeshipWorkplaceAssignmentsExamplesImage}
       backRoute="/training-delivery-off-the-job-learning"
-      amendmentButtonRoute="/training-delivery-off-the-job-learning"
+      // amendmentButtonRoute="/training-delivery-off-the-job-learning"
     />
   );
 };

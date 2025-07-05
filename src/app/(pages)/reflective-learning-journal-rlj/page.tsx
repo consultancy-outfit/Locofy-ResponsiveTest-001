@@ -10,7 +10,7 @@ const ReflectiveLearningJournalRljPage = () => {
       pageTitle={`Apprenticeship Documents  / Apprenticeship Documents /  Reflective Learning Journal (RLJ)`}
       src={ReflectiveLearningJournalRljImage}
       backRoute="/training-delivery-off-the-job-learning"
-      amendmentButtonRoute="/reflective-learning-journal-rlj"
+      // amendmentButtonRoute="/reflective-learning-journal-rlj"
     />
   );
 };

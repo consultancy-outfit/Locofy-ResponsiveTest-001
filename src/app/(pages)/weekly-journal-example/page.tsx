@@ -10,7 +10,7 @@ const WeeklyJournalExamplePage = () => {
       pageTitle={`Apprenticeship Documents  / Apprenticeship Documents /  Weekly journal example`}
       src={WeeklyJournalExampleImage}
       backRoute="/training-delivery-off-the-job-learning"
-      amendmentButtonRoute="/weekly-journal-example"
+      // amendmentButtonRoute="/weekly-journal-example"
     />
   );
 };
