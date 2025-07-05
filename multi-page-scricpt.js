@@ -9,8 +9,8 @@ const assetsDir = path.join(__dirname, 'src', 'assets');
 const pages = [
   { title: "Functional Skills English Conditions and Requirements", pageTitle: "Functional Skills English Conditions and Requirements", imageCount: 4, links: ["/introduction-functional-skills-mathematics-conditions-and-requirements", "/subject-level-conditions-functional-skills-mathematics-conditions-and-requirements", "/requirements-for-functional-skills-qualifications", "/functional-skills-mathematic-conditions-and-requirements"] },
   { title: "Subject content functional skills: English", pageTitle: "Subject content functional skills: English", imageCount: 3, links: ["/subject-content-functional-skills-mathematic","/requirements-for-functional-skills-two","/functional-skills-english-levels-1-2"] },
-  { title: "Functional Skills English Conditions and Requirements Main", pageTitle:" Functional Skills English Conditions and Requirements ", imageCount: 4, links: [] },
-  { title: "Subject content functional skills: English Main", pageTitle: "Subject content functional skills: English", imageCount: 4, links: [] },
+  { title: "Functional Skills English Conditions and Requirements Main", pageTitle:" Functional Skills English Conditions and Requirements ", imageCount: 4, links: ["/functional-skills-english-conditions-and-requirements-2024-introduction","/functional-skills-english-conditions-and-requirements-2024-subject-level-conditions","/requirements-for-functional-skills-qualifications-in-english","subject-content-functional-skills-english-main" ] },
+  { title: "Subject content functional skills: English Main", pageTitle: "Subject content functional skills: English", imageCount: 4, links: ["/subject-content-fs-english-introduction-purpose","/fs-english-entry-levels-1-to-3","/functional-skills-english-levels-1-2","/appendix","/"] },
 ];
 
 // Convert to PascalCase
@@ -79,7 +79,7 @@ const ${pascal}Page = () => {
     <MultiPathPage
       arrayData={${pascal}PageData}
       pageTitle="${pageTitle}"
-      backRoute="/court-hearing"
+      backRoute="/functional-skills-support"
     />
   );
 };
