@@ -7,7 +7,7 @@ const ApprenticeshipTrainingPlanTeamLeaderNewLevel3V327022025Page = () => {
     <CommonPage
       pageTitle={`Apprenticeships / Training Plan / Apprenticeship Training Plan  - Team Leader New Level 3 -V3 27022025`}
       src={ApprenticeshipTrainingPlanTeamLeaderNewLevel3V327022025Image}
-      backRoute="/apprenticeship-roles-forms-guide"
+      backRoute="/apprenticeship-training-plan"
     />
   );
 };

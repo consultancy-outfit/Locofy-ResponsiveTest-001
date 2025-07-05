@@ -7,7 +7,7 @@ const WtdHowToCheckYourBalanceOnYourDasAccountPage = () => {
     <CommonPage
       pageTitle={`Apprenticeships / WTD How to Check Your Balance on Your DAS Account`}
       src={WtdHowToCheckYourBalanceOnYourDasAccountImage}
-      backRoute="/"
+      backRoute="/das-guidance"
     />
   );
 };

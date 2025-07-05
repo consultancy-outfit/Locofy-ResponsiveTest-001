@@ -7,7 +7,7 @@ const WtdHowToCloseDownCompletedLearnersOnDasPage = () => {
     <CommonPage
       pageTitle={`Apprenticeships / WTD How to Close Down Completed Learners on DAS`}
       src={WtdHowToCloseDownCompletedLearnersOnDasImage}
-      backRoute="/"
+      backRoute="/das-guidance"
     />
   );
 };

@@ -7,7 +7,7 @@ const ApprenticeshipTrainingPlanBusinessAdministratorLevel3V327022025Page = () =
     <CommonPage
       pageTitle={`Apprenticeships / Training Plan / Apprenticeship Training Plan - Business Administrator Level 3 - V3 -27022025`}
       src={ApprenticeshipTrainingPlanBusinessAdministratorLevel3V327022025Image}
-      backRoute="/apprenticeship-roles-forms-guide"
+      backRoute="/apprenticeship-training-plan"
     />
   );
 };

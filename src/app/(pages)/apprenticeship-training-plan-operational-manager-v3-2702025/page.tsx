@@ -7,7 +7,7 @@ const ApprenticeshipTrainingPlanOperationalManagerV32702025Page = () => {
     <CommonPage
       pageTitle={`Apprenticeships / Training Plan / Apprenticeship Training Plan Operational Manager V3 2702025 (`}
       src={ApprenticeshipTrainingPlanOperationalManagerV32702025Image}
-      backRoute="/apprenticeship-roles-forms-guide"
+      backRoute="/apprenticeship-training-plan"
     />
   );
 };

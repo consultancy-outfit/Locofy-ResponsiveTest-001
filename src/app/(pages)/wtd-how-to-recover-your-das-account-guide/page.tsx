@@ -7,7 +7,7 @@ const WtdHowToRecoverYourDasAccountGuidePage = () => {
     <CommonPage
       pageTitle={`Apprenticeships / WTD How to Recover your DAS Account Guide`}
       src={WtdHowToRecoverYourDasAccountGuideImage}
-      backRoute="/"
+      backRoute="/das-guidance"
     />
   );
 };

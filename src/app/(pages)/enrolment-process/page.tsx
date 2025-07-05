@@ -7,7 +7,7 @@ const EnrolmentProcessPage = () => {
     <CommonPage
       pageTitle={`Apprenticeships / Apprenticeship Roles & Forms Guide / Enrolment Process`}
       src={EnrolmentProcessImage}
-      backRoute="/apprenticeship-roles-forms-guide"
+      backRoute="/apprenticeship-roles-and-form-guide"
     />
   );
 };

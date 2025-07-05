@@ -7,7 +7,7 @@ const WtdEmployerDasSetupGuidePage = () => {
     <CommonPage
       pageTitle={`Apprenticeships / WTD Employer DAS setup Guide`}
       src={WtdEmployerDasSetupGuideImage}
-      backRoute="/"
+      backRoute="/das-guidance"
     />
   );
 };

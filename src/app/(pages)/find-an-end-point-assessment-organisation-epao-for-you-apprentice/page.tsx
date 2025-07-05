@@ -7,7 +7,7 @@ const FindAnEndPointAssessmentOrganisationEpaoForYouApprenticePage = () => {
     <CommonPage
       pageTitle={`Apprenticeships / Find an End-Point Assessment Organisation (EPAO) for you apprentice`}
       src={FindAnEndPointAssessmentOrganisationEpaoForYouApprenticeImage}
-      backRoute="/"
+      backRoute="/apprenticeship"
     />
   );
 };

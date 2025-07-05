@@ -7,7 +7,7 @@ const LearnerSupportNeedsAssessmentPage = () => {
     <CommonPage
       pageTitle={`Apprenticeships / Learner Support Needs Assessment`}
       src={LearnerSupportNeedsAssessmentImage}
-      backRoute="/"
+      backRoute="/onboarding-and-support-assessment"
     />
   );
 };

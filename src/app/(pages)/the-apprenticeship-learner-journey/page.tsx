@@ -7,7 +7,7 @@ const TheApprenticeshipLearnerJourneyPage = () => {
     <CommonPage
       pageTitle={`Apprenticeships / Apprenticeship Roles & Forms Guide / THE APPRENTICESHIP LEARNER JOURNEY`}
       src={TheApprenticeshipLearnerJourneyImage}
-      backRoute="/apprenticeship-roles-forms-guide"
+      backRoute="/apprenticeship-roles-and-form-guide"
     />
   );
 };

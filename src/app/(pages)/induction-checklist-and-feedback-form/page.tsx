@@ -7,7 +7,7 @@ const InductionChecklistAndFeedbackFormPage = () => {
     <CommonPage
       pageTitle={`Apprenticeships / Induction Checklist and Feedback Form`}
       src={InductionChecklistAndFeedbackFormImage}
-      backRoute="/"
+      backRoute="/onboarding-and-support-assessment"
     />
   );
 };

@@ -7,7 +7,7 @@ const ApprenticeshipFundingRules2024To2025SummaryOfChangesPage = () => {
     <CommonPage
       pageTitle={`Apprenticeships / Apprenticeship_funding_rules_2024_to_2025_summary of changes`}
       src={ApprenticeshipFundingRules2024To2025SummaryOfChangesImage}
-      backRoute="/"
+      backRoute="/apprenticeship-funding-rules"
     />
   );
 };

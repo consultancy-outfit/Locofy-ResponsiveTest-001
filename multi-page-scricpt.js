@@ -8,12 +8,20 @@ const assetsDir = path.join(__dirname, "src", "assets");
 // List of pages with pageTitle, image counts, and links
 const pages = [
   {
-    title: "abc",
-    pageTitle: "abc",
-    imageCount: 1,
-    links: ["/",  ],
+    title: "apprenticeship-roles-and-form-guide",
+    pageTitle: "Apprenticeship Roles & Form Guide",
+    imageCount: 8,
+    links: [
+      "/understanding-the-roles-in-apprenticeship-delivery-overview-from-workforce-training-development-email-content",
+      "/template-new-ilp-duplicate-docx-new",
+      "/application-form",
+      "/photo-consent-use-of-digital-video-images",
+      "wtd-non-levy-agreement-v1",
+      "enrolment-process",
+      "the-apprenticeship-learner-journey",
+      "wtd-how-to-guide-on-learner-cohort-management"
+    ],
   },
-
 ];
 
 // Convert to PascalCase
@@ -75,7 +83,7 @@ const ${pascal}PageData = [
     key: "${item.key}",
     link: "${item.link}",
     icon: ${item.icon},
-    title: "",
+    title: "${item.title}",
   }`
     )
     .join(",\n  ")}

@@ -7,7 +7,7 @@ const TemplateNewIlpDuplicateDocxNewPage = () => {
     <CommonPage
       pageTitle={`Apprenticeships / Apprenticeship Roles & Forms Guide / Template new ILP Duplicate.docx new`}
       src={TemplateNewIlpDuplicateDocxNewImage}
-      backRoute="/apprenticeship-roles-forms-guide"
+      backRoute="/apprenticeship-roles-and-form-guide"
     />
   );
 };

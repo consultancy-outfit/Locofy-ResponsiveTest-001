@@ -7,7 +7,7 @@ const OverviewOfApprenticeshipDeliveryProcessPage = () => {
     <CommonPage
       pageTitle={`Apprenticeships / Overview of Apprenticeship Delivery Process`}
       src={OverviewOfApprenticeshipDeliveryProcessImage}
-      backRoute="/"
+      backRoute="/apprenticeship"
     />
   );
 };

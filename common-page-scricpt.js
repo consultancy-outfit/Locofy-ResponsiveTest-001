@@ -7,7 +7,7 @@ const assetsDir = path.join(__dirname, "src", "assets");
 
 // List of pages to create
 const pages = [
-  "Apprenticeship_funding_rules_2024_to_2025 / Document Overview",
+  "Apprenticeship funding rules 2024 to 2025_ summary of changes",
 ];
 // Convert to PascalCase
 const toPascalCase = (str) =>
@@ -43,9 +43,9 @@ import React from "react";
 const ${pascal}Page = () => {
   return (
     <CommonPage
-      pageTitle={\`Apprenticeships / Funding Rules / Apprenticeship funding rules 2024_to_2025 / ${title}\`}
+      pageTitle={\`Apprenticeships / Apprenticeship funding Rules / ${title}\`}
       src={${imageName}}
-      backRoute="/apprenticeship-funding-rules-2024-to-2025"
+      backRoute="/apprenticeship-funding-rules"
     />
   );
 };

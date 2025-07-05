@@ -7,7 +7,7 @@ const WtdHowToGuideOnLearnerCohortManagementPage = () => {
     <CommonPage
       pageTitle={`Apprenticeships / Apprenticeship Roles & Forms Guide / WTD How to guide on Learner Cohort Management`}
       src={WtdHowToGuideOnLearnerCohortManagementImage}
-      backRoute="/apprenticeship-roles-forms-guide"
+      backRoute="/apprenticeship-roles-and-form-guide"
     />
   );
 };

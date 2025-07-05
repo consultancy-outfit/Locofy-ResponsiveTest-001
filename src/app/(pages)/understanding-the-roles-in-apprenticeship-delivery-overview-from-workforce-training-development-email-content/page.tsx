@@ -7,7 +7,7 @@ const UnderstandingTheRolesInApprenticeshipDeliveryOverviewFromWorkforceTraining
     <CommonPage
       pageTitle={`Apprenticeships / Apprenticeship Roles & Forms Guide / Understanding the Roles in Apprenticeship Delivery – Overview from Workforce Training & Development (Email content)`}
       src={UnderstandingTheRolesInApprenticeshipDeliveryOverviewFromWorkforceTrainingDevelopmentEmailContentImage}
-      backRoute="/apprenticeship-roles-forms-guide"
+      backRoute="/apprenticeship-roles-and-form-guide"
     />
   );
 };

@@ -7,7 +7,7 @@ const ApplicationFormPage = () => {
     <CommonPage
       pageTitle={`Apprenticeships / Apprenticeship Roles & Forms Guide / Application form`}
       src={ApplicationFormImage}
-      backRoute="/apprenticeship-roles-forms-guide"
+      backRoute="/apprenticeship-roles-and-form-guide"
     />
   );
 };

@@ -7,7 +7,7 @@ const WtdEmployerAllocatingFundsCreatingCohortsPage = () => {
     <CommonPage
       pageTitle={`Apprenticeships / WTD Employer Allocating Funds & Creating Cohorts`}
       src={WtdEmployerAllocatingFundsCreatingCohortsImage}
-      backRoute="/"
+      backRoute="/das-guidance"
     />
   );
 };
