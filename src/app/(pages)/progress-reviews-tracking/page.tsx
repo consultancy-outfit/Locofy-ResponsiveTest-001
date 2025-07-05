@@ -14,45 +14,45 @@ import React from "react";
 const ProgressReviewstrackingPageData = [
   {
     key: "progress-1",
-    link: "/",
+    link: "/individual-learner-progress-review-form",
     icon: img1ProgressReviewstrackingImage,
-    title: "Progress Reviews & Tracking Item 1",
+    title: "Individual Learner progress review",
   },
   {
     key: "progress-2",
-    link: "/",
+    link: "/progress-review-and-target-setting-report",
     icon: img2ProgressReviewstrackingImage,
-    title: "Progress Reviews & Tracking Item 2",
+    title: "Progress Review and Target Setting Report",
   },
   {
     key: "progress-3",
-    link: "/",
+    link: "/way-feedback-form",
     icon: img3ProgressReviewstrackingImage,
-    title: "Progress Reviews & Tracking Item 3",
+    title: "3 Way Feedback form",
   },
   {
     key: "progress-4",
     link: "/",
     icon: img4ProgressReviewstrackingImage,
-    title: "Progress Reviews & Tracking Item 4",
+    title: "AWD-SETA-Good-Practice-Progress-Review-Form",
   },
   {
     key: "progress-5",
-    link: "/",
+    link: "/awd-seta-good-practice-progress-review-form",
     icon: img5ProgressReviewstrackingImage,
-    title: "Progress Reviews & Tracking Item 5",
+    title: "completed-apprentice-progress-review-example",
   },
   {
     key: "progress-6",
-    link: "/",
+    link: "/example-group-progress-tracker-accredited",
     icon: img6ProgressReviewstrackingImage,
-    title: "Progress Reviews & Tracking Item 6",
+    title: "example-group-progress-tracker-accredited",
   },
   {
     key: "progress-7",
-    link: "/",
+    link: "/employer-training-plan-toolkit-for-apprenticeships",
     icon: img7ProgressReviewstrackingImage,
-    title: "Progress Reviews & Tracking Item 7",
+    title: "Employer-Training-Plan-Toolkit-for-Apprenticeships",
   }
 ];
 

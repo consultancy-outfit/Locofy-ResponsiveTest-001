@@ -9,15 +9,15 @@ import React from "react";
 const DataAttendancetrackingSystemsPageData = [
   {
     key: "data-1",
-    link: "/",
+    link: "/attendance-proof-template-384478251",
     icon: img1DataAttendancetrackingSystemsImage,
-    title: "Data, Attendance & Tracking Systems Item 1",
+    title: "384478251-Attendance-Proof-Template",
   },
   {
     key: "data-2",
-    link: "/",
+    link: "/maytas-hub",
     icon: img2DataAttendancetrackingSystemsImage,
-    title: "Data, Attendance & Tracking Systems Item 2",
+    title: "Maytas Hub",
   }
 ];
 

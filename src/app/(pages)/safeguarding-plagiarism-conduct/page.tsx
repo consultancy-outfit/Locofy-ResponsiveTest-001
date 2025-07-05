@@ -10,21 +10,21 @@ import React from "react";
 const SafeguardingPlagiarismconductPageData = [
   {
     key: "safeguarding-1",
-    link: "/",
+    link: "/qa-cheating-plagiarism-policy",
     icon: img1SafeguardingPlagiarismconductImage,
-    title: "Safeguarding, Plagiarism & Conduct Item 1",
+    title: "qa-cheating-_-plagiarism-policy",
   },
   {
     key: "safeguarding-2",
-    link: "/",
+    link: "/safeguarding-and-prevent-policy-apprenticeships-v5-september-2024",
     icon: img2SafeguardingPlagiarismconductImage,
-    title: "Safeguarding, Plagiarism & Conduct Item 2",
+    title: "Safeguarding-and-Prevent-Policy-Apprenticeships-V5-September-2024",
   },
   {
     key: "safeguarding-3",
-    link: "/",
+    link: "/safeguarding-concern-incident-report-template",
     icon: img3SafeguardingPlagiarismconductImage,
-    title: "Safeguarding, Plagiarism & Conduct Item 3",
+    title: "Safeguarding-Concern-incident-report-template",
   }
 ];
 

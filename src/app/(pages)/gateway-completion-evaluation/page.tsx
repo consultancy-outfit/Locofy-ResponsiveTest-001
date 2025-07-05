@@ -10,21 +10,21 @@ import React from "react";
 const GatewayCompletionevaluationPageData = [
   {
     key: "gateway-1",
-    link: "/",
+    link: "/england-apprenticeship-certificste-example",
     icon: img1GatewayCompletionevaluationImage,
-    title: "Gateway, Completion & Evaluation Item 1",
+    title: "England_apprenticeship certificste example",
   },
   {
     key: "gateway-2",
-    link: "/",
+    link: "/generic-guidance-gateway-form",
     icon: img2GatewayCompletionevaluationImage,
-    title: "Gateway, Completion & Evaluation Item 2",
+    title: "Generic-Guidance - Gateway form",
   },
   {
     key: "gateway-3",
-    link: "/",
+    link: "/post-programme-apprentice-evaluation-form",
     icon: img3GatewayCompletionevaluationImage,
-    title: "Gateway, Completion & Evaluation Item 3",
+    title: "Post Programme Apprentice Evaluation Form",
   }
 ];
 

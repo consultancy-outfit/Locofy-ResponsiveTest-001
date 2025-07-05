@@ -15,51 +15,51 @@ import React from "react";
 const ApprenticeshipDocumentsPageData = [
   {
     key: "apprenticeship-1",
-    link: "/",
+    link: "/onboarding-initial-setup",
     icon: img1ApprenticeshipDocumentsImage,
-    title: "Apprenticeship Documents Item 1",
+    title: "Onboarding & Initial Setup",
   },
   {
     key: "apprenticeship-2",
-    link: "/",
+    link: "/training-delivery-off-the-job-learning",
     icon: img2ApprenticeshipDocumentsImage,
-    title: "Apprenticeship Documents Item 2",
+    title: "Training Delivery & Off-the-Job Learning",
   },
   {
     key: "apprenticeship-3",
     link: "/",
     icon: img3ApprenticeshipDocumentsImage,
-    title: "Apprenticeship Documents Item 3",
+    title: "Functional Skills Support",
   },
   {
     key: "apprenticeship-4",
-    link: "/",
+    link: "/functional-skills-support",
     icon: img4ApprenticeshipDocumentsImage,
-    title: "Apprenticeship Documents Item 4",
+    title: "Progress Reviews & Tracking",
   },
   {
     key: "apprenticeship-5",
-    link: "/",
+    link: "/portfolio-assessment-evidence",
     icon: img5ApprenticeshipDocumentsImage,
-    title: "Apprenticeship Documents Item 5",
+    title: "Portfolio & Assessment Evidence",
   },
   {
     key: "apprenticeship-6",
-    link: "/",
+    link: "/gateway-completion-evaluation",
     icon: img6ApprenticeshipDocumentsImage,
-    title: "Apprenticeship Documents Item 6",
+    title: "Gateway, Completion & Evaluation",
   },
   {
     key: "apprenticeship-7",
-    link: "/",
+    link: "/safeguarding-plagiarism-conduct",
     icon: img7ApprenticeshipDocumentsImage,
-    title: "Apprenticeship Documents Item 7",
+    title: "Safeguarding, Plagiarism & Conduct",
   },
   {
     key: "apprenticeship-8",
-    link: "/",
+    link: "/data-attendance-tracking-systems",
     icon: img8ApprenticeshipDocumentsImage,
-    title: "Apprenticeship Documents Item 8",
+    title: "Data, Attendance & Tracking Systems",
   }
 ];
 

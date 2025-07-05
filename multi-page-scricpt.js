@@ -7,7 +7,10 @@ const assetsDir = path.join(__dirname, 'src', 'assets');
 
 // List of pages with pageTitle, image counts, and links
 const pages = [
-  { title: "Mental Health Act 1983", pageTitle: "Mental Health Act 1983", imageCount: 13, links: ["/", "/","/", "/","/", "/","/", "/","/", "/","/", "/","/", ] },
+  { title: "Functional Skills English Conditions and Requirements", pageTitle: "Functional Skills English Conditions and Requirements", imageCount: 13, links: ["/", "/", "/", "/", "/", "/", "/", "/", "/", "/", "/", "/", "/",] },
+  { title: "Subject content functional skills: English", pageTitle: "Subject content functional skills: English", imageCount: 2, links: [] },
+  { title: "Subject content functional skills: Mathematic", pageTitle: "Subject content functional skills: Mathematic", imageCount: 2, links: [] },
+  { title: "Functional Skills English Conditions and Requirements 2", pageTitle: "Functional Skills English Conditions and Requirements 2", imageCount: 2, links: [] },
 ];
 
 // Convert to PascalCase
