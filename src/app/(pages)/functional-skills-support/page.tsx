@@ -12,13 +12,13 @@ const FunctionalSkillsSupportPageData = [
     key: "functional-1",
     link: "/",
     icon: img1FunctionalSkillsSupportImage,
-    title: "Functional_Skills_English_Conditions_and_Requirements_2024,
+    title: "Functional_Skills_English_Conditions_and_Requirements_2024",
   },
   {
     key: "functional-2",
     link: "/",
-    icon: img2FunctionalSkillsSupportImage,
-    title: "Functional_Skills_Mathematics_Conditions_and_Requirements_2024,
+    icon: img2FunctionalSkillsSupportImage,git 
+    title: "Functional_Skills_Mathematics_Conditions_and_Requirements_2024",
   },
   {
     key: "functional-3",
