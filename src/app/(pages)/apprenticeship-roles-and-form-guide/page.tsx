@@ -15,7 +15,7 @@ import React from "react";
 const ApprenticeshipRolesAndFormGuidePageData = [
   {
     key: "apprenticeship-1",
-    link: "/understanding-the-roles-in-apprenticeship-delivery-overview-from-workforce-training-development-email-content",
+    link: "/understanding-the-roles-in-apprenticeship-delivery",
     icon: img1ApprenticeshipRolesAndFormGuideImage,
     title: "Understanding The Roles In Apprenticeship Delivery",
   },
