@@ -7,10 +7,10 @@ import React from "react";
 const ApprenticeshipTrainingPlanSpecificationPage = () => {
   return (
     <AmendmentComparison
-      pageTitle={`Mental Health / Mental Health Act 1983 / Apprenticeship-Training-Plan-Specification`}
+      pageTitle={`Apprenticeship Journey / Apprenticeship Documents / Apprenticeship-Training-Plan-Specification`}
       src={ApprenticeshipTrainingPlanSpecificationImage}
       backRoute="/onboarding-initial-setup"
-      // amendmentButtonRoute="/onboarding-initial-setup"
+      // 
     />
   );
 };

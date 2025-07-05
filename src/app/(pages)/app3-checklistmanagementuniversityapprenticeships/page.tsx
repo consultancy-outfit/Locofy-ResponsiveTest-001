@@ -7,10 +7,10 @@ import React from "react";
 const App3ChecklistmanagementuniversityapprenticeshipsPage = () => {
   return (
     <AmendmentComparison
-      pageTitle={`Mental Health / Mental Health Act 1983 / APP3_ChecklistManagementUniversityApprenticeships`}
+      pageTitle={`Apprenticeship Document / APP3_ChecklistManagementUniversityApprenticeships`}
       src={App3ChecklistmanagementuniversityapprenticeshipsImage}
       backRoute="/onboarding-initial-setup"
-      // amendmentButtonRoute="/onboarding-initial-setup"
+      // 
     />
   );
 };

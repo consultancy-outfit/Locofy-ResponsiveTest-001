@@ -208,3 +208,8 @@ export { default as GuidanceDocumentRedimg2 } from "./GuidanceDocumentRedimg2.sv
 export { default as GuidanceDocumentRedimg3 } from "./GuidanceDocumentRedimg3.svg";
 export { default as GuidanceDocumentRedimg4 } from "./GuidanceDocumentRedimg4.svg";
 
+export { default as GuidanceDocumentWitnessTestimonyExample1Image } from "./GuidanceDocumentWitnessTestimonyExample1Image.svg";
+export { default as GuidanceDocumentWitnessTestimonyExample2Image } from "./GuidanceDocumentWitnessTestimonyExample2Image.svg";
+export { default as GuidanceDocumentWitnessTestimonyExample3Image } from "./GuidanceDocumentWitnessTestimonyExample3Image.svg";
+export { default as SkillScanDiagramImage } from "./SkillScanDiagramImage.svg";
+export { default as ApoListing } from "./apolistinSequence.svg";

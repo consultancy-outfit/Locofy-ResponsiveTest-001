@@ -27,13 +27,13 @@ const ApprenticeshipDocumentsPageData = [
   },
   {
     key: "apprenticeship-3",
-    link: "/",
+    link: "/functional-skills-support",
     icon: img3ApprenticeshipDocumentsImage,
     title: "Functional Skills Support",
   },
   {
     key: "apprenticeship-4",
-    link: "/functional-skills-support",
+    link: "/progress-reviews-tracking",
     icon: img4ApprenticeshipDocumentsImage,
     title: "Progress Reviews & Tracking",
   },
@@ -68,7 +68,7 @@ const ApprenticeshipDocumentsPage = () => {
     <MultiPathPage
       arrayData={ApprenticeshipDocumentsPageData}
       pageTitle="Apprenticeship Documents"
-       backRoute="/apprenticeship-documents"
+       backRoute="/apprenticeshipjourney-1"
     />
   );
 };

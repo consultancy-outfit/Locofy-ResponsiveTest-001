@@ -7,10 +7,9 @@ import React from "react";
 const WtdLevyNonLevryAgreementv1CompatibilityModePage = () => {
   return (
     <AmendmentComparison
-      pageTitle={`Mental Health / Mental Health Act 1983 / WTD Levy & Non-Levry Agreementv1- compatibility Mode`}
+      pageTitle={`WTD Levy & Non-Levy Agreement V1`}
       src={WtdLevyNonLevryAgreementv1CompatibilityModeImage}
-      backRoute="/"
-      amendmentButtonRoute="/onboarding-initial-setup"
+      backRoute="/onboarding-initial-setup"
     />
   );
 };

@@ -7,9 +7,8 @@ const assetsDir = path.join(__dirname, "src", "assets");
 
 // List of pages to create
 const pages = [
-  "Guidance document Witness Testimony Example 1",
-  "Guidance document Witness Testimony Example 2",
-  "Guidance document Witness Testimony Example 3",
+  "Skill Scan Diagram",
+ 
 
 ];
 // Convert to PascalCase

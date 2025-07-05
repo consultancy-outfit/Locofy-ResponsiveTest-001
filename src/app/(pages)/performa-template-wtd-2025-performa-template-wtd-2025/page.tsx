@@ -7,10 +7,9 @@ import React from "react";
 const PerformaTemplateWtd2025PerformaTemplateWtd2025Page = () => {
   return (
     <AmendmentComparison
-      pageTitle={`Mental Health / Mental Health Act 1983 / Performa Template WTD 2025/ Performa Template WTD 2025`}
+      pageTitle={`Apprenticeship Journey / Apprenticeship Documents  / vPerforma Template WTD 2025 Onboarding & Initial Setup/ Performa Template WTD 20255`}
       src={PerformaTemplateWtd2025PerformaTemplateWtd2025Image}
-      backRoute="/"
-      amendmentButtonRoute="/onboarding-initial-setup"
+     backRoute="/onboarding-initial-setup"
     />
   );
 };

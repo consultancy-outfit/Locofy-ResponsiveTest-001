@@ -7,10 +7,10 @@ import React from "react";
 const ApprenticeEmploymentOfferLetterPage = () => {
   return (
     <AmendmentComparison
-      pageTitle={`Mental Health / Mental Health Act 1983 / Apprentice Employment Offer Letter`}
+      pageTitle={`Apprenticeship Journey / Apprenticeship Documents / Apprentice Employment Offer Letter`}
       src={ApprenticeEmploymentOfferLetterImage}
       backRoute="/onboarding-initial-setup"
-      // amendmentButtonRoute="/onboarding-initial-setup"
+      // 
     />
   );
 };

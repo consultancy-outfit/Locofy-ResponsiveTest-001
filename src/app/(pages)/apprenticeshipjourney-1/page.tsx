@@ -66,7 +66,7 @@ const Apprenticeshipjourney1PageData = [
   },
   {
     key: "apprenticeshipjourney-9",
-    link: "/",
+    link: "/apprenticeships-listing-process",
     icon: img9Apprenticeshipjourney1Image,
     title: "Apprenticeship Documents (Received via Email)",
   },

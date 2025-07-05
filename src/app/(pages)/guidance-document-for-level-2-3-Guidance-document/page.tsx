@@ -9,16 +9,16 @@ import { GuidanceDocumentRedimg1, GuidanceDocumentRedimg2, GuidanceDocumentRedim
 
 const images = [GuidanceDocumentRedimg1, GuidanceDocumentRedimg2, GuidanceDocumentRedimg3, GuidanceDocumentRedimg4];
 const routes = [
-  "/table-1-expectations-for-word-reading-entry-levels-1-to-4",
-  "/table-2-entry-level-1-expectations-for-reading-and-spelling",
-  "/table-3-entry-level-2-expectations-for-reading-and-spelling",
-  "/table-4-entry-level-3-expectations-for-reading-and-spelling"
+   "/guidance-document-for-level-2-3-Guidance-document",
+  "/guidance-document-witness-testimony-example-1",
+  "/guidance-document-witness-testimony-example-2",
+  "/guidance-document-witness-testimony-example-3",
 ];
 
 export default function GuidanceDocumentPage() {
   const router = useRouter();
   const onBackIconClick = useCallback(() => {
-    router.push("/");
+    router.push("/portfolio-assessment-evidence");
   }, [router]);
 
   const handleImageClick = (idx: number) => {
