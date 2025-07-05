@@ -1,9 +1,10 @@
 "use client";
 import React, { useCallback } from "react";
 import Image from "next/image";
-import { Box, Button, Card, CardContent, Grid, Stack, Typography } from "@mui/material";
+import { Box, Card, CardContent, Grid, Stack, Typography } from "@mui/material";
 import { useRouter } from "next/navigation";
-import { MultiBackIcon } from "@/assets/common-assets";
+import { MultiBackIcon } from "@/assets";
+
 type MultiPathPageItem = {
   key: string;
   link?: string;
@@ -40,39 +41,32 @@ const MultiPathPage: React.FC<MultiPathPageProps> = ({
         alignItems={"center"}
         mt={{ md: 2, xs: 1 }}
         mb={{ md: 5, sm: 3, xs: 2 }}
-        justifyContent="space-between"
       >
-        <Box display="flex" alignItems="center" flexGrow={1}>
-          <Image
-            src={MultiBackIcon}
-            alt={pageTitle}
-            width={40}
-            height={40}
-            onClick={onBackIconClick}
-            style={{ cursor: "pointer" }}
-          />
-          <Typography
-            variant="h5"
-            color="#0246BC"
-            fontSize={fontSize}
-            fontWeight={{ md: 600, xs: 500 }}
-            ml={{ md: 2, xs: 1 }}
-            sx={{
-              fontFamily: "inherit",
-            }}
-          >
-            {pageTitle}
-          </Typography>
-        </Box>
+        <Image
+          src={MultiBackIcon}
+          alt={pageTitle}
+          width={40}
+          height={40}
+          onClick={onBackIconClick}
+          style={{ cursor: "pointer" }}
+        />
+        <Typography
+          variant="h5"
+          color="#0246BC"
+          fontSize={fontSize}
+          fontWeight={{ md: 600, xs: 500 }}
+          ml={{ md: 2, xs: 1 }}
+          sx={{
+            fontFamily: "inherit",
+          }}
+        >
+          {pageTitle}
+        </Typography>
       </Stack>
-      <Grid container spacing={2} alignItems="stretch">
+      <Grid container spacing={2}>
         {!!arrayData.length &&
           arrayData.map((item) => (
-            <Grid
-              size={{ xs: 12, md: 2, lg: 4 }}
-              key={item.key}
-              style={{ display: "flex" }}
-            >
+            <Grid size={{ xs: 12, sm: 6, md: 6, lg: 4, xl: 3 }} key={item.key}>
               <Card
                 onClick={() => {
                   if (item.link) {
@@ -82,10 +76,6 @@ const MultiPathPage: React.FC<MultiPathPageProps> = ({
                 sx={{
                   width: "100%",
                   height: "100%",
-                  minHeight: 350,
-                  display: "flex",
-                  flexDirection: "column",
-                  justifyContent: "space-between",
                   backgroundColor: background,
                   cursor: item.link ? "pointer" : "default",
                   borderRadius: 6,
@@ -101,14 +91,7 @@ const MultiPathPage: React.FC<MultiPathPageProps> = ({
                   height={200}
                   style={{ width: "100%", objectFit: "contain" }}
                 />
-                <CardContent
-                  sx={{
-                    flexGrow: 1,
-                    display: "flex",
-                    alignItems: "center",
-                    justifyContent: "center",
-                  }}
-                >
+                <CardContent>
                   <Typography
                     variant="h5"
                     color="#3571b0"
@@ -116,7 +99,6 @@ const MultiPathPage: React.FC<MultiPathPageProps> = ({
                     fontWeight={{ md: 600, xs: 500 }}
                     sx={{
                       fontFamily: "inherit",
-                      wordBreak: "break-word",
                     }}
                   >
                     {item.title}
