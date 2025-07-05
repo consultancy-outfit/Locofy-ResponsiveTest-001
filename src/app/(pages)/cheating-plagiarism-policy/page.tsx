@@ -7,7 +7,7 @@ const CheatingPlagiarismPolicyPage = () => {
     <CommonPage
       pageTitle={`Apprenticeship Journey / Apprenticeship Documents / Cheating & Plagiarism Policy`}
       src={CheatingPlagiarismPolicyImage}
-      backRoute="/"
+      backRoute="/safeguarding-plagiarism-conduct"
     />
   );
 };

@@ -9,7 +9,7 @@ const PortfolioAssessmentEvidencePage = () => {
     <CommonPage
       pageTitle={`Apprenticeships / Apprenticeship funding Rules / portfolio-assessment-evidence`}
       src={PortfolioAssessmentEvidenceImage}
-      backRoute="/progress-reviews-tracking"
+      backRoute="/portfolio-assessment-evidence-cards"
     />
   );
 };

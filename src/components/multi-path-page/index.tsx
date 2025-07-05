@@ -63,10 +63,14 @@ const MultiPathPage: React.FC<MultiPathPageProps> = ({
           {pageTitle}
         </Typography>
       </Stack>
-      <Grid container spacing={2}>
+      <Grid container spacing={2} alignItems="stretch">
         {!!arrayData.length &&
           arrayData.map((item) => (
-            <Grid size={{ xs: 12, sm: 6, md: 6, lg: 4 }} key={item.key}>
+            <Grid
+              size={{ xs: 12, md: 2, lg: 4 }}
+              key={item.key}
+              style={{ display: "flex" }}
+            >
               <Card
                 onClick={() => {
                   if (item.link) {
@@ -76,6 +80,10 @@ const MultiPathPage: React.FC<MultiPathPageProps> = ({
                 sx={{
                   width: "100%",
                   height: "100%",
+                  minHeight: 350,
+                  display: "flex",
+                  flexDirection: "column",
+                  justifyContent: "space-between",
                   backgroundColor: background,
                   cursor: item.link ? "pointer" : "default",
                   borderRadius: 6,
@@ -91,7 +99,14 @@ const MultiPathPage: React.FC<MultiPathPageProps> = ({
                   height={200}
                   style={{ width: "100%", objectFit: "contain" }}
                 />
-                <CardContent>
+                <CardContent
+                  sx={{
+                    flexGrow: 1,
+                    display: "flex",
+                    alignItems: "center",
+                    justifyContent: "center",
+                  }}
+                >
                   <Typography
                     variant="h5"
                     color="#3571b0"
@@ -99,6 +114,7 @@ const MultiPathPage: React.FC<MultiPathPageProps> = ({
                     fontWeight={{ md: 600, xs: 500 }}
                     sx={{
                       fontFamily: "inherit",
+                      wordBreak: "break-word",
                     }}
                   >
                     {item.title}

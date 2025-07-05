@@ -5,9 +5,9 @@ import { useCallback } from "react";
 import { useRouter } from "next/navigation";
 import { CommonBackIcon } from "@/assets/common-assets";
 import { CheckboxForm } from "@/components/checkbox-form";
-import { GuidanceDocumentRedimg1, GuidanceDocumentRedimg2, GuidanceDocumentRedimg3, GuidanceDocumentRedimg4 } from "@/assets";
+import { GuidanceDocumentRedimg1, GuidanceDocumentRedimg3, GuidanceDocumentRedimg2, GuidanceDocumentRedimg4 } from "@/assets";
 
-const images = [GuidanceDocumentRedimg1, GuidanceDocumentRedimg2, GuidanceDocumentRedimg3, GuidanceDocumentRedimg4];
+const images = [GuidanceDocumentRedimg1,  GuidanceDocumentRedimg3, GuidanceDocumentRedimg2,GuidanceDocumentRedimg4];
 const routes = [
    "/guidance-document-for-level-2-3-Guidance-document",
   "/guidance-document-witness-testimony-example-1",
@@ -18,7 +18,7 @@ const routes = [
 export default function GuidanceDocumentPage() {
   const router = useRouter();
   const onBackIconClick = useCallback(() => {
-    router.push("/portfolio-assessment-evidence");
+    router.push("/portfolio-assessment-evidence-cards");
   }, [router]);
 
   const handleImageClick = (idx: number) => {
@@ -49,7 +49,7 @@ export default function GuidanceDocumentPage() {
           ml={{ md: 2, xs: 1 }}
           sx={{ fontFamily: "inherit" }}
         >
-          Apprenticeships / Funding Rules / Apprenticeship funding rules 2024_to_2025 / Appendix
+          Apprenticeship Journey  / Apprenticeship Documents  / Guidance document for Level 2-3 Hospitality Practical Assessment Witness Testimony
         </Typography>
       </Stack>
       <Box mb={{ md: 4, sm: 3, xs: 2 }}>
