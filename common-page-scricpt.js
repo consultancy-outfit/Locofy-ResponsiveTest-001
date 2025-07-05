@@ -7,26 +7,10 @@ const assetsDir = path.join(__dirname, "src", "assets");
 
 // List of pages to create
 const pages = [
-  "Apprenticeship funding rules 2024 to 2025_ summary of changes",
-  "Functional_Skills_English_Conditions_and_Requirements_2024 / Introduction",
-  "Requirements for Functional Skills  qualifications in English",
-  "Functional_Skills_English_Conditions_and_Requirements_2024 / Subject Level Conditions",
-  "Subject content  FS:  English_Introduction & Purpose",
-  "Glossary for use with this Subject Content",
-  "FS  English – Entry Levels 1 to 3",
-  "Functional Skills English – Levels 1 & 2",
-  "Appendix",
-  "functional-skills-criteria-for-ict",
-  "Table 1 : Expectations for Word Reading – Entry Levels 1 to 4",
-  "Table 2: Entry Level 1 – Expectations for Reading and Spelling",
-  "Table 3: Entry Level 2 – Expectations for Reading and Spelling",
-  "Table 4:Entry Level 3 – Expectations for Reading and Spelling",
-  "Introduction Functional Skills mathematics Conditions and Requirements",
-  '"Subject Level Conditions" Functional Skills mathematics Conditions and Requirements',
-  '"Requirements for Functional Skills  qualifications in Mathematics "Functional Skills mathematics Conditions and Requirements',
-  "Subject content  functional skills:  Mathematic",
-  '"Requirements for Functional Skills  qualifications in Mathematics "Functional Skills mathematics Conditions and Requirements',
-  "Functional Skills Mathematics - Levels 1 and 2",
+  "Guidance document Witness Testimony Example 1",
+  "Guidance document Witness Testimony Example 2",
+  "Guidance document Witness Testimony Example 3",
+
 ];
 // Convert to PascalCase
 const toPascalCase = (str) =>
@@ -54,28 +38,13 @@ for (const title of pages) {
   const dir = path.join(baseDir, kebab);
   if (!fs.existsSync(dir)) fs.mkdirSync(dir, { recursive: true });
 
-  // Create page.tsx
-  const pageContent = `import { ${imageName} } from "@/assets";
-import { CommonPage } from "@/components";
-import React from "react";
-
-const ${pascal}Page = () => {
-  return (
-    <CommonPage
-      pageTitle={\`Apprenticeships / Apprenticeship funding Rules / ${title}\`}
-      src={${imageName}}
-      backRoute="/apprenticeship-funding-rules"
-    />
-  );
-};
-
-export default ${pascal}Page;
-`;
+  // Create page.tsx as a React component for each page
+  const pageContent = `"use client";\n\nimport { ${imageName} } from \"@/assets\";\nimport { CommonPage } from \"@/components\";\nimport React from \"react\";\n\nconst ${pascal}Page = () => {\n  return (\n    <CommonPage\n      pageTitle={\`Apprenticeships / Apprenticeship funding Rules / ${title}\`}\n      src={${imageName}}\n      backRoute=\"/apprenticeship-funding-rules\"\n    />\n  );\n};\n\nexport default ${pascal}Page;\n`;
   fs.writeFileSync(path.join(dir, "page.tsx"), pageContent, "utf8");
 
   // Append to existing index.tsx in assets
   const indexTsxPath = path.join(assetsDir, "index.tsx");
-  const imageExport = `export { default as ${imageName} } from "./${svgFile}";\n`;
+  const imageExport = `export { default as ${imageName} } from \"./${svgFile}\";\n`;
   fs.appendFileSync(indexTsxPath, imageExport);
 }
 
