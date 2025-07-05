@@ -17,7 +17,7 @@ const FunctionalSkillsSupportPageData = [
   {
     key: "functional-2",
     link: "/",
-    icon: img2FunctionalSkillsSupportImage,git 
+    icon: img2FunctionalSkillsSupportImage,
     title: "Functional_Skills_Mathematics_Conditions_and_Requirements_2024",
   },
   {
