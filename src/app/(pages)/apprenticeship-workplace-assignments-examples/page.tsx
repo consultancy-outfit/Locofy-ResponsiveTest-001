@@ -7,7 +7,7 @@ import React from "react";
 const ApprenticeshipWorkplaceAssignmentsExamplesPage = () => {
   return (
     <AmendmentComparison
-      pageTitle={`Mental Health / Mental Health Act 1983 / Apprenticeship Workplace Assignments Examples`}
+      pageTitle={`Apprenticeship Documents  / Apprenticeship Documents / Apprenticeship Workplace Assignments Examples`}
       src={ApprenticeshipWorkplaceAssignmentsExamplesImage}
       backRoute="/training-delivery-off-the-job-learning"
       amendmentButtonRoute="/training-delivery-off-the-job-learning"

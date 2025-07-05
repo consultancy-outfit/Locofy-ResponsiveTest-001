@@ -7,7 +7,7 @@ const ApprenticeshipSafeguardingPreventDutyPolicyPage = () => {
     <CommonPage
       pageTitle={`Apprenticeship Journey / Apprenticeship Documents / Apprenticeship Safeguarding  & Prevent Duty Policy`}
       src={ApprenticeshipSafeguardingPreventDutyPolicyImage}
-      backRoute="/"
+      backRoute="/safeguarding-plagiarism-conduct"
     />
   );
 };

@@ -6,11 +6,7 @@ const baseDir = path.join(__dirname, "src", "app", "(pages)");
 const assetsDir = path.join(__dirname, "src", "assets");
 
 // List of pages to create
-const pages = [
-  "Skill Scan Diagram",
- 
-
-];
+const pages = ["tpta-portfolio-of-evidence-template"];
 // Convert to PascalCase
 const toPascalCase = (str) =>
   str

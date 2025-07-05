@@ -7,7 +7,7 @@ const MaytasHubPage = () => {
     <CommonPage
       pageTitle={`Apprenticeship Journey / Apprenticeship Documents / Maytas Hub`}
       src={MaytasHubImage}
-      backRoute="/"
+      backRoute="/data-attendance-tracking-systems"
     />
   );
 };

@@ -9,8 +9,8 @@ const WayFeedbackFormPage = () => {
     <AmendmentComparison
       pageTitle={`Mental Health / Mental Health Act 1983 / Way Feedback form`}
       src={WayFeedbackFormImage}
-      backRoute="/"
-      amendmentButtonRoute="/progress-reviews-tracking"
+      backRoute="/progress-reviews-tracking"
+      amendmentButtonRoute="/way-feedback-form"
     />
   );
 };

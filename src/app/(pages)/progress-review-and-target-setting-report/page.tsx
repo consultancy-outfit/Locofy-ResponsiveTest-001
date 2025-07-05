@@ -9,8 +9,8 @@ const ProgressReviewAndTargetSettingReportPage = () => {
     <AmendmentComparison
       pageTitle={`Apprenticeship Document / Progress Reviews and Target Setting: Supporting Apprentices to Succeed`}
       src={ProgressReviewAndTargetSettingReportImage}
-      backRoute="/"
-      amendmentButtonRoute="/progress-reviews-tracking"
+      backRoute="/progress-reviews-tracking"
+      amendmentButtonRoute="/progress-review-and-target-setting-report"
     />
   );
 };

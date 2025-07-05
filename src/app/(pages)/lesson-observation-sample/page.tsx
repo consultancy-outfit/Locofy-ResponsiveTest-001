@@ -7,10 +7,10 @@ import React from "react";
 const LessonObservationSamplePage = () => {
   return (
     <AmendmentComparison
-      pageTitle={`Mental Health / Mental Health Act 1983 / lesson-observation-sample`}
+      pageTitle={`Apprenticeship Documents  / Apprenticeship Documents /  lesson-observation-sample`}
       src={LessonObservationSampleImage}
       backRoute="/training-delivery-off-the-job-learning"
-      amendmentButtonRoute="/training-delivery-off-the-job-learning"
+      amendmentButtonRoute="/lesson-observation-sample"
     />
   );
 };

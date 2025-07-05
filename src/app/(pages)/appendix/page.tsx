@@ -10,6 +10,7 @@ export default function AppendixPage() {
       src={images}
       pageTitle="Apprenticeships / Funding Rules / Apprenticeship funding rules 2024_to_2025 / Appendix"
       imageLinks={routes}
+      backRoute="/appendix"
     />
   );
 }

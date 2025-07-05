@@ -7,10 +7,10 @@ import React from "react";
 const ReflectiveLearningJournalRljPage = () => {
   return (
     <AmendmentComparison
-      pageTitle={`Mental Health / Mental Health Act 1983 / Reflective Learning Journal (RLJ)`}
+      pageTitle={`Apprenticeship Documents  / Apprenticeship Documents /  Reflective Learning Journal (RLJ)`}
       src={ReflectiveLearningJournalRljImage}
       backRoute="/training-delivery-off-the-job-learning"
-      amendmentButtonRoute="/training-delivery-off-the-job-learning"
+      amendmentButtonRoute="/reflective-learning-journal-rlj"
     />
   );
 };

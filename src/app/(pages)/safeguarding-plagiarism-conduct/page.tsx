@@ -10,13 +10,13 @@ import React from "react";
 const SafeguardingPlagiarismconductPageData = [
   {
     key: "safeguarding-1",
-    link: "/qa-cheating-plagiarism-policy",
+    link: "/cheating-plagiarism-policy",
     icon: img1SafeguardingPlagiarismconductImage,
     title: "qa-cheating-_-plagiarism-policy",
   },
   {
     key: "safeguarding-2",
-    link: "/safeguarding-and-prevent-policy-apprenticeships-v5-september-2024",
+    link: "/apprenticeship-safeguarding-prevent-duty-policy",
     icon: img2SafeguardingPlagiarismconductImage,
     title: "Safeguarding-and-Prevent-Policy-Apprenticeships-V5-September-2024",
   },

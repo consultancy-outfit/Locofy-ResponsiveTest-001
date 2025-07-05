@@ -39,7 +39,7 @@ const ApprenticeshipDocumentsPageData = [
   },
   {
     key: "apprenticeship-5",
-    link: "/portfolio-assessment-evidence",
+    link: "/portfolio-assessment-evidence-cards",
     icon: img5ApprenticeshipDocumentsImage,
     title: "Portfolio & Assessment Evidence",
   },

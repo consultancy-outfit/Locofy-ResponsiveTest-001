@@ -213,3 +213,7 @@ export { default as GuidanceDocumentWitnessTestimonyExample2Image } from "./Guid
 export { default as GuidanceDocumentWitnessTestimonyExample3Image } from "./GuidanceDocumentWitnessTestimonyExample3Image.svg";
 export { default as SkillScanDiagramImage } from "./SkillScanDiagramImage.svg";
 export { default as ApoListing } from "./apolistinSequence.svg";
+export { default as PortfolioAssessmentEvidenceImage } from "./PortfolioAssessmentEvidenceImage.svg";
+export { default as PortfolioOfEvidenceMappingAndTrackingFormTqukImage } from "./PortfolioOfEvidenceMappingAndTrackingFormTqukImage.svg";
+export { default as AssessmentPlanExampleImage } from "./AssessmentPlanExampleImage.svg";
+export { default as TptaPortfolioOfEvidenceTemplateImage } from "./TptaPortfolioOfEvidenceTemplateImage.svg";

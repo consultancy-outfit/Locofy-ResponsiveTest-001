@@ -7,10 +7,10 @@ import React from "react";
 const IntroductionToWorkBasedProjectsPage = () => {
   return (
     <AmendmentComparison
-      pageTitle={`Mental Health / Mental Health Act 1983 / Introduction to Work-Based Projects`}
+      pageTitle={`Apprenticeship Documents  / Apprenticeship Documents /  Introduction to Work-Based Projects`}
       src={IntroductionToWorkBasedProjectsImage}
       backRoute="/training-delivery-off-the-job-learning"
-      amendmentButtonRoute="/training-delivery-off-the-job-learning"
+      amendmentButtonRoute="/introduction-to-work-based-projects"
     />
   );
 };

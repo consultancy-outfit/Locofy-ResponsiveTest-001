@@ -32,13 +32,13 @@ const ProgressReviewstrackingPageData = [
   },
   {
     key: "progress-4",
-    link: "/",
+    link: "/awd-seta-good-practice-progress-review-form",
     icon: img4ProgressReviewstrackingImage,
     title: "AWD-SETA-Good-Practice-Progress-Review-Form",
   },
   {
     key: "progress-5",
-    link: "/awd-seta-good-practice-progress-review-form",
+    link: "/completed-apprentice-progress-review-exemplar-word-doc",
     icon: img5ProgressReviewstrackingImage,
     title: "completed-apprentice-progress-review-example",
   },

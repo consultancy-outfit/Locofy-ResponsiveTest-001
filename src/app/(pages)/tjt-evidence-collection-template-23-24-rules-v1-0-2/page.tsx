@@ -7,10 +7,10 @@ import React from "react";
 const TjtEvidenceCollectionTemplate2324RulesV102Page = () => {
   return (
     <AmendmentComparison
-      pageTitle={`Mental Health / Mental Health Act 1983 / 2023_10_OTJT_Evidence_Collection_Template_-_23_24_Rules_v1.0 (2)`}
+      pageTitle={`Apprenticeship Documents  / Apprenticeship Documents / 2023_10_OTJT_Template_-_23_24_Rules_v1.0 (2)`}
       src={TjtEvidenceCollectionTemplate2324RulesV102Image}
       backRoute="/training-delivery-off-the-job-learning"
-      amendmentButtonRoute="/training-delivery-off-the-job-learning"
+      amendmentButtonRoute="/tjt-evidence-collection-template-23-24-rules-v1-0-2"
     />
   );
 };

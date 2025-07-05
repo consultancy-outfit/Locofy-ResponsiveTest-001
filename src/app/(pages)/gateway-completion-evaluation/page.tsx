@@ -16,7 +16,7 @@ const GatewayCompletionevaluationPageData = [
   },
   {
     key: "gateway-2",
-    link: "/generic-guidance-gateway-form",
+    link: "/gateway-meeting-recording-form-guidance",
     icon: img2GatewayCompletionevaluationImage,
     title: "Generic-Guidance - Gateway form",
   },

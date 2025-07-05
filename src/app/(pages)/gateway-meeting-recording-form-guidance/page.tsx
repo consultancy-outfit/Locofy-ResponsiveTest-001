@@ -5,9 +5,9 @@ import React from "react";
 const GatewayMeetingRecordingFormGuidancePage = () => {
   return (
     <CommonPage
-      pageTitle={`Apprenticeship Documents / Gateway Meeting  Recording Form Guidance`}
+      pageTitle={`Apprenticeship Journey / Apprenticeship Documents / Gateway Meeting  Recording Form Guidance`}
       src={GatewayMeetingRecordingFormGuidanceImage}
-      backRoute="/"
+      backRoute="/gateway-completion-evaluation"
     />
   );
 };

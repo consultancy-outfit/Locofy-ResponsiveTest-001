@@ -7,10 +7,10 @@ import React from "react";
 const WeeklyJournalExamplePage = () => {
   return (
     <AmendmentComparison
-      pageTitle={`Mental Health / Mental Health Act 1983 / Weekly journal example`}
+      pageTitle={`Apprenticeship Documents  / Apprenticeship Documents /  Weekly journal example`}
       src={WeeklyJournalExampleImage}
       backRoute="/training-delivery-off-the-job-learning"
-      amendmentButtonRoute="/training-delivery-off-the-job-learning"
+      amendmentButtonRoute="/weekly-journal-example"
     />
   );
 };

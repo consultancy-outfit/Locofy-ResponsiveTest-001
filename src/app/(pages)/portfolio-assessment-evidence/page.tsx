@@ -1,41 +1,17 @@
 "use client";
-import { MultiPathPage } from "@/components";
-import {
-  img1PortfolioassessmentEvidenceImage,
-  img2PortfolioassessmentEvidenceImage,
-  img3PortfolioassessmentEvidenceImage
-} from "@/assets";
+
+import { PortfolioAssessmentEvidenceImage } from "@/assets";
+import { CommonPage } from "@/components";
 import React from "react";
 
-const PortfolioassessmentEvidencePageData = [
-  {
-    key: "portfolio-1",
-    link: "/",
-    icon: img1PortfolioassessmentEvidenceImage,
-    title: "guidance-document-for-witness-testimony-pdf",
-  },
-  {
-    key: "portfolio-2",
-    link: "/",
-    icon: img2PortfolioassessmentEvidenceImage,
-    title: "Portfolio-of-Evidence-Mapping-and-Tracking-Form-TQUK",
-  },
-  {
-    key: "portfolio-3",
-    link: "/",
-    icon: img3PortfolioassessmentEvidenceImage,
-    title: "tpta-portfolio-of-evidence-template",
-  }
-];
-
-const PortfolioassessmentEvidencePage = () => {
+const PortfolioAssessmentEvidencePage = () => {
   return (
-    <MultiPathPage
-      arrayData={PortfolioassessmentEvidencePageData}
-      pageTitle="Portfolio & Assessment Evidence"
-      backRoute="/apprenticeship-documents"
+    <CommonPage
+      pageTitle={`Apprenticeships / Apprenticeship funding Rules / portfolio-assessment-evidence`}
+      src={PortfolioAssessmentEvidenceImage}
+      backRoute="/progress-reviews-tracking"
     />
   );
 };
 
-export default PortfolioassessmentEvidencePage;
+export default PortfolioAssessmentEvidencePage;

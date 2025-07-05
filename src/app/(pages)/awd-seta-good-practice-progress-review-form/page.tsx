@@ -9,8 +9,8 @@ const AwdSetaGoodPracticeProgressReviewFormPage = () => {
     <AmendmentComparison
       pageTitle={`Mental Health / Mental Health Act 1983 / AWD-SETA-Good-Practice-Progress-Review-Form`}
       src={AwdSetaGoodPracticeProgressReviewFormImage}
-      backRoute="/"
-      amendmentButtonRoute="/progress-reviews-tracking"
+      backRoute="/progress-reviews-tracking"
+      amendmentButtonRoute="/awd-seta-good-practice-progress-review-form"
     />
   );
 };

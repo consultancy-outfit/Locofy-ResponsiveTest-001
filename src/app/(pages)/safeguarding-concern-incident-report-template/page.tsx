@@ -7,7 +7,7 @@ const SafeguardingConcernIncidentReportTemplatePage = () => {
     <CommonPage
       pageTitle={`Apprenticeship Journey / Apprenticeship Documents / Safeguarding-Concern-incident-report-template`}
       src={SafeguardingConcernIncidentReportTemplateImage}
-      backRoute="/"
+      backRoute="/safeguarding-plagiarism-conduct"
     />
   );
 };

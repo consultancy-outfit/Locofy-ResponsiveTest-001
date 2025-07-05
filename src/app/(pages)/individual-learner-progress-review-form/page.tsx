@@ -7,10 +7,10 @@ import React from "react";
 const IndividualLearnerProgressReviewFormPage = () => {
   return (
     <AmendmentComparison
-      pageTitle={`Mental Health / Mental Health Act 1983 / Individual Learner Progress Review Form`}
+      pageTitle={`Apprenticeship Journey / Apprenticeship Documents  / Individual Learner Progress Review Form`}
       src={IndividualLearnerProgressReviewFormImage}
-      backRoute="/"
-      amendmentButtonRoute="/progress-reviews-tracking"
+      backRoute="/progress-reviews-tracking"
+      amendmentButtonRoute="/individual-learner-progress-review-form"
     />
   );
 };

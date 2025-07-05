@@ -23,7 +23,7 @@ const FunctionalSkillsEnglishConditionsAndRequirementsPageData = [
   },
   {
     key: "functional-3",
-    link: "/requirements-for-functional-skills-qualifications-in-english",
+    link: "/subject-content-functional-skills-english",
     icon: img3FunctionalSkillsEnglishConditionsAndRequirementsImage,
     title: "Requirements for Functional Skills  qualifications in Mathematics",
   },

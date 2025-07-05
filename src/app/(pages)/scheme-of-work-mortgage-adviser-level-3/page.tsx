@@ -7,10 +7,10 @@ import React from "react";
 const SchemeOfWorkMortgageAdviserLevel3Page = () => {
   return (
     <AmendmentComparison
-      pageTitle={`Mental Health / Mental Health Act 1983 / Scheme of work Mortgage Adviser Level 3`}
+      pageTitle={`Apprenticeship Documents  / Apprenticeship Documents /  Scheme of work Mortgage Adviser Level 3`}
       src={SchemeOfWorkMortgageAdviserLevel3Image}
       backRoute="/training-delivery-off-the-job-learning"
-      amendmentButtonRoute="/training-delivery-off-the-job-learning"
+      amendmentButtonRoute="/scheme-of-work-mortgage-adviser-level-3"
     />
   );
 };
