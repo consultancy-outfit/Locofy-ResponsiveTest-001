@@ -9,7 +9,7 @@ const ApprenticeshipWorkplaceAssignmentsExamplesPage = () => {
     <AmendmentComparison
       pageTitle={`Mental Health / Mental Health Act 1983 / Apprenticeship Workplace Assignments Examples`}
       src={ApprenticeshipWorkplaceAssignmentsExamplesImage}
-      backRoute="/"
+      backRoute="/training-delivery-off-the-job-learning"
       amendmentButtonRoute="/training-delivery-off-the-job-learning"
     />
   );

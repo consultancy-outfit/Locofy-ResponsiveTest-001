@@ -9,7 +9,7 @@ const TjtEvidenceCollectionTemplate2324RulesV102Page = () => {
     <AmendmentComparison
       pageTitle={`Mental Health / Mental Health Act 1983 / 2023_10_OTJT_Evidence_Collection_Template_-_23_24_Rules_v1.0 (2)`}
       src={TjtEvidenceCollectionTemplate2324RulesV102Image}
-      backRoute="/"
+      backRoute="/training-delivery-off-the-job-learning"
       amendmentButtonRoute="/training-delivery-off-the-job-learning"
     />
   );

@@ -9,7 +9,7 @@ const SchemeOfWorkMortgageAdviserLevel3Page = () => {
     <AmendmentComparison
       pageTitle={`Mental Health / Mental Health Act 1983 / Scheme of work Mortgage Adviser Level 3`}
       src={SchemeOfWorkMortgageAdviserLevel3Image}
-      backRoute="/"
+      backRoute="/training-delivery-off-the-job-learning"
       amendmentButtonRoute="/training-delivery-off-the-job-learning"
     />
   );
