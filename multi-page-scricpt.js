@@ -7,10 +7,10 @@ const assetsDir = path.join(__dirname, 'src', 'assets');
 
 // List of pages with pageTitle, image counts, and links
 const pages = [
-  { title: "Functional Skills English Conditions and Requirements", pageTitle: "Functional Skills English Conditions and Requirements", imageCount: 13, links: ["/", "/", "/", "/", "/", "/", "/", "/", "/", "/", "/", "/", "/",] },
-  { title: "Subject content functional skills: English", pageTitle: "Subject content functional skills: English", imageCount: 2, links: [] },
-  { title: "Subject content functional skills: Mathematic", pageTitle: "Subject content functional skills: Mathematic", imageCount: 2, links: [] },
-  { title: "Functional Skills English Conditions and Requirements 2", pageTitle: "Functional Skills English Conditions and Requirements 2", imageCount: 2, links: [] },
+  { title: "Functional Skills English Conditions and Requirements", pageTitle: "Functional Skills English Conditions and Requirements", imageCount: 4, links: ["/introduction-functional-skills-mathematics-conditions-and-requirements", "/subject-level-conditions-functional-skills-mathematics-conditions-and-requirements", "/requirements-for-functional-skills-qualifications", "/functional-skills-mathematic-conditions-and-requirements"] },
+  { title: "Subject content functional skills: English", pageTitle: "Subject content functional skills: English", imageCount: 3, links: ["/subject-content-functional-skills-mathematic","/requirements-for-functional-skills-two","/functional-skills-english-levels-1-2"] },
+  { title: "Functional Skills English Conditions and Requirements Main", pageTitle:" Functional Skills English Conditions and Requirements ", imageCount: 4, links: [] },
+  { title: "Subject content functional skills: English Main", pageTitle: "Subject content functional skills: English", imageCount: 4, links: [] },
 ];
 
 // Convert to PascalCase
