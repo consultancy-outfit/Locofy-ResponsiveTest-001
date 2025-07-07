@@ -9,7 +9,7 @@ import { CheckboxForm } from "../checkbox-form";
 
 interface CommonPageProps {
   src: any;
-  backRoute?: string; 
+  backRoute?: string;
   pageTitle: string;
   onChange?: (selectedValue: string, page: string) => void;
   amendmentButtonRoute?: string;
@@ -20,17 +20,17 @@ const AmendmentComparison: React.FC<CommonPageProps> = ({
   backRoute = "/",
   pageTitle,
   onChange,
-  amendmentButtonRoute = "/amendment-comparison-page",
+  amendmentButtonRoute,
 }) => {
   const router = useRouter();
 
   const onBackIconClick = useCallback(() => {
-    router.push(backRoute); 
-  }, [router, backRoute]); 
+    router.push(backRoute);
+  }, [router, backRoute]);
 
   const onAmendmentButtonClick = useCallback(() => {
-    router.push(amendmentButtonRoute);
-  }, [router, amendmentButtonRoute]);
+    window.open(amendmentButtonRoute, "_blank"); // _blank opens in new tab
+  }, [amendmentButtonRoute]);
 
   return (
     <Box p={{ md: 3, xs: 2 }}>
@@ -64,25 +64,27 @@ const AmendmentComparison: React.FC<CommonPageProps> = ({
         </Box>
 
         {/* Right Section: Button */}
-        {/* <Box ml={{ md: "auto" }} >
-          <Button
-            variant="contained"
-            onClick={onAmendmentButtonClick}
-            sx={{
-              backgroundColor: "#5A5867",
-              color: "#FFFFFF",
-              "&:hover": {
-                backgroundColor: "#4A4857",
-              },
-              cursor: "pointer",
-              fontSize: { xs: "0.7rem", sm: "0.9rem", md: "1rem" },
-              padding: { xs: "6px 12px", md: "8px 16px" },
+        {amendmentButtonRoute && (
+          <Box ml={{ md: "auto" }}>
+            <Button
+              variant="contained"
+              onClick={onAmendmentButtonClick}
+              sx={{
+                backgroundColor: "#5A5867",
+                color: "#FFFFFF",
+                "&:hover": {
+                  backgroundColor: "#4A4857",
+                },
+                cursor: "pointer",
+                fontSize: { xs: "0.7rem", sm: "0.9rem", md: "1rem" },
+                padding: { xs: "6px 12px", md: "8px 16px" },
                 textTransform: "capitalize",
-            }}
-          >
-            Amendment Comparison
-          </Button>
-        </Box> */}
+              }}
+            >
+              Reference Document
+            </Button>
+          </Box>
+        )}
       </Stack>
 
       <Box mb={{ md: 4, sm: 3, xs: 2 }}>

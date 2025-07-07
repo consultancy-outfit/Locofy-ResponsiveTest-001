@@ -4,7 +4,7 @@ import {
   img1FunctionalSkillsEnglishConditionsAndRequirementsMainImage,
   img2FunctionalSkillsEnglishConditionsAndRequirementsMainImage,
   img3FunctionalSkillsEnglishConditionsAndRequirementsMainImage,
-  img4FunctionalSkillsEnglishConditionsAndRequirementsMainImage
+  img4FunctionalSkillsEnglishConditionsAndRequirementsMainImage,
 } from "@/assets";
 import React from "react";
 
@@ -31,8 +31,9 @@ const FunctionalSkillsEnglishConditionsAndRequirementsMainPageData = [
     key: "functional-4",
     link: "subject-content-functional-skills-english-main",
     icon: img4FunctionalSkillsEnglishConditionsAndRequirementsMainImage,
-    title: "Appendix 1: subject content (published by the  Department for Education)",
-  }
+    title:
+      "Appendix 1: subject content (published by the  Department for Education)",
+  },
 ];
 
 const FunctionalSkillsEnglishConditionsAndRequirementsMainPage = () => {
@@ -41,6 +42,7 @@ const FunctionalSkillsEnglishConditionsAndRequirementsMainPage = () => {
       arrayData={FunctionalSkillsEnglishConditionsAndRequirementsMainPageData}
       pageTitle=" Functional Skills English Conditions and Requirements "
       backRoute="/functional-skills-support"
+      amendmentButtonRoute="https://orcalo-my.sharepoint.com/personal/shanulhaq_consultancyoutfit_co_uk/_layouts/15/onedrive.aspx?id=%2Fpersonal%2Fshanulhaq%5Fconsultancyoutfit%5Fco%5Fuk%2FDocuments%2FMicrosoft%20Teams%20Chat%20Files%2FFunctional%5FSkills%5FEnglish%5FConditions%5Fand%5FRequirements%5F2024%2Epdf&parent=%2Fpersonal%2Fshanulhaq%5Fconsultancyoutfit%5Fco%5Fuk%2FDocuments%2FMicrosoft%20Teams%20Chat%20Files&ga=1"
     />
   );
 };

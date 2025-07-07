@@ -8,6 +8,7 @@ const WtdNonLevyAgreementV1Page = () => {
       pageTitle={`Apprenticeships / Apprenticeship Roles & Forms Guide / WTD Non-Levy Agreement V1`}
       src={WtdNonLevyAgreementV1Image}
       backRoute="/onboarding-initial-setup"
+      amendmentButtonRoute="https://orcalo-my.sharepoint.com/:w:/g/personal/saqib_hussain_consultancyoutfit_co_uk/EWzxbP4XvjNOh8NrpcWpfDABWIVnxR86xFZhiJUP1ktw6g?e=XqfbyD"
     />
   );
 };

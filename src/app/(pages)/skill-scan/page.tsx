@@ -22,8 +22,6 @@ export default function SkillScanPage() {
     router.push(relevantDiagramsRoute);
   }, [router, relevantDiagramsRoute]);
 
-  
-
   return (
     <Box p={{ md: 3, xs: 2 }}>
       <Stack
@@ -54,7 +52,6 @@ export default function SkillScanPage() {
             {pageTitle}
           </Typography>
         </Box>
-       
       </Stack>
       <Stack
         direction={{ xs: "column", md: "row" }}
@@ -66,7 +63,12 @@ export default function SkillScanPage() {
         <Box flex={1}>
           <CheckboxForm />
         </Box>
-        <Box display="flex" flexDirection={{ xs: "column", md: "row" }} gap={2} ml={{ md: "auto" }}>
+        <Box
+          display="flex"
+          flexDirection={{ xs: "column", md: "row" }}
+          gap={2}
+          ml={{ md: "auto" }}
+        >
           <Button
             variant="contained"
             onClick={onRelevantDiagramsClick}
@@ -104,7 +106,7 @@ export default function SkillScanPage() {
                 textTransform: "capitalize",
               }}
             >
-              Amendment Comparison
+              Reference Document
             </Button>
           </a>
         </Box>

@@ -10,7 +10,7 @@ const SchemeOfWorkMortgageAdviserLevel3Page = () => {
       pageTitle={`Apprenticeship Documents  / Apprenticeship Documents /  Scheme of work Mortgage Adviser Level 3`}
       src={SchemeOfWorkMortgageAdviserLevel3Image}
       backRoute="/training-delivery-off-the-job-learning"
-      // amendmentButtonRoute="/scheme-of-work-mortgage-adviser-level-3"
+      amendmentButtonRoute="https://orcalo-my.sharepoint.com/:w:/g/personal/iram_bashir_consultancyoutfit_co_uk/EQX2YiXllRtDvKlQ60wEhJ0BIKTEAxqmcTvM5cAitexsqw?wdOrigin=TEAMS-MAGLEV.p2p_ns.rwc&wdExp=TEAMS-TREATMENT&wdhostclicktime=1751611108026&web=1"
     />
   );
 };
