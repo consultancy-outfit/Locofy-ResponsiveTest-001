@@ -167,7 +167,7 @@ export { default as SecurityRiskDss04BusniessContinuityImage } from "./SecurityR
 export { default as SecurityRiskDss04DisasterRecoveryPlanningImage } from "./SecurityRiskDSS04DisasterRecoveryPlanningImage.svg";
 export { default as SecurityRiskSecurityManagementImage } from "./SecurityRiskSecurityManagementImage.svg";
 export { default as SecurityRiskDssp6Mea02BusinessProcessControlsAndInternalAuditImage } from "./SecurityRiskDSSP6MEA02BusinessProcessControlsInternalAuditImage.svg";
-// export { default as SecurityRiskMea03ExternalComplianceImage } from "./SecurityRiskMEA03ExternalComplianceImage.svg";
+export { default as SecurityRiskMea03ExternalComplianceImage } from "./SecurityRiskMEA03ExternalComplianceImage.svg";
 export { default as FinancialManagementEdm04CostOptimisationImage } from "./FinancialManagementEDM04CostOptimisationImage.svg";
 export { default as FinancialManagementEdm02BusinessValuesImage } from "./FinancialManagementEDM02BusinessValuesImage.svg";
 export { default as FinancialManagementApo10VendorManagementImage } from "./FinancialManagementAPO10VendorManagementImage.svg";
