@@ -25,7 +25,6 @@ export const PeriodicBoxData = [
         title: "IT Governance",
         tileText: "EDM01",
         boxIcon: dashboardIcon3,
-
         link: "/strategy-governance-edm01-it-governance"
     },
     {
