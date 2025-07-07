@@ -1,4 +1,5 @@
 import Image from "next/image";
+import { useRouter } from "next/navigation";
 import React from "react";
 
 export interface MainImage {
@@ -18,6 +19,7 @@ export interface TableCellData {
   mainImage?: MainImage;
   textRight?: boolean;
   reverse?: string;
+  link?: string;
 }
 
 interface PeriodicTableProps {
@@ -26,6 +28,7 @@ interface PeriodicTableProps {
 }
 
 const PeriodicTable: React.FC<PeriodicTableProps> = ({ cell, colIndex, }) => {
+  const router = useRouter();
 
   const colors: any = {
     "#27475E": "linear-gradient(175deg, rgba(39, 71, 94, 0.04) 21.82%, rgba(39, 71, 94, 0.46) 95.91%)",
@@ -64,58 +67,57 @@ const PeriodicTable: React.FC<PeriodicTableProps> = ({ cell, colIndex, }) => {
     <td
       key={colIndex}
       colSpan={cell.colspan ?? 1}
-      style={{ background: cell.background, borderRadius: "10.062px" }}
+      style={{ background: cell.mainTitle ? (cell.color ? colors[cell.color] : undefined) : cell.background, borderRadius: "10.062px", marginBottom: "30px", cursor: cell.mainHeading || cell?.mainImage ? "default" : "pointer" }}
       className={cell.border ? "no-border" : ""}
+      onClick={() => {
+        if (cell.link) {
+          router.push(cell.link);
+        }
+      }}
     >
-      <>
-        {cell.mainHeading && (
-          <h1 style={{ margin: 0, paddingLeft: "40px", textAlign:"center" }}>{cell.mainHeading}</h1>
+      {cell.mainHeading && (
+        <h1 style={{ margin: 0, paddingLeft: "40px", textAlign: "center", }} >{cell.mainHeading}</h1>
+      )}
+      {cell?.mainImage && (
+        <div>
+          <Image src={cell?.mainImage?.cobit} style={{ width: "100%", height: "100%", }} alt='img' />
+        </div>
+      )}
+      <div>
+        {cell.mainTitle && (
+          <p
+            style={{
+              color: cell.color,
+              padding: "10px",
+              fontSize: "20px",
+              fontWeight: 700,
+              textAlign: "left",
+
+            }}
+          >
+            {cell.mainTitle}
+          </p>
         )}
-        {cell?.mainImage && (
-          <div>
-            <Image src={cell?.mainImage?.cobit} style={{width: "100%", height: "100%" }} alt='img' />
-          </div>
-        )}
-        <div style={{
-          padding: 2,
-          alignContent: "end",
-          background: cell.color ? colors[cell.color] : undefined,
-        }}>
-          {cell.mainTitle && (
-            <p
-              style={{
-                color: cell.color,
-                padding: "10px",
-                fontSize: "20px",
-                fontWeight: 700,
-                textAlign: "left",
 
-              }}
-            >
-              {cell.mainTitle}
-            </p>
-          )}
-
-          <div style={{ width: 60, fontSize: "13.92p", borderRadius: "10.062px 0 0 0", color: "#fff", background: cell.background ? tileColors[cell.background] : undefined, padding: 0.3, textAlign: "center" }}>
-            <small style={{ fontSize: "8px" }}>{cell.code}</small>
-          </div>
-
-          <div style={{ padding: 20, }}>
-            {cell.image && cell.code && (
-              <Image
-                src={cell.image}
-                alt="logo"
-                style={{ width: "20px", height: "20px" }}
-              />
-            )}
-
-            {cell.name && (
-              <p style={{ marginTop: "20px", fontSize: "16px", color: "#fff" }}>{cell.name}</p>
-            )}
-          </div>
+        <div style={{ width: "100%", maxWidth: "100px", borderRadius: "10.062px 0 0 0", color: "#fff", background: cell.background ? tileColors[cell.background] : undefined, padding: 0.3, textAlign: "center" }}>
+          <small style={{ fontSize: "13.92px" }}>{cell.code}</small>
         </div>
 
-      </>
+        <div style={{ padding: 20, }}>
+          {cell.image && cell.code && (
+            <Image
+              src={cell.image}
+              alt="logo"
+              width={41}
+              height={41}
+            />
+          )}
+
+          {cell.name && (
+            <p style={{ marginTop: "20px", fontSize: "16px", color: "#fff" }}>{cell.name}</p>
+          )}
+        </div>
+      </div>
     </td>
   );
 };

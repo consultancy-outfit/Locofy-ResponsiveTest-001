@@ -13,9 +13,8 @@ import Image from "next/image";
 export const CourtHearingSection = () => {
   return (
     <Box>
-      <Box display={{ xs: "none", sm: "none", md: "block", lg: "block", xl: "block" }} justifyContent="space-between" alignItems="center" mb={4}>
-        <div>
-          <table style={{ width: "100%" }}>
+      <Box display={{ xs: "none", sm: "none", md: "block", lg: "block", xl: "block" }} justifyContent="space-between" alignItems="center">
+          <table style={{ width: "100%", }}>
             <tbody>
               {periodicTableArray.map((row, rowIndex) => (
                 <tr key={rowIndex}>
@@ -30,7 +29,6 @@ export const CourtHearingSection = () => {
               ))}
             </tbody>
           </table>
-        </div>
       </Box>
       <Box display={{ xs: "block", sm: "blok", md: "none", lg: "none", xl: "none" }}>
         <Box sx={{ my: 5, textAlign: "center" }}>
@@ -44,6 +42,8 @@ export const CourtHearingSection = () => {
             <Grid size={{ xs: 12, sm: 4, }} key={item.id}>
               <ProcessBox
                 color={item?.color}
+                link={item?.link}
+                boxIcon={item?.boxIcon}
                 topTitle={item.topTitle}
                 tileText={item.tileText}
                 title={item.title}
