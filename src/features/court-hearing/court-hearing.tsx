@@ -13,7 +13,7 @@ import Image from "next/image";
 export const CourtHearingSection = () => {
   return (
     <Box>
-      <Box display={{ xs: "none", sm: "none", md: "block", lg: "block", xl: "block" }} justifyContent="space-between" alignItems="center">
+      {/* <Box display={{ xs: "none", sm: "none", md: "block", lg: "block", xl: "block" }} justifyContent="space-between" alignItems="center">
           <table style={{ width: "100%", }}>
             <tbody>
               {periodicTableArray.map((row, rowIndex) => (
@@ -29,8 +29,8 @@ export const CourtHearingSection = () => {
               ))}
             </tbody>
           </table>
-      </Box>
-      <Box display={{ xs: "block", sm: "blok", md: "none", lg: "none", xl: "none" }}>
+      </Box> */}
+      {/* <Box display={{ xs: "block", sm: "blok", md: "none", lg: "none", xl: "none" }}> */}
         <Box sx={{ my: 5, textAlign: "center" }}>
           <Image src={cobiTLogo} alt="" width={150} height={150} />
           <Typography variant="h4" fontWeight="700" p={0.5} textAlign="center" >
@@ -53,6 +53,6 @@ export const CourtHearingSection = () => {
           ))}
         </Grid>
       </Box>
-    </Box>
+    // </Box>
   );
 };

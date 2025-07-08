@@ -1,7 +1,7 @@
 import React from "react";
 import { Box, Typography, Card, CardActions } from "@mui/material";
 import Image from "next/image";
-import Link from "next/link";
+import { useRouter } from "next/navigation";
 
 type PeriodicBoxProps = {
   reverse?: string;
@@ -60,18 +60,19 @@ const PeriodicBox: React.FC<PeriodicBoxProps> = ({
     "#4A516B": "#192451",
   };
 
-  return (
+  const router = useRouter();
 
-    <Link href={link}>
+  return (
     <Box
-      // onClick={() => { router.push(link); }}
+      onClick={() => { router.push(link); }}
       sx={{
         display: "flex",
         flexDirection: reverse ? "column-reverse" : "column",
         borderRadius: "10.062px",
         height: "100%",
         margin: "0px",
-        boxShadow: "none"
+        boxShadow: "none",
+        cursor:"pointer"
       }}
 
     >
@@ -129,7 +130,6 @@ const PeriodicBox: React.FC<PeriodicBoxProps> = ({
         </CardActions>
       </Card>
     </Box>
-    </Link>
   );
 };
 
