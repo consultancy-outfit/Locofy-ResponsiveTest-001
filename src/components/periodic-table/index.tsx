@@ -1,6 +1,6 @@
+import React from "react";
 import Image from "next/image";
 import { useRouter } from "next/navigation";
-import React from "react";
 
 export interface MainImage {
   cobit: any;
@@ -62,7 +62,6 @@ const PeriodicTable: React.FC<PeriodicTableProps> = ({ cell, colIndex, }) => {
     "#4A516B": "#192451",
   };
 
-
   return (
     <td
       key={colIndex}
@@ -75,8 +74,10 @@ const PeriodicTable: React.FC<PeriodicTableProps> = ({ cell, colIndex, }) => {
         minWidth: "150px",
         minHeight: "150px",
         overflow: "hidden",
-        //  alignContent:"flex-start",
-        background: cell.mainTitle ? (cell.color ? colors[cell.color] : undefined) : cell.background, borderRadius: "10.062px", marginBottom: "30px", cursor: cell.mainHeading || cell?.mainImage ? "default" : "pointer"
+        alignContent: "start",
+        background: cell.mainTitle ? (cell.color ? colors[cell.color] : undefined) : cell.background,
+        borderRadius: "10.062px", marginBottom: "30px",
+        cursor: cell.mainHeading || cell?.mainImage ? "default" : "pointer"
       }}
       className={cell.border ? "no-border" : ""}
       onClick={() => {
@@ -86,10 +87,10 @@ const PeriodicTable: React.FC<PeriodicTableProps> = ({ cell, colIndex, }) => {
       }}
     >
       {cell.mainHeading && (
-        <h1 style={{ margin: 0, textAlign: "center", fontSize: "40px", height:"88%", color: "#25485C",}} >{cell.mainHeading}</h1>
+        <h1 style={{ margin: 0, textAlign: "center", fontSize: "40px", height: "88%", color: "#25485C", }} >{cell.mainHeading}</h1>
       )}
       {cell?.mainImage && (
-          <Image src={cell?.mainImage?.cobit} style={{ width: "100%", height: "100%", }} alt='img' />
+        <Image src={cell?.mainImage?.cobit} style={{ width: "100%", height: "100%", }} alt='img' />
       )}
       <div>
         {cell.mainTitle && (
