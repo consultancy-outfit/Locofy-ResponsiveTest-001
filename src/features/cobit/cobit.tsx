@@ -13,6 +13,7 @@ import { PeriodicBoxData, periodicTableArray } from "./cobit-data";
 const CobitFeature = () => {
   return (
     <Box>
+      New Code
       <Box display={{ xs: "none", sm: "none", md: "block", lg: "block", xl: "block" }} justifyContent="space-between" alignItems="center">
         <table style={{ width: "100%" }}>
           <tbody>

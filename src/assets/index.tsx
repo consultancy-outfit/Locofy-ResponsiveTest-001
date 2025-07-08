@@ -100,6 +100,7 @@
 // export { default as PsychiatricAssessmentMentalHealthDisordersImg12 } from "./PsychiatricAssessmentMentalHealthDisordersImg12.svg";
 // export { default as PsychiatricAssessmentMentalHealthDisordersImg13 } from "./PsychiatricAssessmentMentalHealthDisordersImg13.svg";
 // export { default as PsychiatricAssessmentMentalHealthDisordersImg14 } from "./PsychiatricAssessmentMentalHealthDisordersImg14.svg";
+export { default as logo2 } from "./logo2.jpg";
 export { default as dashboardIcon1 } from "./dashboard-icon1.svg";
 export { default as dashboardIcon2 } from "./dashboard-icon2.svg";
 export { default as dashboardIcon3 } from "./dashboard-icon3.svg";
