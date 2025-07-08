@@ -1,8 +1,6 @@
 import Image from "next/image";
-// import Link from "next/link";
 import { useRouter } from "next/navigation";
 import React from "react";
-import Link from '@mui/material/Link';
 
 export interface MainImage {
   cobit: string;
@@ -21,7 +19,7 @@ export interface TableCellData {
   mainImage?: MainImage;
   textRight?: boolean;
   reverse?: string;
-  link?: any;
+  link?: string;
 }
 
 interface PeriodicTableProps {
@@ -77,7 +75,6 @@ const PeriodicTable: React.FC<PeriodicTableProps> = ({ cell, colIndex, }) => {
         }
       }}
     >
-      <Link href={cell.link} sx={{textDecoration:"none"}}>
       {cell.mainHeading && (
         <h1 style={{ margin: 0, paddingLeft: "40px", textAlign: "center", }} >{cell.mainHeading}</h1>
       )}
@@ -121,7 +118,6 @@ const PeriodicTable: React.FC<PeriodicTableProps> = ({ cell, colIndex, }) => {
           )}
         </div>
       </div>
-      </Link>
     </td>
   );
 };
