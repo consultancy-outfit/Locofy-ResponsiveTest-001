@@ -8,7 +8,7 @@ import {
   img5OnboardinginitialSetupImage,
   img6OnboardinginitialSetupImage,
   img7OnboardinginitialSetupImage,
-  img8OnboardinginitialSetupImage
+  img8OnboardinginitialSetupImage,
 } from "@/assets";
 import React from "react";
 
@@ -29,7 +29,8 @@ const OnboardinginitialSetupPageData = [
     key: "onboarding-3",
     link: "/app3-checklistmanagementuniversityapprenticeships",
     icon: img3OnboardinginitialSetupImage,
-    title: "APP3_ChecklistManagementUniversityApprenticeships",
+    title: `APP3_ChecklistManageme
+    ntUniversityApprenticeships`,
   },
   {
     key: "onboarding-4",
@@ -60,7 +61,7 @@ const OnboardinginitialSetupPageData = [
     link: "/performa-template-wtd-2025-performa-template-wtd-2025",
     icon: img8OnboardinginitialSetupImage,
     title: "Performa Template WTD 2025",
-  }
+  },
 ];
 
 const OnboardinginitialSetupPage = () => {

@@ -8,14 +8,12 @@ import { CheckboxForm } from "@/components/checkbox-form";
 import {
   GuidanceDocumentRedimg1,
   GuidanceDocumentRedimg3,
-  GuidanceDocumentRedimg2,
   GuidanceDocumentRedimg4,
 } from "@/assets";
 
 const images = [
   GuidanceDocumentRedimg1,
   GuidanceDocumentRedimg3,
-  GuidanceDocumentRedimg2,
   GuidanceDocumentRedimg4,
 ];
 const routes = [

@@ -5,7 +5,7 @@ import React from "react";
 const WtdHowToRecoverYourDasAccountGuidePage = () => {
   return (
     <CommonPage
-      pageTitle={`Apprenticeships / WTD How to Recover your DAS Account Guide`}
+      pageTitle={`Apprenticeships / DAS Guidance / WTD How to Recover your DAS Account Guide`}
       src={WtdHowToRecoverYourDasAccountGuideImage}
       backRoute="/das-guidance"
     />

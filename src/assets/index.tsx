@@ -220,3 +220,6 @@ export { default as TptaPortfolioOfEvidenceTemplateImage } from "./TptaPortfolio
 export { default as CertificateImage } from "./CertificateImage.svg";
 export { default as MathImage } from "./MathImage.svg";
 export { default as RequirementsthreeImage } from "./RequirementsthreeImage.svg";
+export { default as TrainingPlanImage1 } from "./training-plan-image-1.svg";
+export { default as TrainingPlanImage2 } from "./training-plan-image-2.svg";
+export { default as TrainingPlanImage3 } from "./training-plan-image-3.svg";

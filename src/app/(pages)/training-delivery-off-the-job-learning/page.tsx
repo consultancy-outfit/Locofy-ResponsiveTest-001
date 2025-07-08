@@ -7,7 +7,7 @@ import {
   img4TrainingDeliveryoffTheJobLearningImage,
   img5TrainingDeliveryoffTheJobLearningImage,
   img6TrainingDeliveryoffTheJobLearningImage,
-  img7TrainingDeliveryoffTheJobLearningImage
+  img7TrainingDeliveryoffTheJobLearningImage,
 } from "@/assets";
 import React from "react";
 
@@ -16,7 +16,8 @@ const TrainingDeliveryoffTheJobLearningPageData = [
     key: "training-1",
     link: "/tjt-evidence-collection-template-23-24-rules-v1-0-2",
     icon: img1TrainingDeliveryoffTheJobLearningImage,
-    title: "2023_10_OTJT_Evidence_Collection_Template_-_23_24_Rules_v1.0 (2)",
+    title: `2023_10_OTJT_Evidence_C
+    ollection_Template_-_23_24_Rules_v1.0 (2)`,
   },
   {
     key: "training-2",
@@ -53,7 +54,7 @@ const TrainingDeliveryoffTheJobLearningPageData = [
     link: "/apprenticeship-workplace-assignments-examples",
     icon: img7TrainingDeliveryoffTheJobLearningImage,
     title: "Work Place Assignments #examples",
-  }
+  },
 ];
 
 const TrainingDeliveryoffTheJobLearningPage = () => {

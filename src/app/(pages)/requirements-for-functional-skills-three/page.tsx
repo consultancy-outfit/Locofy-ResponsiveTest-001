@@ -5,7 +5,7 @@ import React from "react";
 const RequirementsForFunctionalSkillsQualificationsInMathematicsFunctionalSkillsMathematicsConditionsAndRequirementsPage = () => {
   return (
     <CommonPage
-      pageTitle={`Apprenticeship Journey / Apprenticeship Documents / Appendix 1: subject content (published by the Department for Education)`}
+      pageTitle={`Apprenticeship Journey / Apprenticeship Documents / Appendix 1: subject content (Published by the Department for Education)`}
       src={RequirementsthreeImage}
       backRoute="/functional-skills-math"
     />
