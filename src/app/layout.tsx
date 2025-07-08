@@ -36,11 +36,11 @@ export const metadata: Metadata = {
   openGraph: {
     title: "COBIT 2019",
     description: "Concise visual breakdowns and structured diagrams for clear, accessible insight.",
-    url: "https://courthearing.netlify.app/",
+    url: "https://cobitframework.netlify.app/",
     type: "website",
     images: [
       {
-        url: "https://courthearing.netlify.app/og.png",
+        url: "https://cobitframework.netlify.app/og.png",
         type: "image/png",
         width: 1200,
         height: 630,
