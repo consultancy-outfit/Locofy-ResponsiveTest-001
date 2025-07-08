@@ -29,7 +29,6 @@ const CobitFeature = () => {
             ))}
           </tbody>
         </table>
-
       </Box>
       <Box display={{ xs: "block", sm: "blok", md: "none", lg: "none", xl: "none" }} m={0.5}>
         <Box sx={{ my: 5, textAlign: "center" }}>

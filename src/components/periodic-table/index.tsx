@@ -75,6 +75,7 @@ const PeriodicTable: React.FC<PeriodicTableProps> = ({ cell, colIndex, }) => {
         minWidth: "150px",
         minHeight: "150px",
         overflow: "hidden",
+        //  alignContent:"flex-start",
         background: cell.mainTitle ? (cell.color ? colors[cell.color] : undefined) : cell.background, borderRadius: "10.062px", marginBottom: "30px", cursor: cell.mainHeading || cell?.mainImage ? "default" : "pointer"
       }}
       className={cell.border ? "no-border" : ""}
@@ -85,7 +86,7 @@ const PeriodicTable: React.FC<PeriodicTableProps> = ({ cell, colIndex, }) => {
       }}
     >
       {cell.mainHeading && (
-        <h1 style={{ margin: 0, paddingLeft: "40px", textAlign: "center", }} >{cell.mainHeading}</h1>
+        <h1 style={{ margin: 0, textAlign: "center", fontSize: "40px", height:"88%", color: "#25485C",}} >{cell.mainHeading}</h1>
       )}
       {cell?.mainImage && (
         <div>

@@ -417,7 +417,6 @@ export const periodicTableArray = [
             {},
             {},
             { mainImage: { cobit: logo2, }, colspan: 2, },
-            // {},
             {},
             {},
             {},
@@ -434,9 +433,7 @@ export const periodicTableArray = [
                 link: "/strategy-governance-mea01-performance-measurement"
             },
             {},
-            {},
-            { mainHeading: "IT Management & Governance Framework.", colspan: 4 },
-            {},
+            { mainHeading: "IT Management & Governance Framework", colspan: 6 },
             {},
             {
                 name: "External Compliance",
