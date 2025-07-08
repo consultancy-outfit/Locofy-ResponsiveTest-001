@@ -2,6 +2,7 @@ import React from "react";
 import { Box, Typography, Card, CardActions } from "@mui/material";
 import Image from "next/image";
 import { useRouter } from "next/navigation";
+import Link from "next/link";
 
 type PeriodicBoxProps = {
   reverse?: string;
@@ -63,73 +64,75 @@ const PeriodicBox: React.FC<PeriodicBoxProps> = ({
   const router = useRouter();
 
   return (
-    <Box
-      onClick={() => { router.push(link); }}
-      sx={{
-        display: "flex",
-        flexDirection: reverse ? "column-reverse" : "column",
-        borderRadius: "10.062px",
-        height: "100%",
-        margin: "0px",
-        boxShadow: "none",
-        cursor:"pointer"
-      }}
-
-    >
-      {topTitle && (
-        <Box
-          sx={{
-            background: color && colors[color] ? colors[color] : "transparent",
-            flexShrink: 0,
-            p: 2,
-            marginTop: reverse ? "-10px" : "0px",
-            paddingTop: reverse ? "30px" : "30px",
-            paddingBottom: reverse ? "70px" : "50px",
-            zIndex: -1,
-          }}
-        >
-          <Typography variant="h6" fontWeight="700" p={0.5} color={color}>
-            {topTitle}
-          </Typography>
-        </Box>
-      )}
-      <Card
+    <Link href={link}>
+      <Box
+        onClick={() => { router.push(link); }}
         sx={{
-          width: "100%",
-          height: "100%",
-          backgroundColor: color,
+          display: "flex",
+          flexDirection: reverse ? "column-reverse" : "column",
           borderRadius: "10.062px",
-          marginTop: reverse ? "0px" : "-6px",
+          height: "100%",
+          margin: "0px",
+          boxShadow: "none",
+          cursor: "pointer"
         }}
+
       >
-        <Typography
-          variant="subtitle2"
-          fontWeight="400"
-          color="#ffffff"
-          bgcolor={color && tileColors[color] ? tileColors[color] : undefined}
-          p={0.5}
-          width={70}
-          textAlign={"center"}
-          style={{ borderRadius: "10.062px 0px 0px 0px" }}
-        >
-          {tileText}
-        </Typography>
-        <CardActions>
-          <Box sx={{ p: 2 }}>
-            <Image
-              src={boxIcon}
-              alt=""
-              width={70}
-              height={70}
-              style={{ margin: "20px 0" }}
-            />
-            <Typography variant="subtitle1" fontWeight="500" color="#ffffff">
-              {title}
+        {topTitle && (
+          <Box
+            sx={{
+              background: color && colors[color] ? colors[color] : "transparent",
+              flexShrink: 0,
+              p: 2,
+              marginTop: reverse ? "-10px" : "0px",
+              paddingTop: reverse ? "30px" : "30px",
+              paddingBottom: reverse ? "70px" : "50px",
+              zIndex: -1,
+            }}
+          >
+            <Typography variant="h6" fontWeight="700" p={0.5} color={color}>
+              {topTitle}
             </Typography>
           </Box>
-        </CardActions>
-      </Card>
-    </Box>
+        )}
+        <Card
+          sx={{
+            width: "100%",
+            height: "100%",
+            backgroundColor: color,
+            borderRadius: "10.062px",
+            marginTop: reverse ? "0px" : "-6px",
+          }}
+        >
+          <Typography
+            variant="subtitle2"
+            fontWeight="400"
+            color="#ffffff"
+            bgcolor={color && tileColors[color] ? tileColors[color] : undefined}
+            p={0.5}
+            width={70}
+            textAlign={"center"}
+            style={{ borderRadius: "10.062px 0px 0px 0px" }}
+          >
+            {tileText}
+          </Typography>
+          <CardActions>
+            <Box sx={{ p: 2 }}>
+              <Image
+                src={boxIcon}
+                alt=""
+                width={70}
+                height={70}
+                style={{ margin: "20px 0" }}
+              />
+              <Typography variant="subtitle1" fontWeight="500" color="#ffffff">
+                {title}
+              </Typography>
+            </Box>
+          </CardActions>
+        </Card>
+      </Box>
+    </Link>
   );
 };
 
