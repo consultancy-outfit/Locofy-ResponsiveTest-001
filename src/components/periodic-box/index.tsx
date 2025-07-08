@@ -71,7 +71,8 @@ const PeriodicBox: React.FC<PeriodicBoxProps> = ({
           display: "flex",
           flexDirection: reverse ? "column-reverse" : "column",
           borderRadius: "10.062px",
-          height: "100%",
+          height: "320px",
+          width: "320px",
           margin: "0px",
           boxShadow: "none",
           cursor: "pointer"

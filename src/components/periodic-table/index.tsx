@@ -3,7 +3,7 @@ import { useRouter } from "next/navigation";
 import React from "react";
 
 export interface MainImage {
-  cobit: string;
+  cobit: any;
 }
 
 export interface TableCellData {
@@ -67,7 +67,16 @@ const PeriodicTable: React.FC<PeriodicTableProps> = ({ cell, colIndex, }) => {
     <td
       key={colIndex}
       colSpan={cell.colspan ?? 1}
-      style={{ background: cell.mainTitle ? (cell.color ? colors[cell.color] : undefined) : cell.background, borderRadius: "10.062px", marginBottom: "30px", cursor: cell.mainHeading || cell?.mainImage ? "default" : "pointer" }}
+      style={{
+        width: "150px",
+        height: "150px",
+        maxWidth: "150px",
+        maxHeight: "150px",
+        minWidth: "150px",
+        minHeight: "150px",
+        overflow: "hidden",
+        background: cell.mainTitle ? (cell.color ? colors[cell.color] : undefined) : cell.background, borderRadius: "10.062px", marginBottom: "30px", cursor: cell.mainHeading || cell?.mainImage ? "default" : "pointer"
+      }}
       className={cell.border ? "no-border" : ""}
       onClick={() => {
         if (cell.link) {

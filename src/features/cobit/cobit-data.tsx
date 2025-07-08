@@ -1,4 +1,4 @@
-import { cobiTLogo, dashboardIcon1, dashboardIcon10, dashboardIcon11, dashboardIcon12, dashboardIcon13, dashboardIcon14, dashboardIcon15, dashboardIcon16, dashboardIcon17, dashboardIcon18, dashboardIcon19, dashboardIcon2, dashboardIcon20, dashboardIcon21, dashboardIcon22, dashboardIcon23, dashboardIcon24, dashboardIcon26, dashboardIcon27, dashboardIcon28, dashboardIcon29, dashboardIcon3, dashboardIcon30, dashboardIcon31, dashboardIcon32, dashboardIcon33, dashboardIcon34, dashboardIcon35, dashboardIcon36, dashboardIcon37, dashboardIcon38, dashboardIcon39, dashboardIcon4, dashboardIcon40, dashboardIcon41, dashboardIcon42, dashboardIcon43, dashboardIcon44, dashboardIcon45, dashboardIcon46, dashboardIcon47, dashboardIcon48, dashboardIcon49, dashboardIcon5, dashboardIcon6, dashboardIcon7, dashboardIcon8, dashboardIcon9 } from "@/assets";
+import { logo2, dashboardIcon1, dashboardIcon10, dashboardIcon11, dashboardIcon12, dashboardIcon13, dashboardIcon14, dashboardIcon15, dashboardIcon16, dashboardIcon17, dashboardIcon18, dashboardIcon19, dashboardIcon2, dashboardIcon20, dashboardIcon21, dashboardIcon22, dashboardIcon23, dashboardIcon24, dashboardIcon26, dashboardIcon27, dashboardIcon28, dashboardIcon29, dashboardIcon3, dashboardIcon30, dashboardIcon31, dashboardIcon32, dashboardIcon33, dashboardIcon34, dashboardIcon35, dashboardIcon36, dashboardIcon37, dashboardIcon38, dashboardIcon39, dashboardIcon4, dashboardIcon40, dashboardIcon41, dashboardIcon42, dashboardIcon43, dashboardIcon44, dashboardIcon45, dashboardIcon46, dashboardIcon47, dashboardIcon48, dashboardIcon49, dashboardIcon5, dashboardIcon6, dashboardIcon7, dashboardIcon8, dashboardIcon9 } from "@/assets";
 
 export const PeriodicBoxData = [
     {
@@ -7,7 +7,7 @@ export const PeriodicBoxData = [
         title: "Managed Assurance",
         tileText: "MEA04",
         topTitle: "Strategy & Governance",
-        reverse: "column-reverse",
+        // reverse: "column-reverse",
         boxIcon: dashboardIcon1,
         link: "/strategy-governance-mea04managed-assurance"
     },
@@ -67,7 +67,7 @@ export const PeriodicBoxData = [
         title: "External Compliance",
         tileText: "MEA03",
         topTitle: "Security & Risk",
-        reverse: "column-reverse",
+        // reverse: "column-reverse",
         boxIcon: dashboardIcon8,
         link: "/"
     },
@@ -150,7 +150,7 @@ export const PeriodicBoxData = [
         boxIcon: dashboardIcon18,
         tileText: "EDM04",
         topTitle: "Financial Management",
-        reverse: "column-reverse",
+        // reverse: "column-reverse",
         link: "/financial-managementedm04cost-optimisation"
     },
     {
@@ -160,7 +160,7 @@ export const PeriodicBoxData = [
         boxIcon: dashboardIcon19,
         tileText: "ITRG08",
         topTitle: "Data & BI",
-        reverse: "column-reverse",
+        // reverse: "column-reverse",
         link: "/data-biitrg08data-quality"
     },
     {
@@ -194,7 +194,7 @@ export const PeriodicBoxData = [
         boxIcon: dashboardIcon23,
         tileText: "BAI05",
         topTitle: "PPM & Projects",
-        reverse: "column-reverse",
+        // reverse: "column-reverse",
         link: "/ppm-projects-bai05-organisational-change-management"
     },
     {
@@ -244,7 +244,7 @@ export const PeriodicBoxData = [
         boxIcon: dashboardIcon30,
         tileText: "ITRG03",
         topTitle: "Strategy & Governance",
-        reverse: "column-reverse",
+        // reverse: "column-reverse",
         link: "/service-planning-architecture-itrg03-manage-service-catalogs"
     },
     {
@@ -270,7 +270,7 @@ export const PeriodicBoxData = [
         boxIcon: dashboardIcon37,
         tileText: "ITRG05",
         topTitle: "Applications(Apps)",
-        reverse: "column-reverse",
+        // reverse: "column-reverse",
         link: "/applicationsapps-bai07-application-development-quality"
     },
     {
@@ -287,7 +287,7 @@ export const PeriodicBoxData = [
         title: "Enterprise Application Selection & Implementation",
         boxIcon: dashboardIcon34,
         tileText: "BAI03",
-        reverse: "column-reverse",
+        // reverse: "column-reverse",
         link: "/applicationsapps-bai03-enterprise-application-selection-implementation"
     },
     {
@@ -313,7 +313,7 @@ export const PeriodicBoxData = [
         boxIcon: dashboardIcon38,
         tileText: "ITRG02",
         topTitle: "People & Resources",
-        reverse: "column-reverse",
+        // reverse: "column-reverse",
         link: "/people-resources-leadership-cultural-values"
     },
     {
@@ -347,7 +347,7 @@ export const PeriodicBoxData = [
         boxIcon: dashboardIcon42,
         tileText: "DSS03",
         topTitle: "Infrastructure & Operations",
-        reverse: "column-reverse",
+        // reverse: "column-reverse",
         link: "/infrastructure-operations-dss03-incident-and-problem-managment"
     },
     {
@@ -416,8 +416,8 @@ export const periodicTableArray = [
             {},
             {},
             {},
-            { mainImage: { cobit: cobiTLogo, }, },
-            {},
+            { mainImage: { cobit: logo2, }, colspan: 2, },
+            // {},
             {},
             {},
             {},
@@ -458,7 +458,6 @@ export const periodicTableArray = [
                 background: "#27475E",
                 link: "/strategy-governance-mea01-performance-measurement"
             },
-
             {
                 name: "IT Governance",
                 code: "EDM01",
@@ -466,7 +465,6 @@ export const periodicTableArray = [
                 background: "#27475E",
                 link: "/strategy-governance-edm01-it-governance"
             },
-
             {
                 name: "Stakeholder Relation",
                 code: "APO08",
@@ -474,12 +472,11 @@ export const periodicTableArray = [
                 background: "#27475E",
                 link: "/strategy-governance-apo08-edm05-stakeholder-relation"
             },
-
-
             {},
             {
                 mainTitle: "Data & BI",
                 colspan: 1,
+                width: "1450px",
                 textRight: true,
                 link: "/data-biitrg08data-quality", color: "#BC6B3C",
             },
@@ -492,7 +489,6 @@ export const periodicTableArray = [
                 background: "#FF6D41",
                 link: "/security-riskdss04-disaster-recovery-planning"
             },
-
             {
                 name: "Security Management",
                 code: "DSS05",
@@ -500,7 +496,6 @@ export const periodicTableArray = [
                 background: "#FF6D41",
                 link: "/security-risksecurity-management"
             },
-
             {
                 name: "Business process controls & internal audit",
                 code: "DSS06-MEA02",
@@ -508,7 +503,6 @@ export const periodicTableArray = [
                 background: "#FF6D41",
                 link: "/security-riskdssp6-mea02-business-process-controls-and-internal-audit"
             },
-
         ],
     },
     {
@@ -520,7 +514,6 @@ export const periodicTableArray = [
                 background: "#27475E",
                 link: "/strategy-governance-apo04-innovation"
             },
-
             {
                 name: "IT Strategy",
                 code: "APO02",
@@ -528,7 +521,6 @@ export const periodicTableArray = [
                 background: "#27475E",
                 link: "/strategy-governance-apo02-it-strategy"
             },
-
             {
                 name: "IT Management & Policies",
                 code: "APO01",
@@ -536,7 +528,6 @@ export const periodicTableArray = [
                 background: "#27475E",
                 link: "/strategy-governance-apo01-it-management-policies"
             },
-
             { mainTitle: "Financial Management", border: true, link: "/financial-managementedm04cost-optimisation", color: "#B89959" },
             {
                 name: "Data Quality",
@@ -545,7 +536,6 @@ export const periodicTableArray = [
                 background: "#BC6B3C",
                 link: "/data-biitrg08data-quality"
             },
-
             {
                 name: "Data Architecture",
                 code: "ITRG07",
@@ -553,7 +543,6 @@ export const periodicTableArray = [
                 background: "#BC6B3C",
                 link: "/data-biitrg07data-architecture"
             },
-
             { mainTitle: "PPM & Projects", border: true, link: "/ppm-projects-bai05-organisational-change-management", color: "#1E807F" },
             {
                 name: "Business Continuity",
@@ -562,7 +551,6 @@ export const periodicTableArray = [
                 background: "#FF6D41",
                 link: "/security-riskdss04-busniess-continuity"
             },
-
             {
                 name: "Security Strategy",
                 code: "APO13",
@@ -570,7 +558,6 @@ export const periodicTableArray = [
                 background: "#FF6D41",
                 link: "/security-risk-apo13-security-strategy"
             },
-
             {
                 name: "Risk Management",
                 code: "APO12-EDM03",
@@ -590,7 +577,6 @@ export const periodicTableArray = [
                 background: "#B89959",
                 link: "/financial-managementapo06cost-budget-management"
             },
-
             {
                 name: "Vendor Management",
                 code: "APO10",
@@ -598,7 +584,6 @@ export const periodicTableArray = [
                 background: "#B89959",
                 link: "/financial-managementapo10vendor-management"
             },
-
             {
                 name: "Business Values",
                 code: "EDM02",
@@ -606,7 +591,6 @@ export const periodicTableArray = [
                 background: "#B89959",
                 link: "/financial-managementedm02business-values"
             },
-
             {
                 name: "Cost Optimisation",
                 code: "EDM04",
@@ -614,7 +598,6 @@ export const periodicTableArray = [
                 background: "#B89959",
                 link: "/financial-managementedm04cost-optimisation"
             },
-
             {
                 name: "Business Intelligence & Reporting",
                 code: "ITRG06",
@@ -622,7 +605,6 @@ export const periodicTableArray = [
                 background: "#BC6B3C",
                 link: "/data-biitrg06business-intelligence-reporting"
             },
-
             {
                 name: "Managed Data",
                 code: "APO14",
@@ -630,7 +612,6 @@ export const periodicTableArray = [
                 background: "#BC6B3C",
                 link: "/data-biapo14managed-data"
             },
-
             {
                 name: "Organisational change management",
                 code: "BAI05",
@@ -638,7 +619,6 @@ export const periodicTableArray = [
                 background: "#1E807F",
                 link: "/ppm-projects-bai05-organisational-change-management"
             },
-
             {
                 name: "Requirements Gathering",
                 code: "BAI02",
@@ -646,7 +626,6 @@ export const periodicTableArray = [
                 background: "#1E807F",
                 link: "/ppm-projects-bai02-requirements-gathering"
             },
-
             {
                 name: "Project Management",
                 code: "BAI01",
@@ -654,7 +633,6 @@ export const periodicTableArray = [
                 background: "#1E807F",
                 link: "/ppm-projects-bai01-project-management"
             },
-
             {
                 name: "Portfolio Management",
                 code: "APO05",
@@ -674,7 +652,6 @@ export const periodicTableArray = [
                 background: "#4184BB",
                 link: "/service-planning-architecture-bai11-managed-projects"
             },
-
             {
                 name: "Quality Management-Audit Form",
                 code: "APO11",
@@ -682,7 +659,6 @@ export const periodicTableArray = [
                 background: "#4184BB",
                 link: "/service-planning-architecture-apo11-quality-management-audit-form"
             },
-
             {
                 name: "Manage Service Catalogs",
                 code: "ITRG03",
@@ -690,7 +666,6 @@ export const periodicTableArray = [
                 background: "#4184BB",
                 link: "/service-planning-architecture-itrg03-manage-service-catalogs"
             },
-
             {
                 name: "Application Development Throughput",
                 code: "BAI03",
@@ -698,7 +673,6 @@ export const periodicTableArray = [
                 background: "#7A1F48",
                 link: "/applicationsapps-itrg05-application-maintainance"
             },
-
             {
                 name: "Enterprise Application Selection & Implementation",
                 code: "BAI03",
@@ -706,7 +680,6 @@ export const periodicTableArray = [
                 background: "#7A1F48",
                 link: "/applicationsapps-bai03-enterprise-application-selection-implementation"
             },
-
             {
                 name: "Leadership, Cultural Values",
                 code: "ITRG02",
@@ -714,7 +687,6 @@ export const periodicTableArray = [
                 background: "#4A516B",
                 link: "/people-resources-leadership-cultural-values"
             },
-
             {
                 name: "IT Organisational Design",
                 code: "ITRG01",
@@ -722,7 +694,6 @@ export const periodicTableArray = [
                 background: "#4A516B",
                 link: "/people-resources-it-organisational-design"
             },
-
             {
                 name: "Incident and Problem Management",
                 code: "DSS03",
@@ -730,7 +701,6 @@ export const periodicTableArray = [
                 background: "#222AA1",
                 link: "/infrastructure-operations-dss03-incident-and-problem-managment"
             },
-
             {
                 name: "Service Desk",
                 code: "DSS02",
@@ -738,7 +708,6 @@ export const periodicTableArray = [
                 background: "#222AA1",
                 link: "/infrastructure-operations-dss02-service-desk"
             },
-
             {
                 name: "Operations Management",
                 code: "DSS01",
@@ -758,7 +727,6 @@ export const periodicTableArray = [
                 background: "#4184BB",
                 link: "/service-planning-architecture-apo09-service-management-audit-form"
             },
-
             {
                 name: "Enterprise Architecture",
                 code: "APO03",
@@ -766,7 +734,6 @@ export const periodicTableArray = [
                 background: "#4184BB",
                 link: "/service-planning-architecture-apo03-enterprise-architecture"
             },
-
             {
                 mainTitle: "Service Planning & Architecture",
                 colspan: 1,
@@ -780,7 +747,6 @@ export const periodicTableArray = [
                 background: "#7A1F48",
                 link: "/applicationsapps-bai07-application-development-quality"
             },
-
             {
                 name: "Application Portfolio Management",
                 code: "ITRG04",
@@ -788,7 +754,6 @@ export const periodicTableArray = [
                 background: "#7A1F48",
                 link: "/applicationsapps-itrg04-application-portfolio-management"
             },
-
             {
                 mainTitle: "People & Resources",
                 colspan: 1,
@@ -817,7 +782,6 @@ export const periodicTableArray = [
                 background: "#222AA1",
                 link: "/infrastructure-operations-bai10-configuration-management"
             },
-
             {
                 name: "Asset Management",
                 code: "BAI09",
@@ -842,7 +806,6 @@ export const periodicTableArray = [
                 background: "#7A1F48",
                 link: "/applicationsapps-bai07-application-development-quality"
             },
-
             {},
             {
                 name: "Human Resources Management",
@@ -851,7 +814,6 @@ export const periodicTableArray = [
                 background: "#4A516B",
                 link: "/people-resourceshuman-resources-management"
             },
-
             {},
             {
                 name: "Release Management",
@@ -860,7 +822,6 @@ export const periodicTableArray = [
                 background: "#222AA1",
                 link: "/infrastructure-operations-bai0-release-management"
             },
-
             {
                 name: "Change Management",
                 code: "BAI06",
