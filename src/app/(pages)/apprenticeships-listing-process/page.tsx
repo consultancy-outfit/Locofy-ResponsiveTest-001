@@ -13,7 +13,8 @@ export default function ApprenticeshipsListingProcessPage() {
   const pageTitle = `Apprenticeships / Apprenticeships Listing Process`;
   const backRoute = "/apprenticeshipjourney-1";
   const relevantDiagramsRoute = "/apprenticeship";
-  const amendmentComparisonRoute = "/overview-of-apprenticeship-delivery-process";
+  const amendmentComparisonRoute =
+    "/overview-of-apprenticeship-delivery-process";
 
   const onBackIconClick = useCallback(() => {
     router.push(backRoute);
@@ -89,7 +90,7 @@ export default function ApprenticeshipsListingProcessPage() {
               textTransform: "capitalize",
             }}
           >
-           Apprenticeships Breakdown
+            Apprenticeships Breakdown
           </Button>
           <Button
             variant="contained"
@@ -106,7 +107,7 @@ export default function ApprenticeshipsListingProcessPage() {
               textTransform: "capitalize",
             }}
           >
-           Apprenticeships Overview 
+            Apprenticeships Overview
           </Button>
         </Box>
       </Stack>
