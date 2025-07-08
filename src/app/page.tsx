@@ -1,5 +1,5 @@
-import { CourtHearingSection } from "@/features/court-hearing/court-hearing";
+import CobitFeature from "@/features/cobit/cobit";
 
 export default function Home() {
-  return <CourtHearingSection />
+  return <CobitFeature />
 }
