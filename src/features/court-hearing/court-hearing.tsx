@@ -14,21 +14,22 @@ export const CourtHearingSection = () => {
   return (
     <Box>
       <Box display={{ xs: "none", sm: "none", md: "block", lg: "block", xl: "block" }} justifyContent="space-between" alignItems="center">
-          <table style={{ width: "100%", }}>
-            <tbody>
-              {periodicTableArray.map((row, rowIndex) => (
-                <tr key={rowIndex}>
-                  {row.mainTable.map((cell, colIndex) =>
-                    cell && Object.keys(cell).length > 0 ? (
-                      <PeriodicTable key={colIndex} cell={cell} colIndex={colIndex} />
-                    ) : (
-                      <td key={colIndex}></td>
-                    )
-                  )}
-                </tr>
-              ))}
-            </tbody>
-          </table>
+        <table style={{ width: "100%" }}>
+          <tbody>
+            {periodicTableArray.map((row, rowIndex) => (
+              <tr key={rowIndex}>
+                {row.mainTable.map((cell, colIndex) =>
+                  cell && Object.keys(cell).length > 0 ? (
+                    <PeriodicTable key={colIndex} cell={cell} colIndex={colIndex} />
+                  ) : (
+                    <td key={colIndex}></td>
+                  )
+                )}
+              </tr>
+            ))}
+          </tbody>
+        </table>
+
       </Box>
       <Box display={{ xs: "block", sm: "blok", md: "none", lg: "none", xl: "none" }}>
         <Box sx={{ my: 5, textAlign: "center" }}>
