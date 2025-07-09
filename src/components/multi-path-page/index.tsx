@@ -3,7 +3,7 @@ import React, { useCallback } from "react";
 import Image from "next/image";
 import { Box, Card, CardContent, Grid, Stack, Typography } from "@mui/material";
 import { useRouter } from "next/navigation";
-import { MultiBackIcon } from "@/assets";
+import { MultiBackIcon } from "@/assets/common-assets";
 
 type MultiPathPageItem = {
   key: string;
@@ -66,7 +66,7 @@ const MultiPathPage: React.FC<MultiPathPageProps> = ({
       <Grid container spacing={2}>
         {!!arrayData.length &&
           arrayData.map((item) => (
-            <Grid size={{ xs: 12, sm: 6, md: 6, lg: 4, xl: 3 }} key={item.key}>
+            <Grid size={{ xs: 12, sm: 6, md: 6, lg: 4, }} key={item.key}>
               <Card
                 onClick={() => {
                   if (item.link) {
