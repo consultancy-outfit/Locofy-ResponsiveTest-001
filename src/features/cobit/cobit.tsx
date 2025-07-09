@@ -31,15 +31,15 @@ const CobitFeature = () => {
         </table>
       </Box>
       <Box display={{ xs: "block", sm: "blok", md: "none", lg: "none", xl: "none" }} m={0.5}>
-        <Box sx={{ my: 5, textAlign: "center" }}>
+        <Box sx={{ my: 5, textAlign: "center", mb:12 }}>
           <Image src={logo2} alt="" width={300} height={300} style={{ width: "100%", height: "100%" }} />
           <Typography variant="h4" fontWeight="700" p={0.5} textAlign="center" >
             IT Management & Governance Framework.
           </Typography>
         </Box>
-        <Stack flexDirection={"row"} justifyContent={"center"} alignContent={"center"} flexWrap={"wrap"} gap={5}>
+        {/* <Stack flexDirection={"row"} justifyContent={"center"} alignContent={"center"} flexWrap={"wrap"} gap={5}>
           {PeriodicBoxData.map((item: any,) => (
-            <Box key={item.id}>
+            <Box key={item.id} sx={{ width: { xs: "100%", sm: "45%", }, mx: { xs: 2, sm: 1, } }}>
               <ProcessBox
                 color={item?.color}
                 link={item?.link}
@@ -51,10 +51,10 @@ const CobitFeature = () => {
               />
             </Box>
           ))}
-        </Stack>
-        {/* <Grid container spacing={2}>
+        </Stack> */}
+        <Grid container spacing={2} mx={2}>
           {PeriodicBoxData.map((item: any,) => (
-            <Grid size={{ xs: 12, sm: 4, }} key={item.id}>
+            <Grid size={{ xs: 12, sm: 6, }} key={item.id}>
               <ProcessBox
                 color={item?.color}
                 link={item?.link}
@@ -66,7 +66,7 @@ const CobitFeature = () => {
               />
             </Grid>
           ))}
-        </Grid> */}
+        </Grid>
       </Box>
     </Box>
   )

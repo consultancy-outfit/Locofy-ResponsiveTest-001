@@ -64,47 +64,49 @@ const PeriodicBox: React.FC<PeriodicBoxProps> = ({
   const router = useRouter();
 
   return (
-    <Link href={link}>
-      <Box
-        onClick={() => { router.push(link); }}
-        sx={{
-          display: "flex",
-          flexDirection: reverse ? "column-reverse" : "column",
-          borderRadius: "10.062px",
-          height: "320px",
-          width: "320px",
-          margin: "0px",
-          boxShadow: "none",
-          cursor: "pointer"
-        }}
+    <Box
+      onClick={() => { router.push(link); }}
+      sx={{
+        display: "flex",
+        flexDirection: reverse ? "column-reverse" : "column",
+        borderRadius: "10.062px",
+        height: "100%",
+        margin: "0px",
+        boxShadow: "none",
+        cursor: "pointer"
+      }}
 
-      >
-        {topTitle && (
-          <Box
-            sx={{
-              background: color && colors[color] ? colors[color] : "transparent",
-              flexShrink: 0,
-              p: 2,
-              marginTop: reverse ? "-10px" : "0px",
-              paddingTop: reverse ? "30px" : "30px",
-              paddingBottom: reverse ? "70px" : "50px",
-              zIndex: -1,
-            }}
-          >
-            <Typography variant="h6" fontWeight="700" p={0.5} color={color}>
-              {topTitle}
-            </Typography>
-          </Box>
-        )}
-        <Card
+    >
+      {topTitle && (
+        <Box
           sx={{
-            width: "100%",
-            height: "100%",
-            backgroundColor: color,
-            borderRadius: "10.062px",
-            marginTop: reverse ? "0px" : "-6px",
+            background: color && colors[color] ? colors[color] : "transparent",
+            flexShrink: 0,
+            p: 2,
+            marginTop: reverse ? "-10px" : "0px",
+            paddingTop: reverse ? "30px" : "30px",
+            paddingBottom: reverse ? "70px" : "50px",
+            zIndex: -1,
           }}
         >
+          <Typography variant="h6" fontSize={{ xs: "2.3rem", sm: "2rem", }} fontWeight="700" p={0.5} color={color}>
+            {topTitle}
+          </Typography>
+        </Box>
+      )}
+      <Card
+        sx={{
+          width: "100%",
+          height: "100%",
+          backgroundColor: color,
+          borderRadius: "10.062px",
+          marginTop: reverse ? "0px" : "-6px",
+          display: "flex",
+          flexDirection: "column",
+          justifyContent: "space-between"
+        }}
+      >
+        <Box>
           <Typography
             variant="subtitle2"
             fontWeight="400"
@@ -117,23 +119,25 @@ const PeriodicBox: React.FC<PeriodicBoxProps> = ({
           >
             {tileText}
           </Typography>
-          <CardActions>
-            <Box sx={{ p: 2 }}>
-              <Image
-                src={boxIcon}
-                alt=""
-                width={70}
-                height={70}
-                style={{ margin: "20px 0" }}
-              />
-              <Typography variant="subtitle1" fontWeight="500" color="#ffffff">
+        </Box>
+        <CardActions sx={{ justifyContent: "center" }}>
+          <Box sx={{ p: 2, textAlign: "center", }}>
+            <Image
+              src={boxIcon}
+              alt=""
+              width={180}
+              height={180}
+              style={{ margin: "20px 0" }}
+            />
+            <Box sx={{ height: "110px" }}>
+              <Typography variant="subtitle1" fontSize={{ xs: "1.9rem", sm: "2rem", }} fontWeight="500" color="#ffffff">
                 {title}
               </Typography>
             </Box>
-          </CardActions>
-        </Card>
-      </Box>
-    </Link>
+          </Box>
+        </CardActions>
+      </Card>
+    </Box>
   );
 };
 
