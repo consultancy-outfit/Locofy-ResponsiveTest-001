@@ -5,7 +5,6 @@ import { useCallback } from "react";
 import { useRouter } from "next/navigation";
 import { CommonBackIcon } from "@/assets/common-assets";
 import { CheckboxForm } from "../checkbox-form";
-
 interface CommonPageProps {
   src: any;
   backRoute?: string;
@@ -28,6 +27,7 @@ const CommonPage: React.FC<CommonPageProps> = ({
   const onAmendmentButtonClick = useCallback(() => {
     window.open(amendmentButtonRoute, "_blank"); // _blank opens in new tab
   }, [amendmentButtonRoute]);
+
   return (
     <Box p={{ md: 3, xs: 2 }}>
       <Stack direction="row" justifyContent="space-between" alignItems="center">

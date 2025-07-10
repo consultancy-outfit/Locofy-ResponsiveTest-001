@@ -14,18 +14,21 @@ const FunctionalSkillsEnglishConditionsAndRequirementsMainPageData = [
     link: "/functional-skills-english-conditions-and-requirements-2024-introduction",
     icon: img1FunctionalSkillsEnglishConditionsAndRequirementsMainImage,
     title: "Introduction",
+    size: { xs: 12, sm: 6, md: 6, lg: 4 },
   },
   {
     key: "functional-2",
     link: "/functional-skills-english-conditions-and-requirements-2024-subject-level-conditions",
     icon: img2FunctionalSkillsEnglishConditionsAndRequirementsMainImage,
     title: "Subject Level Conditions",
+    size: { xs: 12, sm: 6, md: 6, lg: 4 },
   },
   {
     key: "functional-3",
     link: "/requirements-for-functional-skills-qualifications-in-english",
     icon: img3FunctionalSkillsEnglishConditionsAndRequirementsMainImage,
     title: "Requirements for Functional Skills  qualifications in English",
+    size: { xs: 12, sm: 6, md: 6, lg: 4 },
   },
   {
     key: "functional-4",
@@ -33,6 +36,7 @@ const FunctionalSkillsEnglishConditionsAndRequirementsMainPageData = [
     icon: img4FunctionalSkillsEnglishConditionsAndRequirementsMainImage,
     title:
       "Appendix 1: subject content (published by the  Department for Education)",
+    size: { xs: 12 },
   },
 ];
 

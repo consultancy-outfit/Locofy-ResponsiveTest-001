@@ -25,18 +25,21 @@ const FunctionalSkillsEnglishConditionsAndRequirementsPageData = [
     link: "/introduction-functional-skills-mathematics-conditions-and-requirements",
     icon: img1FunctionalSkillsEnglishConditionsAndRequirementsImage,
     title: "Introduction",
+    size: { xs: 12, sm: 6, md: 6, lg: 4 },
   },
   {
     key: "functional-2",
     link: "/subject-level-conditions-functional-skills-mathematics-conditions-and-requirements",
     icon: img2FunctionalSkillsEnglishConditionsAndRequirementsImage,
     title: "Subject Level Conditions",
+    size: { xs: 12, sm: 6, md: 6, lg: 4 },
   },
   {
     key: "functional-3",
     link: "/functionalskils-math",
     icon: img3FunctionalSkillsEnglishConditionsAndRequirementsImage,
     title: "Requirements for Functional Skills  qualifications in Mathematics",
+    size: { xs: 12, sm: 6, md: 6, lg: 4 },
   },
   {
     key: "functional-4",
@@ -44,11 +47,12 @@ const FunctionalSkillsEnglishConditionsAndRequirementsPageData = [
     icon: img4FunctionalSkillsEnglishConditionsAndRequirementsImage,
     title:
       "Appendix 1: subject content (published by the  Department for Education)",
+    size: { xs: 12 },
   },
 ];
 
 const FunctionalSkillsEnglishConditionsAndRequirementsPage = () => {
-  const pageTitle = "Functional Skills English Conditions and Requirements";
+  const pageTitle = "Functional Skills Mathematic Conditions and Requirements";
   const backRoute = "/functional-skills-support";
   const background = "#e7f0ff";
   const fontSize = { xs: "20px", sm: "30px", md: "40px" };
@@ -116,7 +120,7 @@ const FunctionalSkillsEnglishConditionsAndRequirementsPage = () => {
         {!!FunctionalSkillsEnglishConditionsAndRequirementsPageData.length &&
           FunctionalSkillsEnglishConditionsAndRequirementsPageData.map(
             (item) => (
-              <Grid size={{ xs: 12, sm: 6, md: 6, lg: 4 }} key={item.key}>
+              <Grid size={item.size} mx="auto" key={item.key}>
                 <Card
                   onClick={() => {
                     if (item.link) {

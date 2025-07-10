@@ -5,7 +5,7 @@ import React from "react";
 const ChangeOfCircumstancePage = () => {
   return (
     <CommonPage
-      pageTitle={`Apprenticeship Journey / Apprenticeship Documents / England_apprenticeship certificste example /Diagram`}
+      pageTitle={`Apprenticeship Journey / Apprenticeship Documents / England_apprenticeship certificate example /Diagram`}
       src={CertificateImage}
       backRoute="/england-apprenticeship-certificste-example"
     />

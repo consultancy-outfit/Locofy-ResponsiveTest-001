@@ -2,7 +2,7 @@
 import { MultiPathPage } from "@/components";
 import {
   img1ApprenticeshipFundingRulesImage,
-  img2ApprenticeshipFundingRulesImage
+  img2ApprenticeshipFundingRulesImage,
 } from "@/assets";
 import React from "react";
 
@@ -12,6 +12,7 @@ const ApprenticeshipFundingRulesPageData = [
     link: "/apprenticeship-funding-rules-2024-to-2025-summary-of-changes",
     icon: img1ApprenticeshipFundingRulesImage,
     title: "Apprenticeship Funding Rules 2024 To 2025_Summary Of Changes",
+    size: { xs: 12, sm: 6 },
   },
   {
     key: "apprenticeship-2",
@@ -19,7 +20,8 @@ const ApprenticeshipFundingRulesPageData = [
     icon: img2ApprenticeshipFundingRulesImage,
     title: `Apprenticeship_funding_rules
     _2024_to_2025`,
-  }
+    size: { xs: 12, sm: 6 },
+  },
 ];
 
 const ApprenticeshipFundingRulesPage = () => {

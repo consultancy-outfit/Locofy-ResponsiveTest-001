@@ -14,26 +14,29 @@ const ProgressReviewstrackingPageData = [
     link: "/assessment-plan-example",
     icon: img1PortfolioassessmentEvidenceImage,
     title: "Assessment Plan Example",
+    size: { xs: 12, sm: 6, md: 6, lg: 4 },
   },
   {
     key: "progress-2",
     link: "/guidance-document-for-level-2-3-Guidance-document",
     icon: img2PortfolioassessmentEvidenceImage,
-    title: "guidance-document-for-witness-testimony-pdf",
+    title: "Guidance-document-for-witness-testimony-pdf",
+    size: { xs: 12, sm: 6, md: 6, lg: 4 },
   },
   {
     key: "progress-3",
     link: "/portfolio-of-evidence-mapping-and-tracking-form-tquk",
     icon: img3PortfolioassessmentEvidenceImage,
     title: "Portfolio-of-Evidence-Mapping-and-Tracking-Form-TQUK",
+    size: { xs: 12, sm: 6, md: 6, lg: 4 },
   },
   {
     key: "progress-4",
     link: "/tpta-portfolio-of-evidence-template",
     icon: img4PortfolioassessmentEvidenceImage,
-    title: "tpta-portfolio-of-evidence-template",
+    title: "Tpta-portfolio-of-evidence-template",
+    size: { xs: 12 },
   },
-  
 ];
 
 const PortfolioassessmentEvidenceCardsPage = () => {
@@ -41,7 +44,7 @@ const PortfolioassessmentEvidenceCardsPage = () => {
     <MultiPathPage
       arrayData={ProgressReviewstrackingPageData}
       pageTitle="Portfolio & Assessment Evidence"
-       backRoute="/apprenticeship-documents"
+      backRoute="/apprenticeship-documents"
     />
   );
 };

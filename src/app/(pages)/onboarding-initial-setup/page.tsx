@@ -29,8 +29,7 @@ const OnboardinginitialSetupPageData = [
     key: "onboarding-3",
     link: "/app3-checklistmanagementuniversityapprenticeships",
     icon: img3OnboardinginitialSetupImage,
-    title: `APP3_ChecklistManageme
-    ntUniversityApprenticeships`,
+    title: `APP3_Checklist Management University Apprenticeships`,
   },
   {
     key: "onboarding-4",

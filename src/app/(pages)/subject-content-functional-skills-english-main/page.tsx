@@ -4,7 +4,7 @@ import {
   img1SubjectContentFunctionalSkillsEnglishMainImage,
   img2SubjectContentFunctionalSkillsEnglishMainImage,
   img3SubjectContentFunctionalSkillsEnglishMainImage,
-  img4SubjectContentFunctionalSkillsEnglishMainImage
+  img4SubjectContentFunctionalSkillsEnglishMainImage,
 } from "@/assets";
 import React from "react";
 
@@ -14,25 +14,29 @@ const SubjectContentFunctionalSkillsEnglishMainPageData = [
     link: "/subject-content-fs-english-introduction-purpose",
     icon: img1SubjectContentFunctionalSkillsEnglishMainImage,
     title: "Introduction & Purpose",
+    size: { xs: 12, sm: 6, md: 6, lg: 4 },
   },
   {
     key: "subject-2",
     link: "/fs-english-entry-levels-1-to-3",
     icon: img2SubjectContentFunctionalSkillsEnglishMainImage,
     title: "Functional Skills English – Entry Levels 1 to 3",
+    size: { xs: 12, sm: 6, md: 6, lg: 4 },
   },
   {
     key: "subject-3",
     link: "/functional-skills-english-levels-1-2",
     icon: img3SubjectContentFunctionalSkillsEnglishMainImage,
     title: "Functional Skills English – Level 1 and Level 2",
+    size: { xs: 12, sm: 6, md: 6, lg: 4 },
   },
   {
     key: "subject-4",
     link: "/appendix",
     icon: img4SubjectContentFunctionalSkillsEnglishMainImage,
     title: "Appendix",
-  }
+    size: { xs: 12 },
+  },
 ];
 
 const SubjectContentFunctionalSkillsEnglishMainPage = () => {
@@ -41,6 +45,7 @@ const SubjectContentFunctionalSkillsEnglishMainPage = () => {
       arrayData={SubjectContentFunctionalSkillsEnglishMainPageData}
       pageTitle="Subject content functional skills: English"
       backRoute="/functional-skills-english-conditions-and-requirements-main"
+      glossary="/glossary-for-use-with-this-subject-content"
     />
   );
 };

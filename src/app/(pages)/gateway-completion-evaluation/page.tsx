@@ -12,7 +12,7 @@ const GatewayCompletionevaluationPageData = [
     key: "gateway-1",
     link: "/england-apprenticeship-certificste-example",
     icon: img1GatewayCompletionevaluationImage,
-    title: "England_apprenticeship certificste example",
+    title: "England_apprenticeship certificate example",
   },
   {
     key: "gateway-2",

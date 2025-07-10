@@ -5,7 +5,7 @@ import React from "react";
 const WtdEmployerAllocatingFundsCreatingCohortsPage = () => {
   return (
     <CommonPage
-      pageTitle={`Apprenticeships / WTD Employer Allocating Funds & Creating Cohorts`}
+      pageTitle={`Apprenticeships / DAS Guidance / WTD Employer Allocating Funds & Creating Cohorts`}
       src={WtdEmployerAllocatingFundsCreatingCohortsImage}
       backRoute="/das-guidance"
     />

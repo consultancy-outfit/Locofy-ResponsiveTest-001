@@ -9,7 +9,7 @@ import { CommonBackIcon } from "@/assets/common-assets";
 import { CheckboxForm } from "@/components/checkbox-form";
 
 const EnglandApprenticeshipCertificsteExamplePage = () => {
-  const pageTitle = `Apprenticeship Journey / Apprenticeship Documents / England_apprenticeship certificste example`;
+  const pageTitle = `Apprenticeship Journey / Apprenticeship Documents / England_apprenticeship certificate example`;
   const backRoute = "/gateway-completion-evaluation";
   const certificateRoute = "/certificate";
   const router = useRouter();
@@ -69,7 +69,7 @@ const EnglandApprenticeshipCertificsteExamplePage = () => {
               textTransform: "capitalize",
             }}
           >
-           Reference Image
+            Reference Image
           </Button>
         </Box>
       </Stack>
