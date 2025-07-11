@@ -116,9 +116,29 @@ export { default as FcaApplicationPageImage18 } from "./FcaApplicationPageImage1
 export { default as FcaApplicationPageImage19 } from "./FcaApplicationPageImage19.svg";
 export { default as FcaApplicationPageImage20 } from "./FcaApplicationPageImage20.svg";
 
-export { default as FcaApplicationPageImageone} from "./FcaApplicationPageImageone.svg";
+export { default as FcaApplicationPageImageone } from "./FcaApplicationPageImageone.svg";
 export { default as FcaApplicationPageImagetwo } from "./FcaApplicationPageImagetwo.svg";
 export { default as FcaApplicationPageImagethree } from "./FcaApplicationPageImagethree.svg";
 export { default as FcaApplicationPageImagefour } from "./FcaApplicationPageImagefour.svg";
+export { default as FCAChapter3Authorisationandregistrationup1 } from "./FCAChapter3Authorisationandregistrationup1.svg";
+export { default as StructuralOrganisationandCloseLinks } from "./StructuralOrganisationandCloseLinks.svg";
+export { default as InitialCapitalRequirements } from "./InitialCapitalRequirements.svg";
+export { default as LocationofOfficesandBusinessActivities } from "./LocationofOfficesandBusinessActivities.svg";
+export { default as SafeguardingMeasuresforUsersFunds } from "./SafeguardingMeasuresforUsersFunds.svg";
+export { default as ProfessionalIndemnityInsurancePII } from "./ProfessionalIndemnityInsurancePII.svg";
+export { default as GovernanceInternalControlRiskManagement } from "./GovernanceInternalControlRiskManagement.svg";
 
-
+export { default as AuthorisationAndRegistrationImage } from "./AuthorisationAndRegistrationImage.svg";
+export { default as FCAChapter3Authorisationandregistrationup2 } from "./FCAChapter3Authorisationandregistrationup2.svg";
+export { default as Chapter9Capitalresourcesandrequirements } from "./Chapter9Capitalresourcesandrequirements.svg";
+export { default as InitialCapitalRequirementsImage } from "./InitialCapitalRequirementsImage.svg";
+export { default as FcaApplicationSafeguardingFigure1Image } from "./FcaApplicationSafeguardingFigure1Image.svg";
+export { default as FcaApplicationSafeguardingFigure2Image } from "./FcaApplicationSafeguardingFigure2Image.svg";
+export { default as FcaApplicationSafeguardingFigure3Image } from "./FcaApplicationSafeguardingFigure3Image.svg";
+export { default as FcaApplicationSafeguardingFigure4Image } from "./FcaApplicationSafeguardingFigure4Image.svg";
+export { default as Initialcapitalrequirementslink } from "./Initialcapitalrequirementslink.svg";
+export { default as Chapter9Capitalresourcesandrequirementsup2 } from "./Chapter9Capitalresourcesandrequirementsup2.svg";
+export { default as DiagramOverviewofOwnFunds } from "./DiagramOverviewofOwnFunds.svg";
+export { default as  DiagramCommonEquityTier1CET1Capital } from "./DiagramCommonEquityTier1CET1Capital.svg";
+export { default as  DiagramAdditionalTier1capital } from "./DiagramAdditionalTier1capital.svg";
+export { default as  DiagramBreakdownofTier2Capital } from "./DiagramBreakdownofTier2Capital.svg";
