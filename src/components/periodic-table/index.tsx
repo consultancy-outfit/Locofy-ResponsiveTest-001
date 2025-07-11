@@ -123,7 +123,7 @@ const PeriodicTable: React.FC<PeriodicTableProps> = ({ cell, colIndex, }) => {
           )}
 
           {cell.name && (
-            <p style={{ marginTop: "20px", fontSize: "16px", color: "#fff" }}>{cell.name}</p>
+            <p style={{ marginTop: "20px", fontSize: "20px", color: "#fff" }}>{cell.name}</p>
           )}
         </div>
       </div>

@@ -2,7 +2,7 @@
 
 
 import React from "react";
-import { Box, Grid, Stack, Typography } from "@mui/material";
+import { Box, Grid, Typography } from "@mui/material";
 import ProcessBox from "@/components/periodic-box";
 import PeriodicTable from "@/components/periodic-table";
 import { logo2 } from "@/assets";
@@ -12,7 +12,13 @@ import { PeriodicBoxData, periodicTableArray } from "./cobit-data";
 
 const CobitFeature = () => {
   return (
-    <Box>
+    <Box sx={{
+      "@media (min-width:2000px)": {
+        padding: "50px",
+        width: "2000px",
+        margin: "0 auto",
+      },
+    }}>
       <Box display={{ xs: "none", sm: "none", md: "block", lg: "block", xl: "block" }} m={2} justifyContent="space-between" alignItems="center">
         <table style={{ width: "100%" }}>
           <tbody>
@@ -31,7 +37,7 @@ const CobitFeature = () => {
         </table>
       </Box>
       <Box display={{ xs: "block", sm: "blok", md: "none", lg: "none", xl: "none" }} m={0.5}>
-        <Box sx={{ my: 5, textAlign: "center", mb:12 }}>
+        <Box sx={{ my: 5, textAlign: "center", mb: 12 }}>
           <Image src={logo2} alt="" width={300} height={300} style={{ width: "100%", height: "100%" }} />
           <Typography variant="h4" fontWeight="700" p={0.5} textAlign="center" >
             IT Management & Governance Framework.
