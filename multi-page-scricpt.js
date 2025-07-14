@@ -8,13 +8,42 @@ const assetsDir = path.join(__dirname, 'src', 'assets');
 // List of pages with pageTitle, image counts, links, and per-image titles
 const pages = [
   {
-    title: "Scope of registration",
-    pageTitle: "Scope of registration",
-    imageCount: 3,
-    links: ["/How the Process Works?","/Who Needs to Register?","What Needs to Be Registered?",],
-    titles: ["How the Process Works?", "Who Needs to Register?h","What Needs to Be Registered?",],
-  },
- 
+    title: "Care Quality Commission > Regulated services 14",
+    pageTitle: "Care Quality Commission > Regulated services 14",
+    imageCount: 14,
+    links: [
+      "/Application Process for Personal Care (CQC Regulated Activity)",
+      "/Application Process for Personal Care (CQC Regulated Activity)",
+      "/Application Process for Personal Care (CQC Regulated Activity)",
+      "/Application Process for Personal Care (CQC Regulated Activity)",
+      "/Application Process for Personal Care (CQC Regulated Activity)",
+      "/Application Process for Personal Care (CQC Regulated Activity)",
+      "/Application Process for Personal Care (CQC Regulated Activity)",
+      "/Application Process for Personal Care (CQC Regulated Activity)",
+      "/Application Process for Personal Care (CQC Regulated Activity)",
+      "/Application Process for Personal Care (CQC Regulated Activity)",
+      "/Application Process for Personal Care (CQC Regulated Activity)",
+      "/Application Process for Personal Care (CQC Regulated Activity)",
+      "/Application Process for Personal Care (CQC Regulated Activity)",
+      "/Application Process for Personal Care (CQC Regulated Activity)"
+    ],
+    titles: [
+      "Personal Care",
+      "Accommodation for Persons Requiring Nursing or Personal Care",
+      "Treatment of Disease, Disorder, or Injury",
+      "Surgical Procedures",
+      "Diagnostic and Screening Procedures",
+      "Maternity and Midwifery Services",
+      "Termination of Pregnancies",
+      "Family Planning Services",
+      "Accommodation for Substance Misuse Treatment",
+      "Transport Services, Triage, and Remote Medical Advice",
+      "Nursing Care",
+      "Management of Blood Supply and Products",
+      "Assessment or Medical Treatment for Persons Detained Under the Mental Health Act",
+      "Services in Slimming Clinics"
+    ]
+  }
 ];
 
 // Convert to PascalCase
