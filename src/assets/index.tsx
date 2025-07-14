@@ -125,4 +125,14 @@ export { default as colorLegends } from "./colorLegends.svg";
 export { default as fcalogo } from "./fcalogo.svg";
 
 
+export { default as paymentInitiationAisConfirmationAvailabilityFunds1 } from "./payment-initiation-ais-confirmation-availability-funds1.svg";
+export { default as paymentInitiationAisConfirmationAvailabilityFunds2 } from "./payment-initiation-ais-confirmation-availability-funds2.svg";
+export { default as paymentInitiationAisConfirmationAvailabilityFunds3 } from "./payment-initiation-ais-confirmation-availability-funds3.svg";
+export { default as exemptionFromContingencyMechanism1 } from "./exemption-from-contingency-mechanism.svg";
+export { default as fcaAnnexes } from "./fca-annexes.svg";
+export { default as glossaryOfTermsImg } from "./glossary-of-terms.svg";
+export { default as acronymsAndAbbreviationsImg } from "./acronyms-and-abbreviations.svg";
+export { default as annexFiguresImg } from "./annex-figures.svg";
+
+
 
