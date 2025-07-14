@@ -125,7 +125,7 @@ export { default as dashboardIcon21 } from "./dashboard-icon21.svg";
 export { default as dashboardIcon22 } from "./dashboard-icon22.svg";
 export { default as dashboardIcon23 } from "./dashboard-icon23.svg";
 export { default as dashboardIcon24 } from "./dashboard-icon24.svg";
-// export { default as dashboardIcon25 } from "./dashboard-icon25.svg";
+export { default as cobitPeriodicTable } from "./cobit-periodic-table.svg";
 export { default as dashboardIcon26 } from "./dashboard-icon26.svg";
 export { default as dashboardIcon27 } from "./dashboard-icon27.svg";
 export { default as dashboardIcon28 } from "./dashboard-icon28.svg";
