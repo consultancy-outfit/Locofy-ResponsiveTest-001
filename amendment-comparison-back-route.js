@@ -84,12 +84,6 @@ const pages = [
     backRoute: "/PISP_API"
   },
 ];
-<<<<<<< HEAD
- 
-// Convert to PascalCase
-=======
-
->>>>>>> 91979db719e1359d7e70ebbad04db73ea9b2ff01
 const toPascalCase = (str) =>
   str
     .replace(/[^a-zA-Z0-9]+/g, " ")
@@ -116,7 +110,9 @@ for (const page of pages) {
   const kebabBase = toKebabCase(name);
   const pascal = toPascalCase(name);
   if (!kebabBase || !pascal) {
-    console.log(`[SKIP] Could not generate valid names for name: '${name}'. Skipping.`);
+    console.log(
+      `[SKIP] Could not generate valid names for name: '${name}'. Skipping.`
+    );
     continue;
   }
   const imageName = `${pascal}Image`;
@@ -139,11 +135,15 @@ for (const page of pages) {
     dirSuffix++;
   }
   if (dirSuffix >= maxTries) {
-    console.log(`[ERROR] Too many duplicate directories for '${name}'. Skipping.`);
+    console.log(
+      `[ERROR] Too many duplicate directories for '${name}'. Skipping.`
+    );
     continue;
   }
   if (finalKebab !== kebabBase) {
-    console.log(`Directory for page '${name}' already exists. Created: ${finalKebab}`);
+    console.log(
+      `Directory for page '${name}' already exists. Created: ${finalKebab}`
+    );
   }
   if (!fs.existsSync(dir)) {
     try {
@@ -166,10 +166,14 @@ const ${pascal}Page = () => {
   return (
     <CommonPage
 <<<<<<< HEAD
+      pageTitle="TERMS IN APPLICATION PACK"
+=======
+<<<<<<< HEAD
       pageTitle={\`FCA Application / FCA Guide to Payment Services and Electronic Money Regulation / ${name}\`}
 =======
       pageTitle={"TERMS IN APPLICATION PACK"}
 >>>>>>> 33e3af25333241bd405cf281aec890dd3f46c6a0
+>>>>>>> db01e68666981ed261e2e8c883a308dabf32087c
       src={${imageName}}
       backRoute=\"${backRoute}\"
     />
@@ -195,7 +199,9 @@ export default ${pascal}Page;
       const indexContent = fs.readFileSync(indexTsxPath, "utf8");
       if (indexContent.includes(imageExport.trim())) {
         shouldWriteExport = false;
-        console.log(`Export for image '${imageName}' already exists in index.tsx. Skipping export.`);
+        console.log(
+          `Export for image '${imageName}' already exists in index.tsx. Skipping export.`
+        );
       }
     } catch (err) {
       console.log(`[ERROR] Failed to read index.tsx:`, err.message);
