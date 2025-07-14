@@ -8,17 +8,6 @@ const assetsDir = path.join(__dirname, "src", "assets");
 // ✅ Corrected: Use "title" instead of "tile"
 const pages = [
   {
-<<<<<<< HEAD
-    title: "Part IV Guardians of Consent AC",
-    ButtonRoute: "Part IV Guardians of Consent",
-  },
-  {
-    title: "Part IV Consent and Treatment Safeguards AC",
-    ButtonRoute: "Part IV Consent and Treatment Safeguards ",
-  },
- 
-];
-=======
     title: "FCA Overview",
     ButtonRoute: " Removal to and from Scotland AC",
   },
@@ -26,7 +15,6 @@ const pages = [
  
 
 ];  
->>>>>>> 5f0979b5d0f361da60ffe34c4df737afdcaf73f1
 
 // Convert to PascalCase
 const toPascalCase = (str) =>
