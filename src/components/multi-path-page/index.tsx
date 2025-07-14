@@ -126,10 +126,7 @@ const MultiPathPage: React.FC<MultiPathPageProps> = ({
       <Grid container spacing={2}>
         {!!arrayData.length &&
           arrayData.map((item) => (
-            <Grid
-              size={item?.size ? item?.size : { xs: 12, sm: 6, md: 6, lg: 4 }}
-              key={item.key}
-            >
+            <Grid size={{ xs: 12, sm: 6, md: 6, lg: 4, }} key={item.key}>
               <Card
                 onClick={() => {
                   if (item.link) {
@@ -145,6 +142,7 @@ const MultiPathPage: React.FC<MultiPathPageProps> = ({
                   textAlign: "center",
                   boxShadow: "none",
                   p: 4,
+                  alignContent:"center"
                 }}
               >
                 <Image

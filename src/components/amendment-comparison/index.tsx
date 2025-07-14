@@ -1,4 +1,4 @@
-// components/amendment-comparison.tsx
+// components/amendment-comparison/index.tsx
 "use client";
 import { Box, Stack, Typography, Button } from "@mui/material";
 import Image from "next/image";
@@ -9,28 +9,41 @@ import { CheckboxForm } from "../checkbox-form";
 
 interface CommonPageProps {
   src: any;
-  backRoute?: string;
+  backRoute?: string; // backRoute is always a string or undefined
   pageTitle: string;
   onChange?: (selectedValue: string, page: string) => void;
-  amendmentButtonRoute?: string;
+  amendmentButtonRoute?: string; // Make this optional
+  amendmentButtonTitle?: string; // New prop for button title
 }
 
 const AmendmentComparison: React.FC<CommonPageProps> = ({
   src,
-  backRoute = "/",
+  backRoute,
   pageTitle,
   onChange,
-  amendmentButtonRoute,
+  amendmentButtonRoute, // No default here, it will be handled by logic or parent
+  amendmentButtonTitle = "Amendment Comparison", // Default title if not provided
 }) => {
   const router = useRouter();
 
   const onBackIconClick = useCallback(() => {
-    router.push(backRoute);
+    if (backRoute) {
+      router.push(backRoute);
+    } else {
+      router.back();
+    }
   }, [router, backRoute]);
 
   const onAmendmentButtonClick = useCallback(() => {
-    window.open(amendmentButtonRoute, "_blank"); // _blank opens in new tab
-  }, [amendmentButtonRoute]);
+    // Only navigate if amendmentButtonRoute is provided
+    if (amendmentButtonRoute) {
+      router.push(amendmentButtonRoute);
+    } else {
+      // Optional: Handle what happens if no route is provided for the button
+      // e.g., console.warn or do nothing
+      console.warn("Amendment button route not provided.");
+    }
+  }, [router, amendmentButtonRoute]);
 
   return (
     <Box p={{ md: 3, xs: 2 }}>
@@ -57,38 +70,47 @@ const AmendmentComparison: React.FC<CommonPageProps> = ({
             fontSize={{ xs: "0.8rem", sm: "18px", md: "22px" }}
             fontWeight={{ md: 600, xs: 500 }}
             ml={{ md: 2, xs: 1 }}
-            sx={{ fontFamily: "inherit" }}
+            sx={{ fontFamily: "Outfit, inherit" }}
           >
             {pageTitle}
           </Typography>
         </Box>
-
-        {/* Right Section: Button */}
-        {amendmentButtonRoute && (
-          <Box ml={{ md: "auto" }}>
-            <Button
-              variant="contained"
-              onClick={onAmendmentButtonClick}
-              sx={{
-                backgroundColor: "#5A5867",
-                color: "#FFFFFF",
-                "&:hover": {
-                  backgroundColor: "#4A4857",
-                },
-                cursor: "pointer",
-                fontSize: { xs: "0.7rem", sm: "0.9rem", md: "1rem" },
-                padding: { xs: "6px 12px", md: "8px 16px" },
-                textTransform: "capitalize",
-              }}
-            >
-              Reference Document
-            </Button>
-          </Box>
-        )}
       </Stack>
 
-      <Box mb={{ md: 4, sm: 3, xs: 2 }}>
-        <CheckboxForm onChange={onChange} />
+      {/* Checkbox and Button Row */}
+      <Box
+        mb={{ md: 4, sm: 3, xs: 2 }}
+        display="flex"
+        flexDirection={{ md: "row", xs: "column" }}
+        alignItems={{ md: "center", xs: "left" }}
+        justifyContent="space-between"
+        gap={2}
+      >
+        <Box flexGrow={1}>
+          <CheckboxForm onChange={onChange} />
+        </Box>
+        <Box>
+          <Button
+            variant="contained"
+            onClick={onAmendmentButtonClick}
+            // Disable the button if no route is provided
+            disabled={!amendmentButtonRoute}
+            sx={{
+              backgroundColor: "#5A5867",
+              color: "#FFFFFF",
+              "&:hover": {
+                backgroundColor: "#4A4857",
+              },
+              cursor: "pointer",
+              fontSize: { xs: "0.7rem", sm: "0.9rem", md: "1rem" },
+              padding: { xs: "6px 12px", md: "8px 16px" },
+              textTransform: "capitalize",
+              fontFamily: "Outfit, inherit",
+            }}
+          >
+            {amendmentButtonTitle} {/* Use the dynamic title here */}
+          </Button>
+        </Box>
       </Box>
       <Image
         src={src}

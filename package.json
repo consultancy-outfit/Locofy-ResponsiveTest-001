@@ -1,5 +1,5 @@
 {
-  "name": "azam-locofy",
+  "name": "Mental Health Act 1983",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -13,6 +13,7 @@
     "@emotion/styled": "^11.14.0",
     "@mui/icons-material": "^7.1.2",
     "@mui/material": "^7.1.2",
+    "@netlify/plugin-nextjs": "^5.11.5",
     "next": "15.3.4",
     "react": "^19.0.0",
     "react-dom": "^19.0.0"

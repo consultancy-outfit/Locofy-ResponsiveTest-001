@@ -3,13 +3,13 @@ import { Outfit } from "next/font/google";
 import "./globals.css";
 
 const outfit = Outfit({
-  subsets: ['latin'],
-  weight: ['400', '500', '600', '700'],
-  variable: '--font-outfit',
+  subsets: ["latin"],
+  weight: ["400", "500", "600", "700"],
+  variable: "--font-outfit",
 });
 export const metadata: Metadata = {
-  title: "Apprenticeship Pathway Guide",
-  description: "Explore structured apprenticeship journeys through expertly designed diagrams. Gain clear insight into roles, stages, and career growth with easy-to-follow visual breakdowns.",
+  title: "Financial Conduct Authority",
+  description: "Understand the primary goals of the Financial Conduct Authority, illustrated through a clear and concise diagram.",
   icons: {
     icon: [
       { rel: "icon", url: "/favicon.ico", type: "image/x-icon" },
@@ -34,22 +34,21 @@ export const metadata: Metadata = {
     },
   },
   openGraph: {
-    title: "Apprenticeship Pathway Guide",
-    description: "Explore structured apprenticeship journeys through expertly designed diagrams. Gain clear insight into roles, stages, and career growth with easy-to-follow visual breakdowns.",
-    url: "https://apprenticeshipguide.netlify.app/",
+    title: "Financial Conduct Authority",
+    description: "Understand the primary goals of the Financial Conduct Authority, illustrated through a clear and concise diagram.",
+    url: "https://fcaroadmap.netlify.app/",
     type: "website",
     images: [
       {
-        url: "https://apprenticeshipguide.netlify.app/og.png",
+        url: "https://fcaroadmap.netlify.app/og.png",
         type: "image/png",
         width: 1200,
         height: 630,
-        alt: "Apprenticeship Pathway Guide",
+        alt: "Financial Conduct Authority",
       },
     ],
   },
 };
-
 
 export default function RootLayout({
   children,
@@ -58,9 +57,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${outfit.className}`}>
-        {children}
-      </body>
+      <body className={`${outfit.className}`}>{children}</body>
     </html>
   );
 }

@@ -7,12 +7,24 @@ const path = require('path');
 const baseDir = path.join(__dirname, 'src', 'app', '(pages)');
 const assetsDir = path.join(__dirname, 'src', 'assets');
 
-// List of pages with pageTitle, image counts, and links
+// List of pages with pageTitle, image counts, links, and per-image titles
 const pages = [
-  { title: "Functional Skills English Conditions and Requirements", pageTitle: "Functional Skills English Conditions and Requirements", imageCount: 4, links: ["/introduction-functional-skills-mathematics-conditions-and-requirements", "/subject-level-conditions-functional-skills-mathematics-conditions-and-requirements", "/requirements-for-functional-skills-qualifications", "/functional-skills-mathematic-conditions-and-requirements"] },
-  { title: "Subject content functional skills: English", pageTitle: "Subject content functional skills: English", imageCount: 3, links: ["/subject-content-functional-skills-mathematic","/requirements-for-functional-skills-two","/functional-skills-english-levels-1-2"] },
-  { title: "Functional Skills English Conditions and Requirements Main", pageTitle:" Functional Skills English Conditions and Requirements ", imageCount: 4, links: ["/functional-skills-english-conditions-and-requirements-2024-introduction","/functional-skills-english-conditions-and-requirements-2024-subject-level-conditions","/requirements-for-functional-skills-qualifications-in-english","subject-content-functional-skills-english-main" ] },
-  { title: "Subject content functional skills: English Main", pageTitle: "Subject content functional skills: English", imageCount: 4, links: ["/subject-content-fs-english-introduction-purpose","/fs-english-entry-levels-1-to-3","/functional-skills-english-levels-1-2","/appendix","/"] },
+  {
+<<<<<<< HEAD
+    title: "Mental Health Act 1983 - Part III",
+    pageTitle: "Part III Patients Concerned in Criminal Proceedings or Under Sentence",
+    imageCount: 7,
+    links: ["/Remands to hospital", "/Hospital and guardianship orders","/Restriction orders","Hospital and limitation directions","/Detention during Her Majesty’s pleasure","/Transfer to hospital of prisoners, etc.","/Supplemental"],
+    titles: ["Remands to hospital", "Hospital and guardianship orders","Restriction orders","Hospital and limitation directions","Detention during Her Majesty’s pleasure","Transfer to hospital of prisoners, etc.","Supplemental"],
+=======
+    title: "FCA Application",
+    pageTitle: "FCA Application",
+    imageCount: 4,
+    links: ["/FCA Overview","/Removal of patients to Channel Islands or Isle of Man","/Removal of patients to Northern Ireland","/Removal of aliens",],
+    titles: ["FCA Overview", "Payment Services New Authorisation  Registration","E-Money New Authorisation / Registration" ,"Payment Services and Electronic Money – Our Approach",],
+>>>>>>> 5f0979b5d0f361da60ffe34c4df737afdcaf73f1
+  },
+ 
 ];
 
 // Convert to PascalCase
@@ -20,50 +32,110 @@ const toPascalCase = str =>
   str
     .replace(/[^a-zA-Z0-9]+/g, ' ')
     .split(' ')
+    .filter(Boolean)
     .map(word => word.charAt(0).toUpperCase() + word.slice(1).toLowerCase())
     .join('');
 
 // Convert to kebab-case
 const toKebabCase = str =>
   str
-    .replace(/[&/()]+/g, '')
-    .replace(/[^a-zA-Z0-9]+/g, '-')
+    .replace(/[&/()]+/g, '')                // Remove &, /, (, )
+    .replace(/[^a-zA-Z0-9]+/g, '-')         // Replace other non-alphanumeric chars with -
     .toLowerCase()
-    .replace(/^-+|-+$/g, '');
+    .replace(/^-+|-+$/g, '');               // Trim leading/trailing dashes
 
-for (const { title, pageTitle, imageCount = 2, links = [] } of pages) {
-  const kebab = toKebabCase(title);
-  const pascal = toPascalCase(title.replace(/ & /g, '')); 
+for (const { title, pageTitle, imageCount = 2, links = [], titles = [] } of pages) {
+  if (!title || typeof title !== 'string' || !title.trim()) {
+    console.log('[SKIP] Invalid or empty page title. Skipping entry.');
+    continue;
+  }
 
-  // Create directory for the page
-  const dir = path.join(baseDir, kebab);
-  if (!fs.existsSync(dir)) fs.mkdirSync(dir, { recursive: true });
+  const kebabBase = toKebabCase(title);
+  const pascal = toPascalCase(title.replace(/ & /g, ''));
+  if (!kebabBase || !pascal) {
+    console.log(`[SKIP] Could not generate valid names for title: '${title}'. Skipping.`);
+    continue;
+  }
 
-  // Generate arrayData with dynamic image counts and custom links
+  // Check for existing directory and create a unique one if needed
+  let dir = path.join(baseDir, kebabBase);
+  let dirSuffix = 1;
+  let finalKebab = kebabBase;
+  let maxTries = 100;
+  while (fs.existsSync(dir) && dirSuffix < maxTries) {
+    finalKebab = `${kebabBase}-section${dirSuffix}`;
+    dir = path.join(baseDir, finalKebab);
+    dirSuffix++;
+  }
+  if (dirSuffix >= maxTries) {
+    console.log(`[ERROR] Too many duplicate directories for '${title}'. Skipping.`);
+    continue;
+  }
+  if (finalKebab !== kebabBase) {
+    console.log(`Directory for page '${title}' already exists. Created: ${finalKebab}`);
+  }
+  if (!fs.existsSync(dir)) {
+    try {
+      fs.mkdirSync(dir, { recursive: true });
+      console.log(`Directory created: ${dir}`);
+    } catch (err) {
+      console.log(`[ERROR] Failed to create directory '${dir}':`, err.message);
+      continue;
+    }
+  } else {
+    console.log(`[SKIP] Directory already exists and was not created: ${dir}`);
+  }
+
+  // Generate arrayData for all images/links/titles for this page
   const arrayData = [];
-  const itemCount = imageCount || 2; // Use imageCount if provided, otherwise default to 2 as specified
+  const itemCount = links.length || imageCount || 2;
   for (let i = 0; i < itemCount; i++) {
-    const imageName = `img${i + 1}${pascal}Image`; // Prefix with 'img' to make it a valid identifier
+    const imageName = `img${i + 1}${pascal}Image`;
     const svgFile = `${imageName}.svg`;
-    const link = links[i] || `/${kebab}/${i + 1}`; // Use custom link if available, otherwise default
+
+    const rawLink = links[i] || `${title} Item ${i + 1}`;
+    const link = `/${toKebabCase(rawLink)}`;
+    const itemTitle = titles[i] || `${title} Item ${i + 1}`;
+
     arrayData.push({
-      key: `${kebab.split('-')[0]}-${i + 1}`, // Use first part of kebab as key base with index
+      key: `${finalKebab.split('-')[0]}-${i + 1}`,
       link: link,
       icon: imageName,
-      title: `${title} Item ${i + 1}`, // Default item title
+      title: itemTitle,
     });
 
     // Append to existing index.tsx in assets
     const indexTsxPath = path.join(assetsDir, 'index.tsx');
     const imageExport = `export { default as ${imageName} } from "./${svgFile}";\n`;
-    fs.appendFileSync(indexTsxPath, imageExport);
+    let shouldWriteExport = true;
+    if (fs.existsSync(indexTsxPath)) {
+      try {
+        const indexContent = fs.readFileSync(indexTsxPath, 'utf8');
+        if (indexContent.includes(imageExport.trim())) {
+          shouldWriteExport = false;
+          console.log(`Export for image '${imageName}' already exists in index.tsx. Skipping export.`);
+        }
+      } catch (err) {
+        console.log(`[ERROR] Failed to read index.tsx:`, err.message);
+        shouldWriteExport = false;
+      }
+    }
+    if (shouldWriteExport) {
+      try {
+        fs.appendFileSync(indexTsxPath, imageExport);
+        console.log(`Export for image '${imageName}' added to index.tsx.`);
+      } catch (err) {
+        console.log(`[ERROR] Failed to append export to index.tsx:`, err.message);
+      }
+    }
   }
 
-  // Create page.tsx content
+  // Create page.tsx content for this page (all items in one array)
+  const uniqueIcons = Array.from(new Set(arrayData.map(item => item.icon)));
   const pageContent = `"use client";
 import { MultiPathPage } from "@/components";
 import {
-  ${arrayData.map(item => item.icon).join(',\n  ')}
+  ${uniqueIcons.join(',\n  ')}
 } from "@/assets";
 import React from "react";
 
@@ -81,14 +153,21 @@ const ${pascal}Page = () => {
     <MultiPathPage
       arrayData={${pascal}PageData}
       pageTitle="${pageTitle}"
-      backRoute="/functional-skills-support"
+      backRoute="/FCA Sequence Diagram"
     />
   );
 };
 
 export default ${pascal}Page;
 `;
-  fs.writeFileSync(path.join(dir, 'page.tsx'), pageContent, 'utf8');
+
+  try {
+    fs.writeFileSync(path.join(dir, 'page.tsx'), pageContent, 'utf8');
+    console.log(`page.tsx created in: ${dir}`);
+  } catch (err) {
+    console.log(`[ERROR] Failed to write page.tsx in '${dir}':`, err.message);
+    continue;
+  }
 }
 
 console.log("Dynamic MultiPath pages with fixed image names, titles, links, and image exports have been created.");

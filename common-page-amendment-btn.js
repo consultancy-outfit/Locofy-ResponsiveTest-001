@@ -5,11 +5,28 @@ const path = require("path");
 const baseDir = path.join(__dirname, "src", "app", "(pages)");
 const assetsDir = path.join(__dirname, "src", "assets");
 
-// List of pages to create
+// ✅ Corrected: Use "title" instead of "tile"
 const pages = [
- "Part 10 - Miscellaneous and Supplementary AC",
-"Part 10 -Supplementary",
+  {
+<<<<<<< HEAD
+    title: "Part IV Guardians of Consent AC",
+    ButtonRoute: "Part IV Guardians of Consent",
+  },
+  {
+    title: "Part IV Consent and Treatment Safeguards AC",
+    ButtonRoute: "Part IV Consent and Treatment Safeguards ",
+  },
+ 
 ];
+=======
+    title: "FCA Overview",
+    ButtonRoute: " Removal to and from Scotland AC",
+  },
+  
+ 
+
+];  
+>>>>>>> 5f0979b5d0f361da60ffe34c4df737afdcaf73f1
 
 // Convert to PascalCase
 const toPascalCase = (str) =>
@@ -28,37 +45,54 @@ const toKebabCase = (str) =>
     .toLowerCase()
     .replace(/^-+|-+$/g, "");
 
-for (const title of pages) {
+// For backRoute
+const toKebabRoute = (str) =>
+  str
+    .replace(/[&/()]+/g, "")
+    .replace(/[^a-zA-Z0-9]+/g, "-")
+    .toLowerCase()
+    .replace(/^-+|-+$/g, "");
+
+for (const page of pages) {
+  const { title, ButtonRoute } = page;
+
   if (!title || typeof title !== "string" || !title.trim()) {
     console.log("[SKIP] Invalid or empty page title. Skipping entry.");
     continue;
   }
+
   const kebabBase = toKebabCase(title);
   const pascal = toPascalCase(title);
+
   if (!kebabBase || !pascal) {
     console.log(`[SKIP] Could not generate valid names for title: '${title}'. Skipping.`);
     continue;
   }
+
   const imageName = `${pascal}Image`;
   const svgFile = `${imageName}.svg`;
 
-  // Check for existing directory and create a unique one if needed
+  // Check for existing directory
   let dir = path.join(baseDir, kebabBase);
   let dirSuffix = 1;
   let finalKebab = kebabBase;
-  let maxTries = 100;
+  const maxTries = 100;
+
   while (fs.existsSync(dir) && dirSuffix < maxTries) {
     finalKebab = `${kebabBase}-section${dirSuffix}`;
     dir = path.join(baseDir, finalKebab);
     dirSuffix++;
   }
+
   if (dirSuffix >= maxTries) {
     console.log(`[ERROR] Too many duplicate directories for '${title}'. Skipping.`);
     continue;
   }
+
   if (finalKebab !== kebabBase) {
     console.log(`Directory for page '${title}' already exists. Created: ${finalKebab}`);
   }
+
   if (!fs.existsSync(dir)) {
     try {
       fs.mkdirSync(dir, { recursive: true });
@@ -71,23 +105,28 @@ for (const title of pages) {
     console.log(`[SKIP] Directory already exists and was not created: ${dir}`);
   }
 
+  const kebabAmendmentButtonRoute = ButtonRoute ? `/${toKebabRoute(ButtonRoute)}` : "";
+
   // Create page.tsx
   const pageContent = `import { ${imageName} } from "@/assets";
-import { CommonPage } from "@/components";
+
+import AmendmentComparison from "@/components/amendment-comparison";
 import React from "react";
 
 const ${pascal}Page = () => {
   return (
-    <CommonPage
-      pageTitle="Mental Health / Criminal Procedure (Insanity) Act 1964 / ${title}"
+    <AmendmentComparison
+      pageTitle={\`Mental Health / Mental Health  Act 1983 / Part V / ${title}\`}
       src={${imageName}}
-      backRoute="/schedule-act-1964"
+      backRoute="/"
+      amendmentButtonRoute="${kebabAmendmentButtonRoute}"
     />
   );
 };
 
 export default ${pascal}Page;
 `;
+
   try {
     fs.writeFileSync(path.join(dir, "page.tsx"), pageContent, "utf8");
     console.log(`page.tsx created in: ${dir}`);
@@ -96,10 +135,12 @@ export default ${pascal}Page;
     continue;
   }
 
-  // Append to existing index.tsx in assets
+  // Append export to index.tsx
   const indexTsxPath = path.join(assetsDir, "index.tsx");
   const imageExport = `export { default as ${imageName} } from "./${svgFile}";\n`;
+
   let shouldWriteExport = true;
+
   if (fs.existsSync(indexTsxPath)) {
     try {
       const indexContent = fs.readFileSync(indexTsxPath, "utf8");
@@ -112,6 +153,7 @@ export default ${pascal}Page;
       shouldWriteExport = false;
     }
   }
+
   if (shouldWriteExport) {
     try {
       fs.appendFileSync(indexTsxPath, imageExport);
