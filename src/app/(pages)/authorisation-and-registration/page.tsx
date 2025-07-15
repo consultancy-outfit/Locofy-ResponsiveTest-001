@@ -7,7 +7,7 @@ const AuthorisationAndRegistrationPage = () => {
     <CommonPage
       pageTitle={`Diagram of Close Links`}
       src={AuthorisationAndRegistrationImage}
-      backRoute="/umer-demo"
+      backRoute="/FCAChapter3Authorisationandregistration"
     />
   );
 };

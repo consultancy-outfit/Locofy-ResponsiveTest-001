@@ -13,8 +13,8 @@ const ElectronicsPage = () => {
   return (
     <Box>
       <MultiImagesNoBtn
-        backRoute="/productsds"
-        pageTitle="Electronics Products"
+        backRoute="/payment-services-and-electronic-money-our-approach"
+        pageTitle="FCA Application/FCA Guide to Payment Services and Electronic Money Regulation/Chapter 3: Authorisation and registration"
         images={[
           { src: FCAChapter3Authorisationandregistrationup1, alt: "Modern TV", route: "/FCAChapter3Authorisationandregistration" },
           { src: StructuralOrganisationandCloseLinks, alt: "Modern TV", route: "/authorisation-and-registration" },
