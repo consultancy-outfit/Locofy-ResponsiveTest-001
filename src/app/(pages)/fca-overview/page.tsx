@@ -6,7 +6,7 @@ import React from "react";
 const FcaOverviewPage = () => {
   return (
     <AmendmentComparison
-      pageTitle={`Mental Health / Mental Health  Act 1983 / Part VII / FCA Overview`}
+      pageTitle={`FCA Application / FCA Overview`}
       src={FcaOverviewImage}
       backRoute="/fca-application" 
       amendmentButtonRoute="/fca-overview-new-comparison"
