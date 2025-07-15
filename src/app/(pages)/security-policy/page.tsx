@@ -5,9 +5,9 @@ import React from "react";
 const SecurityPolicyPage = () => {
   return (
     <CommonPage
-      pageTitle={`Security Policy`}
+      pageTitle="Security policy"
       src={SecurityPolicyImage}
-      backRoute="/pisp_spi"
+      backRoute="/semi"
     />
   );
 };

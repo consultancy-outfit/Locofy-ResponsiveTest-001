@@ -1,10 +1,10 @@
 "use client";
 import { MultiPathPage } from "@/components";
 import {
-  img1FcaApplicationImage,
-  img2FcaApplicationImage,
-  img3FcaApplicationImage,
-  img4FcaApplicationImage
+  FACAPPlicationMainImageone,
+  FACAPPlicationMainImagetwo,
+  FACAPPlicationMainImagethree,
+  FcaApplicationMainImagefour
 } from "@/assets";
 import React from "react";
 
@@ -12,25 +12,25 @@ const FcaApplicationPageData = [
   {
     key: "fca-1",
     link: "/fca-overview",
-    icon: img1FcaApplicationImage,
+    icon: FACAPPlicationMainImageone,
     title: "FCA Overview",
   },
   {
     key: "fca-2",
     link: "/removal-of-patients-to-channel-islands-or-isle-of-man",
-    icon: img2FcaApplicationImage,
+    icon: FACAPPlicationMainImagetwo,
     title: "Payment Services New Authorisation  Registration",
   },
   {
     key: "fca-3",
-    link: "/removal-of-patients-to-northern-ireland",
-    icon: img3FcaApplicationImage,
+    link: "/e-money-new-authorisation-registration",
+    icon: FACAPPlicationMainImagethree,
     title: "E-Money New Authorisation / Registration",
   },
   {
     key: "fca-4",
-    link: "/removal-of-aliens",
-    icon: img4FcaApplicationImage,
+    link: "/payment-services-and-electronic-money-our-approach",
+    icon: FcaApplicationMainImagefour,
     title: "Payment Services and Electronic Money – Our Approach",
   }
 ];
@@ -40,7 +40,7 @@ const FcaApplicationPage = () => {
     <MultiPathPage
       arrayData={FcaApplicationPageData}
       pageTitle="FCA Application"
-      backRoute="/fca-sequence-diagram"
+      backRoute="/"
     />
   );
 };
