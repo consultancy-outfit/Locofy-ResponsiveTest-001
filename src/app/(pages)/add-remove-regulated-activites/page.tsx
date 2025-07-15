@@ -7,7 +7,7 @@ import { applicationToCancelOneRegulatedActivity, applicationToCarryOnaNewRegula
 const PaymentServicePageData = [
     {
         key: "e-1",
-        link: "/",
+        link: "/application-to-carry-on-new-regulated-activity",
         icon: applicationToCarryOnaNewRegulatedActivity,
         title: "Application TO Carry On A New Regulated Activity",
     },
