@@ -316,81 +316,63 @@ export const HomeSection = () => {
         </Typography>
       </Stack>
 
-      <svg
-        viewBox="0 0 7440 6020"
-        xmlns="http://www.w3.org/2000/svg"
-        xmlnsXlink="http://www.w3.org/1999/xlink"
-        style={{ width: "100%" }}
-      >
-        <style>{`
-          .image-mapper-shape { fill: rgba(0, 0, 0, 0); }
-          g:hover .image-mapper-shape { stroke: white; stroke-width: 2px; opacity: 20%; }
-        `}</style>
-        <image xlinkHref="/Request Section hdn (2).png" width="7440" />
-{internalLinks.map((link, idx) => (
-  <g
-    key={`link-${idx}`}
-    onClick={(e) => {
-      e.stopPropagation();
-      if (link.href.startsWith("http")) {
-        window.open(link.href, link.target || "_blank");
-      } else {
-        window.location.href = link.href;
+     <svg
+  style={{ width: "100%" }}
+  xmlns="http://www.w3.org/2000/svg"
+  xmlnsXlink="http://www.w3.org/1999/xlink"
+  viewBox="0 0 1860 2427"
+>
+  <style>
+    {`
+      .image-mapper-shape {
+        fill: rgba(0, 0, 0, 0);
       }
-    }}
+      g:hover .image-mapper-shape {
+        stroke: white;
+        stroke-width: 2px;
+        opacity: 20%;
+      }
+    `}
+  </style>
+
+  <image xlinkHref="CQCListingProcess.svg" style={{ width: "1860px" }} />
+
+  {/* Example: Repeat this block for all your clickable hotspots */}
+  <g
+    onClick={() => window.open("#", "_blank")}
     style={{ cursor: "pointer" }}
   >
+    <title>CQC Website</title>
     <rect
-      x={link.x}
-      y={link.y}
-      width={link.width}
-      height={link.height}
-      fill="rgba(0,0,0,0)"
+      x={1100.661}
+      y={81.964}
+      width={240.037}
+      height={48.788}
+      className="image-mapper-shape"
+      data-index="1"
     />
-    <title>{link.title}</title>
   </g>
-))}
+
+  <g
+    onClick={() => window.open("#", "_parent")}
+    style={{ cursor: "pointer" }}
+  >
+    <title>CQC Overview Diagram</title>
+    <rect
+      x={1350.456}
+      y={81.964}
+      width={236.135}
+      height={50.74}
+      className="image-mapper-shape"
+      data-index="2"
+    />
+  </g>
+
+  {/* Add other <g> blocks for each rect as needed based on your original data */}
+
+</svg>
 
 
-        {audioHotspots.map((hotspot) => {
-          const iconSize = 24;
-          const x = hotspot.x + hotspot.width / 2 - iconSize / 2;
-          const y = hotspot.y + hotspot.height / 2 - iconSize / 2;
-
-          let icon = PlayCircleRoundedSVG;
-          let color = "#000";
-
-          if (playingAudioId === hotspot.id) {
-            icon = StopCircleRoundedSVG;
-            color = "#FF0000";
-          } else if (playingAudioId !== null) {
-            icon = NotesRoundedSVG;
-            color = "#808080";
-          }
-
-          return (
-            <g
-              key={hotspot.id}
-              onClick={(e) => {
-                e.stopPropagation();
-                handlePlayAudio(hotspot.audioSrc, hotspot.id);
-              }}
-              style={{ cursor: "pointer" }}
-            >
-              <rect
-                x={hotspot.x}
-                y={hotspot.y}
-                width={hotspot.width}
-                height={hotspot.height}
-                className="image-mapper-shape audio-hotspot"
-              />
-              <foreignObject x={x} y={y} width={iconSize} height={iconSize}>
-                {renderSvgIcon(icon, color)}
-              </foreignObject>
-            </g>
-          );
-        })}
-      </svg>
 
         {isOpen && (
           <>
