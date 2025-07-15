@@ -361,3 +361,6 @@ export { default as QualificationsSkillsExperienceImage } from "./Qualifications
 export { default as SupportingPeopleImage } from "./SupportingPeopleImage.svg";
 export { default as applicationToCarryOnaNewRegulatedActivity } from "./application-to-carry-on-a-new-regulated-activity.svg";
 export { default as applicationToCancelOneRegulatedActivity } from "./application-to-cancel-one-regulated-activity.svg";
+export { default as applicationToCarryOnaNewRegulatedActivityPage } from "./applicationToCarryOnaNewRegulatedActivityPage.svg";
+export { default as applicationToCancelOnaNewRegulatedActivityPage } from "./applicationToCancelOnaNewRegulatedActivityPage.svg";
+export { default as formpurposeLoegalBasis } from "./formpurpose-loegal-basis.svg";
