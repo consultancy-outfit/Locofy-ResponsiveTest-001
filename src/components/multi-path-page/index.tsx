@@ -1,15 +1,24 @@
 "use client";
 import React, { useCallback } from "react";
 import Image from "next/image";
-import { Box, Card, CardContent, Grid, Stack, Typography } from "@mui/material";
+import {
+  Box,
+  Button,
+  Card,
+  CardContent,
+  Grid,
+  Stack,
+  Typography,
+} from "@mui/material";
 import { useRouter } from "next/navigation";
 import { MultiBackIcon } from "@/assets/common-assets";
-
+import ArrowCircleDownOutlinedIcon from "@mui/icons-material/ArrowCircleDownOutlined";
 type MultiPathPageItem = {
   key: string;
   link?: string;
   icon: string;
   title?: string;
+  size?: any;
 };
 
 type MultiPathPageProps = {
@@ -19,6 +28,8 @@ type MultiPathPageProps = {
   fontSize?: any;
   iconWidth?: string;
   background?: string;
+  amendmentButtonRoute?: string;
+  glossary?: any;
 };
 
 const MultiPathPage: React.FC<MultiPathPageProps> = ({
@@ -27,41 +38,90 @@ const MultiPathPage: React.FC<MultiPathPageProps> = ({
   backRoute = "/",
   fontSize = { xs: "20px", sm: "30px", md: "40px" },
   background = "#e7f0ff",
+  amendmentButtonRoute,
+  glossary,
 }) => {
   const router = useRouter();
 
   const onBackIconClick = useCallback(() => {
     router.push(backRoute);
   }, [router]);
-
+  const onGlossaryButtonClick = useCallback(() => {
+    router.push(glossary); // _blank opens in new tab
+  }, [glossary]);
   return (
     <Box p={{ md: 3, xs: 2 }}>
-      <Stack
-        flexDirection={"row"}
-        alignItems={"center"}
-        mt={{ md: 2, xs: 1 }}
-        mb={{ md: 5, sm: 3, xs: 2 }}
-      >
-        <Image
-          src={MultiBackIcon}
-          alt={pageTitle}
-          width={40}
-          height={40}
-          onClick={onBackIconClick}
-          style={{ cursor: "pointer" }}
-        />
-        <Typography
-          variant="h5"
-          color="#0246BC"
-          fontSize={fontSize}
-          fontWeight={{ md: 600, xs: 500 }}
-          ml={{ md: 2, xs: 1 }}
-          sx={{
-            fontFamily: "inherit",
-          }}
+      <Stack direction="row" justifyContent="space-between" alignItems="center">
+        <Stack
+          flexDirection={"row"}
+          alignItems={"center"}
+          mt={{ md: 2, xs: 1 }}
+          mb={{ md: 5, sm: 3, xs: 2 }}
         >
-          {pageTitle}
-        </Typography>
+          <Image
+            src={MultiBackIcon}
+            alt={pageTitle}
+            width={40}
+            height={40}
+            onClick={onBackIconClick}
+            style={{ cursor: "pointer" }}
+          />
+          <Typography
+            variant="h5"
+            color="#0246BC"
+            fontSize={fontSize}
+            fontWeight={{ md: 600, xs: 500 }}
+            ml={{ md: 2, xs: 1 }}
+            sx={{
+              fontFamily: "inherit",
+            }}
+          >
+            {pageTitle}
+          </Typography>
+        </Stack>
+        {amendmentButtonRoute && (
+          <Button
+            onClick={() => {
+              window.open(amendmentButtonRoute, "_blank");
+            }}
+            sx={{
+              backgroundColor: "#5A5867",
+              color: "#FFFFFF",
+              "&:hover": {
+                backgroundColor: "#4A4857",
+              },
+              cursor: "pointer",
+              fontSize: { xs: "0.7rem", sm: "0.9rem", md: "1rem" },
+              padding: { xs: "6px 12px", md: "8px 16px" },
+              textTransform: "capitalize",
+            }}
+          >
+            Reference Document
+          </Button>
+        )}{" "}
+        {glossary && (
+          <Button
+            variant="text"
+            sx={{
+              color: "#5A5867",
+              cursor: "pointer",
+              fontSize: { xs: "0.7rem", sm: "0.9rem", md: "2rem" },
+              padding: { xs: "6px 12px", md: "8px 16px" },
+              textTransform: "capitalize",
+            }}
+            onClick={onGlossaryButtonClick}
+            endIcon={
+              <ArrowCircleDownOutlinedIcon
+                sx={{
+                  width: 30,
+                  height: 30,
+                }}
+              />
+            }
+          >
+            Glossary
+          </Button>
+        )}
       </Stack>
       <Grid container spacing={2}>
         {!!arrayData.length &&
