@@ -17,7 +17,7 @@ const FcaApplicationPageData = [
   },
   {
     key: "fca-2",
-    link: "/removal-of-patients-to-channel-islands-or-isle-of-man",
+    link: "/payment-service-new-authorisation-registration",
     icon: FACAPPlicationMainImagetwo,
     title: "Payment Services New Authorisation  Registration",
   },
