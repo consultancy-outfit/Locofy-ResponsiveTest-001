@@ -12,9 +12,9 @@ const paymentInitiationAisConfirmationAvailabilityFunds = () => {
             backRoute="/"
             pageTitle="FCA Application / FCA Guide to Payment Services & E-Money Regulation / Chapter 17: Payment initiation & Account information services and confirmation of availability of funds"
             images={[
-                { src: paymentInitiationAisConfirmationAvailabilityFunds1, route: "/fca-payment-initiation-ais-confirmation-availability-funds", alt: "Image" },
+                { src: paymentInitiationAisConfirmationAvailabilityFunds1, route: "/chapter-17-ayment-initiation-ais-and-confirmation-of-availability-of-funds", alt: "Image" },
                 { src: paymentInitiationAisConfirmationAvailabilityFunds2, route: "/fca-exemption-from-contingency-mechanism", alt: "Image 1" },
-                { src: paymentInitiationAisConfirmationAvailabilityFunds3, route: "/fca-payment-initiation-ais-confirmation-availability-funds", alt: "Image 2" },
+                { src: paymentInitiationAisConfirmationAvailabilityFunds3, route: "/chapter-17-ayment-initiation-ais-and-confirmation-of-availability-of-funds", alt: "Image 2" },
             ]}
             onChange={handleCheckboxChange}
         />

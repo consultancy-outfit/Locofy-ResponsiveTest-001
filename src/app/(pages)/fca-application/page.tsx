@@ -23,13 +23,13 @@ const FcaApplicationPageData = [
   },
   {
     key: "fca-3",
-    link: "/removal-of-patients-to-northern-ireland",
+    link: "/e-money-new-authorisation-registration",
     icon: FACAPPlicationMainImagethree,
     title: "E-Money New Authorisation / Registration",
   },
   {
     key: "fca-4",
-    link: "/removal-of-aliens",
+    link: "/payment-services-and-electronic-money-our-approach",
     icon: FcaApplicationMainImagefour,
     title: "Payment Services and Electronic Money – Our Approach",
   }

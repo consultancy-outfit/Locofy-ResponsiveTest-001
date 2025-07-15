@@ -217,14 +217,14 @@ export { default as FcaApplicationPageImage17 } from "./FcaApplicationPageImage1
 export { default as FcaApplicationPageImage18 } from "./FcaApplicationPageImage18.svg";
 export { default as FcaApplicationPageImage19 } from "./FcaApplicationPageImage19.svg";
 export { default as FcaApplicationPageImage20 } from "./FcaApplicationPageImage20.svg";
-export { default as FcaApplicationPageImageone} from "./FcaApplicationPageImageone.svg";
+export { default as FcaApplicationPageImageone } from "./FcaApplicationPageImageone.svg";
 export { default as FcaApplicationPageImagetwo } from "./FcaApplicationPageImagetwo.svg";
 export { default as FcaApplicationPageImagethree } from "./FcaApplicationPageImagethree.svg";
 export { default as FcaApplicationPageImagefour } from "./FcaApplicationPageImagefour.svg";
 export { default as mainSection } from "./mainSection.svg";
 export { default as colorLegends } from "./colorLegends.svg";
 export { default as fcalogo } from "./fcalogo.svg";
-export { default as FACAPPlicationMainImageone} from "./FACAPPlicationMainImageone.svg";
+export { default as FACAPPlicationMainImageone } from "./FACAPPlicationMainImageone.svg";
 export { default as FACAPPlicationMainImagetwo } from "./FACAPPlicationMainImagetwo.svg";
 export { default as FACAPPlicationMainImagethree } from "./FACAPPlicationMainImagethree.svg";
 export { default as FcaApplicationMainImagefour } from "./FcaApplicationMainImagefour.svg";
@@ -238,6 +238,30 @@ export { default as fcaAnnexes } from "./fca-annexes.svg";
 export { default as glossaryOfTermsImg } from "./glossary-of-terms.svg";
 export { default as acronymsAndAbbreviationsImg } from "./acronyms-and-abbreviations.svg";
 export { default as annexFiguresImg } from "./annex-figures.svg";
+
+
+export { default as paymentService1 } from "./payment-service1.svg";
+export { default as paymentService2 } from "./payment-service2.svg";
+export { default as paymentService3 } from "./payment-service3.svg";
+export { default as paymentService4 } from "./payment-service4.svg";
+export { default as paymentService5 } from "./payment-service5.svg";
+export { default as paymentService6 } from "./payment-service6.svg";
+export { default as paymentService7 } from "./payment-service7.svg";
+export { default as paymentService8 } from "./payment-service8.svg";
+export { default as paymentService9 } from "./payment-service9.svg";
+export { default as paymentService10 } from "./payment-service10.svg";
+export { default as paymentService11 } from "./payment-service11.svg";
+export { default as paymentService12 } from "./payment-service12.svg";
+export { default as paymentService13 } from "./payment-service13.svg";
+export { default as paymentService14 } from "./payment-service14.svg";
+export { default as paymentService15 } from "./payment-service15.svg";
+export { default as paymentService16 } from "./payment-service16.svg";
+export { default as paymentService17 } from "./payment-service17.svg";
+export { default as paymentService18 } from "./payment-service18.svg";
+export { default as paymentService19 } from "./payment-service19.svg";
+export { default as paymentService20 } from "./payment-service20.svg";
+export { default as paymentService21 } from "./payment-service21.svg";
+
 
 
 
