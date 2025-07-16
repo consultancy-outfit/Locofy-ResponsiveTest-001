@@ -322,7 +322,6 @@ export { default as Section11ApplicationDeclarationImage } from "./Section11Appl
 
 export { default as img1NewProviderApplicationBreakdownImage } from "./img1NewProviderApplicationBreakdownImage.svg";
 export { default as img2NewProviderApplicationBreakdownImage } from "./img2NewProviderApplicationBreakdownImage.svg";
-export { default as AddAPartnerImage } from "./AddAPartnerImage.svg";
 export { default as Sc1ApplicationForRegistrationAsANewProviderOfRegulatedActivitiesImage } from "./Sc1ApplicationForRegistrationAsANewProviderOfRegulatedActivitiesImage.svg";
 export { default as img1CareQualityCommissionImage } from "./img1CareQualityCommissionImage.svg";
 export { default as img2CareQualityCommissionImage } from "./img2CareQualityCommissionImage.svg";
@@ -364,3 +363,5 @@ export { default as applicationToCancelOneRegulatedActivity } from "./applicatio
 export { default as applicationToCarryOnaNewRegulatedActivityPage } from "./applicationToCarryOnaNewRegulatedActivityPage.svg";
 export { default as applicationToCancelOnaNewRegulatedActivityPage } from "./applicationToCancelOnaNewRegulatedActivityPage.svg";
 export { default as formpurposeLoegalBasis } from "./formpurpose-loegal-basis.svg";
+
+export { default as AddPartnerDiagram } from "./AddPartnerDiagram.svg";
