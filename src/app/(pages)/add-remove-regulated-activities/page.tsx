@@ -22,7 +22,7 @@ const PaymentServicePageData = [
 const addRemoveRegulatedActivities = () => {
     return (
         <MultiPathPage
-            backRoute="/"
+            backRoute="/what-needs-to-be-registered"
             arrayData={PaymentServicePageData}
             pageTitle="Add / Remove Regulated activites"
         />

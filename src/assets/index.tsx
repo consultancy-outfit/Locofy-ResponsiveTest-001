@@ -404,3 +404,8 @@ export { default as CancellationDateImage } from "./CancellationDateImage.svg";
 export { default as ServiceProviderSDetailsImage } from "./ServiceProviderSDetailsImage.svg";
 export { default as OtherDetailsImage } from "./OtherDetailsImage.svg";
 export { default as WhereToSendYourApplicationImage } from "./WhereToSendYourApplicationImage.svg";
+export { default as overviewOfNonRegulatedActivities } from "./overview-of-non-regulated-activities.svg";
+export { default as overviewOfRegulatedActivities } from "./overview-of-regulated-activities.svg";
+export { default as manageRegulatedActivities } from "./manage-regulated-activities.svg";
+export { default as manageConditionsAndNotice } from "./manage-conditions-and-notice.svg";
+export { default as additionalFormsForSpecificTypeOfServices } from "./additional-forms-for-specific-type-of-services.svg";
