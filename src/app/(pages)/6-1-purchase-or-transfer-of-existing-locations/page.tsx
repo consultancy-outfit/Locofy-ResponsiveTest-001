@@ -1,15 +1,15 @@
-import { 61PurchaseOrTransferOfExistingLocationSImage } from "@/assets";
+import { PurchaseOrTransferOfExistingLocationSImage } from "@/assets";
 import { CommonPage } from "@/components";
 import React from "react";
 
-const 61PurchaseOrTransferOfExistingLocationSPage = () => {
+const PurchaseOrTransferOfExistingLocationSPage = () => {
   return (
     <CommonPage
       pageTitle={`6.1  Purchase or transfer of existing location(s)`}
-      src={61PurchaseOrTransferOfExistingLocationSImage}
+      src={PurchaseOrTransferOfExistingLocationSImage}
       backRoute="/sc1-application-for-registration-as-a-new-provider-of-regulated-activities"
     />
   );
 };
 
-export default 61PurchaseOrTransferOfExistingLocationSPage;
+export default PurchaseOrTransferOfExistingLocationSPage;
