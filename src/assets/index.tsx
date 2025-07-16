@@ -426,3 +426,7 @@ export { default as removeLocation2 } from "./removeLocation2.svg";
 export { default as removeLocation3 } from "./removeLocation3.svg";
 export { default as removeLocation4 } from "./removeLocation4.svg";
 export { default as DocumentsImage } from "./DocumentsImage.svg";
+export { default as Part1StatementOfPurposeMustBeReviewedAndUpdatedAnnuallyOrWhenTheServiceChangesImage } from "./Part1StatementOfPurposeMustBeReviewedAndUpdatedAnnuallyOrWhenTheServiceChangesImage.svg";
+export { default as Part2AimsAndObjectivesImage } from "./Part2AimsAndObjectivesImage.svg";
+export { default as Part3LocationSelectRegulatedActivitiesImage } from "./Part3LocationSelectRegulatedActivitiesImage.svg";
+export { default as Part4RegisteredManagerDetailsImage } from "./Part4RegisteredManagerDetailsImage.svg";

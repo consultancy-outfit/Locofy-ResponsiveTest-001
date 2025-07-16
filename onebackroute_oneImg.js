@@ -6,7 +6,7 @@ const assetsDir = path.join(__dirname, "src", "assets");
 const indexTsxPath = path.join(assetsDir, "index.tsx");
 
 const pages = [
-  { name: "Documents", backRoute: "/how-the-process-works" },
+  { name: "part 4 Registered Manager Details", backRoute: "/documents" },
   
 
  
