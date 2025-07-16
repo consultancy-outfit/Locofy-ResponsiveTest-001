@@ -409,3 +409,20 @@ export { default as overviewOfRegulatedActivities } from "./overview-of-regulate
 export { default as manageRegulatedActivities } from "./manage-regulated-activities.svg";
 export { default as manageConditionsAndNotice } from "./manage-conditions-and-notice.svg";
 export { default as additionalFormsForSpecificTypeOfServices } from "./additional-forms-for-specific-type-of-services.svg";
+
+export { default as HowToWorks1 } from "./HowToWorks1.svg";
+export { default as HowToWorks2 } from "./HowToWorks2.svg";
+export { default as HowToWorks3 } from "./HowToWorks3.svg";
+export { default as HowToWorks4 } from "./HowToWorks4.svg";
+export { default as HowToWorks5 } from "./HowToWorks5.svg";
+export { default as StepByStepCqcApplicationProcessImage } from "./StepByStepCqcApplicationProcessImage.svg";
+export { default as SubjectAccessRequestImage } from "./SubjectAccessRequestImage.svg";
+export { default as SubjectAccessRequestSelfImage } from "./SubjectAccessRequestSelfImage.svg";
+export { default as TheInformationYouAreRequestingImage } from "./TheInformationYouAreRequestingImage.svg";
+export { default as ProofOfYourIdentityImage } from "./ProofOfYourIdentityImage.svg";
+export { default as UsingYourInformationImage } from "./UsingYourInformationImage.svg";
+export { default as removeLocation1 } from "./removeLocation1.svg";
+export { default as removeLocation2 } from "./removeLocation2.svg";
+export { default as removeLocation3 } from "./removeLocation3.svg";
+export { default as removeLocation4 } from "./removeLocation4.svg";
+export { default as DocumentsImage } from "./DocumentsImage.svg";
