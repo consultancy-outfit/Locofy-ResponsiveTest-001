@@ -6,8 +6,7 @@ const assetsDir = path.join(__dirname, "src", "assets");
 const indexTsxPath = path.join(assetsDir, "index.tsx");
 
 const pages = [
-  { name: "Qualifications, Skills & Experience", backRoute: "/ Who Needs to Register?" },
-  { name: " Supporting People", backRoute: "/ Who Needs to Register?" },
+  { name: "What Needs to Be Registered", backRoute: "/application-to-cancel-one-regulated-activity" },
   
 
  
