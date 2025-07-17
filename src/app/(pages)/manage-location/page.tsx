@@ -11,13 +11,13 @@ import React from "react";
 const ManageLocationPageData = [
     {
         key: "scope-1",
-        link: "/step-by-step-cqc-application-process",
+        link: "/add-location",
         icon: removeLocation1,
         title: "Add Location",
     },
     {
         key: "scope-2",
-        link: "/subject-access-request",
+        link: "/additional-location-form-for-new-provider-registration-applications-2",
         icon: removeLocation2,
         title: "Additional location form for new provider",
     },
@@ -29,7 +29,7 @@ const ManageLocationPageData = [
     },
     {
         key: "scope-3",
-        link: "/",
+        link: "/manage-location",
         icon: removeLocation4,
         title: "Remove Location",
     },

@@ -302,6 +302,8 @@ export { default as TemporaryContactDetailsImage } from "./TemporaryContactDetai
 export { default as DisclosureBarringServiceDbsImage } from "./314DisclosureBarringServiceDbsImage.svg";
 export { default as ReferenceImage1 } from "./ReferenceImage1.svg";
 export { default as PurchaseOrTransferOfExistingLocationSImage } from "./61PurchaseOrTransferOfExistingLocationSImage.svg";
+export { default as Section6 } from "./section6.svg";
+
 export { default as FoodSafetyImage } from "./65FoodSafetyImage.svg";
 export { default as ConditionOfRegistrationAboutTheNumberOfPersonsAccommodatedToReceiveNursingOrPersonalCareAtThisLocationImage } from "./611ConditionOfRegistrationAboutTheNumberOfPersonsAccommodatedToReceiveNursingOrPersonalCareAtThisLocationImage.svg";
 export { default as Section7HowYouWillProvideYourServiceToBeCompletedByAllApplicantsImage } from "./Section7HowYouWillProvideYourServiceToBeCompletedByAllApplicantsImage.svg";
@@ -322,7 +324,6 @@ export { default as Section11ApplicationDeclarationImage } from "./Section11Appl
 
 export { default as img1NewProviderApplicationBreakdownImage } from "./img1NewProviderApplicationBreakdownImage.svg";
 export { default as img2NewProviderApplicationBreakdownImage } from "./img2NewProviderApplicationBreakdownImage.svg";
-export { default as AddAPartnerImage } from "./AddAPartnerImage.svg";
 export { default as Sc1ApplicationForRegistrationAsANewProviderOfRegulatedActivitiesImage } from "./Sc1ApplicationForRegistrationAsANewProviderOfRegulatedActivitiesImage.svg";
 export { default as img1CareQualityCommissionImage } from "./img1CareQualityCommissionImage.svg";
 export { default as img2CareQualityCommissionImage } from "./img2CareQualityCommissionImage.svg";
@@ -364,6 +365,8 @@ export { default as applicationToCancelOneRegulatedActivity } from "./applicatio
 export { default as applicationToCarryOnaNewRegulatedActivityPage } from "./applicationToCarryOnaNewRegulatedActivityPage.svg";
 export { default as applicationToCancelOnaNewRegulatedActivityPage } from "./applicationToCancelOnaNewRegulatedActivityPage.svg";
 export { default as formpurposeLoegalBasis } from "./formpurpose-loegal-basis.svg";
+
+export { default as AddPartnerDiagram } from "./AddPartnerDiagram.svg";
 export { default as feesManagersAndTransfers } from "./fees-managers-andtransfers.svg";
 export { default as confidentialityTechnicalSubmissionPage } from "./confidentiality-technical-submission.svg";
 export { default as Section1ServiceProviderTheAdditionalRegulatedActivityPage } from "./section-1-service-provider-and-the-additional-regulated-activity.svg";
@@ -430,6 +433,7 @@ export { default as Part1StatementOfPurposeMustBeReviewedAndUpdatedAnnuallyOrWhe
 export { default as Part2AimsAndObjectivesImage } from "./Part2AimsAndObjectivesImage.svg";
 export { default as Part3LocationSelectRegulatedActivitiesImage } from "./Part3LocationSelectRegulatedActivitiesImage.svg";
 export { default as Part4RegisteredManagerDetailsImage } from "./Part4RegisteredManagerDetailsImage.svg";
+<<<<<<< HEAD
 export { default as RemoveaLocation } from "./Remove-a-Location-Image.svg";
 export { default as applicationdetials } from "./applicationdetials.svg";
 export { default as otherinformation } from "./otherinformation.svg";
@@ -437,3 +441,28 @@ export { default as thelocationyouwanttoremove } from "./locationyouwanttoremove
 export { default as Applicationdeclaration } from "./Applicationdeclaration.svg";
 export { default as Howtosubmitthisapplication } from "./Howtosubmitthisapplication.svg";
 
+=======
+export { default as ScopingPaperInvestigatingDeathsAcrossMentalHealthAcuteAndCommunitySettingsReviewingAndImprovingImage } from "./ScopingPaperInvestigatingDeathsAcrossMentalHealthAcuteAndCommunitySettingsReviewingAndImprovingImage.svg";
+export { default as AddLocationImage } from "./AddLocationImage.svg";
+export { default as LocationsRegulatedActivitiesAndServiceTypesImage } from "./LocationsRegulatedActivitiesAndServiceTypesImage.svg";
+export { default as ApplicationDetailsImage } from "./ApplicationDetailsImage.svg";
+export { default as DayToDayManagementOfRegulatedActivitiesAtThisLocationImage } from "./DayToDayManagementOfRegulatedActivitiesAtThisLocationImage.svg";
+export { default as PurchaseOrTransferOfExistingLocationSImag } from "./PurchaseOrTransferOfExistingLocationSImag.svg";
+export { default as DetailsForLocationNumberImag } from "./DetailsForLocationNumberImag.svg";
+export { default as PlanningConsentImag } from "./PlanningConsentImag.svg";
+export { default as TheServiceTypesProvidedAtThisLocationImag } from "./TheServiceTypesProvidedAtThisLocationImag.svg";
+export { default as LocationOverviewImage } from "./LocationOverviewImage.svg";
+export { default as ConditionOfRegistrationAboutProvidingASpecialistServiceToPeopleWithALearningDisabilityOrPeopleWithALearningDisabilityAndAutismImag } from "./ConditionOfRegistrationAboutProvidingASpecialistServiceToPeopleWithALearningDisabilityOrPeopleWithALearningDisabilityAndAutismImage.svg";
+export { default as ServiceUserBandsImag } from "./ServiceUserBandsImag.svg";
+export { default as ConditionOfRegistrationAboutProvidingASpecialistServiceToPeopleWithALearningDisabilityOrPeopleWithALearningDisabilityAndAutismImage1 } from "./ConditionOfRegistrationAboutProvidingASpecialistServiceToPeopleWithALearningDisabilityOrPeopleWithALearningDisabilityAndAutismImage1.svg";
+export { default as ConditionOfRegistrationNumberOfPersonsForNursingOrPersonalCareImage } from "./ConditionOfRegistrationNumberOfPersonsForNursingOrPersonalCareImage.svg";
+export { default as ApplicationDeclarationImg } from "./ApplicationDeclarationImg.svg";
+export { default as HowToSubmitThisApplicationAndAccompanyingDocumentsImg } from "./HowToSubmitThisApplicationAndAccompanyingDocumentsImg.svg";
+export { default as AdditionalLocationFormForNewProviderRegistrationApplications2Image } from "./AdditionalLocationFormForNewProviderRegistrationApplications2Image.svg";
+export { default as LocationIdentityImage } from "./LocationIdentityImage.svg";
+export { default as ReadinessOriginImage } from "./ReadinessOriginImage.svg";
+export { default as LegalSafetyComplianceImage } from "./LegalSafetyComplianceImage.svg";
+export { default as RegulatedActivitiesImage } from "./RegulatedActivitiesImage.svg";
+export { default as ServiceTypesImage } from "./ServiceTypesImage.svg";
+export { default as CommunityHealthNhsBloodTransplant2Img } from "./CommunityHealthNhsBloodTransplant2Img.svg";
+>>>>>>> 774ff6c66269d3077f3bfaaa50ea3a4320961ad8
