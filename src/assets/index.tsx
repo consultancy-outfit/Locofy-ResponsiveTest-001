@@ -469,3 +469,5 @@ export { default as JobShareInformation } from "./JobShareInformation.svg";
 export { default as RegulatedActivitiesActivitiesyouareapplyingtomanage } from "./RegulatedActivitiesActivitiesyouareapplyingtomanage.svg";
 export { default as AdditionalLocationFormForNew } from "./AdditionalLocationFormImage.svg";
 
+export { default as HospiceServices1Image } from "./HospiceServices1Image.svg";
+

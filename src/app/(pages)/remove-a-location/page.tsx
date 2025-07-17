@@ -76,7 +76,7 @@ const RemoveLocationImageMap = () => {
               },
             }}
           >
-            <Typography variant="srOnly">Application Details</Typography>
+            <Typography variant="h6">Application Details</Typography>
           </Link>
 
           {/* Other Information */}
@@ -98,7 +98,7 @@ const RemoveLocationImageMap = () => {
               },
             }}
           >
-            <Typography variant="srOnly">Other Information</Typography>
+            <Typography variant="h6">Other Information</Typography>
           </Link>
 
           {/* Location (s) to Remove */}
@@ -120,7 +120,7 @@ const RemoveLocationImageMap = () => {
               },
             }}
           >
-            <Typography variant="srOnly">Location (s) to Remove</Typography>
+            <Typography variant="h6">Location (s) to Remove</Typography>
           </Link>
 
           {/* Application Declaration */}
@@ -142,7 +142,7 @@ const RemoveLocationImageMap = () => {
               },
             }}
           >
-            <Typography variant="srOnly">Application Declaration</Typography>
+            <Typography variant="h6">Application Declaration</Typography>
           </Link>
 
           {/* Submission Instructions */}
@@ -162,7 +162,7 @@ const RemoveLocationImageMap = () => {
               },
             }}
           >
-            <Typography variant="srOnly">Submission Instructions</Typography>
+            <Typography variant="h6">Submission Instructions</Typography>
           </Link>
         </Box>
       </Box>

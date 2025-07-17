@@ -75,7 +75,7 @@ const AdditionalLocationForm = () => {
               },
             }}
           >
-            <Typography variant="srOnly">Location Overview</Typography>
+            <Typography variant="h6">Location Overview</Typography>
           </Link>
 
           {/* Contact Details */}
@@ -97,7 +97,7 @@ const AdditionalLocationForm = () => {
               },
             }}
           >
-            <Typography variant="srOnly">Contact Details</Typography>
+            <Typography variant="h6">Contact Details</Typography>
           </Link>
 
           {/* Job Share Information */}
@@ -119,7 +119,7 @@ const AdditionalLocationForm = () => {
               },
             }}
           >
-            <Typography variant="srOnly">Job Share Information</Typography>
+            <Typography variant="h6">Job Share Information</Typography>
           </Link>
 
           {/* Regulated Activities */}
@@ -145,7 +145,7 @@ const AdditionalLocationForm = () => {
               },
             }}
           >
-            <Typography variant="srOnly">Regulated Activities</Typography>
+            <Typography variant="h6">Regulated Activities</Typography>
           </Link>
         </Box>
       </Box>
