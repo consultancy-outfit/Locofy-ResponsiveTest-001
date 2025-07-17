@@ -374,7 +374,7 @@ export { default as Section7SupportingDocumentsImage } from "./Section7Supportin
 export { default as Section6PositionStatementLetterImage } from "./Section6PositionStatementLetterImage.svg";
 export { default as Section5ServicesYouWillProvideImage } from "./Section5ServicesYouWillProvideImage.svg";
 export { default as Section4LegalRepresentativeAllProvidersImage } from "./Section4LegalRepresentativeAllProvidersImage.svg";
-export { default as AdditionalFormForAmbulanceServices1Image } from "./AdditionalFormForAmbulanceServices1mage.svg";
+export { default as AdditionalFormForAmbulanceServices1Image } from "./AdditionalFormForAmbulanceServices1Image.svg";
 export { default as AdditionalFormForAmbulanceServicesImage } from "./AdditionalFormForAmbulanceServices.svg";
 export { default as AdditionalFormForAmbulanceServices01Image } from "./AdditionalFormForAmbulanceServices01Image.svg";
 export { default as AdditionalFormForAmbulanceServices02Image } from "./AdditionalFormForAmbulanceServices02Image.svg";
@@ -398,4 +398,13 @@ export { default as HomeCareDomiciliaryCareServicesFormImage } from "./HomeCareD
 export { default as AdditionalFormForDomiciliaryCareServices01Image } from "./AdditionalFormForDomiciliaryCareServices01Image.svg";
 export { default as AdditionalFormForDomiciliaryCareServices02Image } from "./AdditionalFormForDomiciliaryCareServices02Image.svg";
 export { default as AdditionalFormForDomiciliaryCareServices03Image } from "./AdditionalFormForDomiciliaryCareServices03Image.svg";
-
+export { default as AdditionalFormForDomiciliaryCareServices04Image } from "./AdditionalFormForDomiciliaryCareServices04Image.svg";
+export { default as AdditionalFormForDomiciliaryCareServices05Image } from "./AdditionalFormForDomiciliaryCareServices05Image.svg";
+export { default as AdditionalFormForDomiciliaryCareServices06Image } from "./AdditionalFormForDomiciliaryCareServices06Image.svg";
+export { default as AdditionalFormForDomiciliaryCareServices07Image } from "./AdditionalFormForDomiciliaryCareServices07Image.svg";
+export { default as AdditionalFormForDomiciliaryCareServices08Image } from "./AdditionalFormForDomiciliaryCareServices08Image.svg";
+export { default as AdditionalFormForDomiciliaryCareServices09Image } from "./AdditionalFormForDomiciliaryCareServices09Image.svg";
+export { default as InsuranceSupportingInformationImage } from "./InsuranceSupportingInformationImage.svg";
+export { default as Section1ConfirmationAndEvidenceOfInsuranceCoverImage } from "./Section1ConfirmationAndEvidenceOfInsuranceCoverImage.svg";
+export { default as Section2ConfirmationAndEvidenceOfInsuranceCoverImage } from "./Section2ConfirmationAndEvidenceOfInsuranceCoverImage.svg";
+export { default as Section3OtherInformationImage } from "./Section3OtherInformationImage.svg";
