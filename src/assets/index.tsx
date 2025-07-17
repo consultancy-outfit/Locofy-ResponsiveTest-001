@@ -302,6 +302,8 @@ export { default as TemporaryContactDetailsImage } from "./TemporaryContactDetai
 export { default as DisclosureBarringServiceDbsImage } from "./314DisclosureBarringServiceDbsImage.svg";
 export { default as ReferenceImage1 } from "./ReferenceImage1.svg";
 export { default as PurchaseOrTransferOfExistingLocationSImage } from "./61PurchaseOrTransferOfExistingLocationSImage.svg";
+export { default as Section6 } from "./section6.svg";
+
 export { default as FoodSafetyImage } from "./65FoodSafetyImage.svg";
 export { default as ConditionOfRegistrationAboutTheNumberOfPersonsAccommodatedToReceiveNursingOrPersonalCareAtThisLocationImage } from "./611ConditionOfRegistrationAboutTheNumberOfPersonsAccommodatedToReceiveNursingOrPersonalCareAtThisLocationImage.svg";
 export { default as Section7HowYouWillProvideYourServiceToBeCompletedByAllApplicantsImage } from "./Section7HowYouWillProvideYourServiceToBeCompletedByAllApplicantsImage.svg";
