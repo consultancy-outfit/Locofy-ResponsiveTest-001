@@ -9,7 +9,7 @@ const GuardiansOfConsentPage = () => {
     <AmendmentComparison
       pageTitle={`Mental Health / Mental Health Act 1983 / Guardians of Consent`}
       src={GuardiansOfConsentImage}
-      backRoute="/mental-health-act-1983-part-iii"
+      backRoute="/part-iv-consent-to-treatment"
       amendmentButtonRoute="/chap-1-amendment-comparison"
     />
   );

@@ -4,7 +4,7 @@ import {
   img1MentalHealthAct1983PartIiiImage,
   img2MentalHealthAct1983PartIiiImage,
   img3MentalHealthAct1983PartIiiImage,
-  img4MentalHealthAct1983PartIiiImage,
+  img4MentalHealthAct1983PartIiiImage1,
   img5MentalHealthAct1983PartIiiImage,
   img6MentalHealthAct1983PartIiiImage,
   img7MentalHealthAct1983PartIiiImage
@@ -33,7 +33,7 @@ const MentalHealthAct1983PartIiiPageData = [
   {
     key: "mental-4",
     link: "/hospital-and-limitation-directions",
-    icon: img4MentalHealthAct1983PartIiiImage,
+    icon: img4MentalHealthAct1983PartIiiImage1,
     title: "Hospital and limitation directions",
   },
   {

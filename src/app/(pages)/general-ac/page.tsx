@@ -1,4 +1,4 @@
-import { GeneralAcImage } from "@/assets";
+import { GeneralAcImage1 } from "@/assets";
 import { CommonPage } from "@/components";
 import React from "react";
 
@@ -6,7 +6,7 @@ const GeneralAcPage = () => {
   return (
     <CommonPage
       pageTitle="Amendment Comparison"
-      src={GeneralAcImage}
+      src={GeneralAcImage1}
       backRoute="general"
     />
   );

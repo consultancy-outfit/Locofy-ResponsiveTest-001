@@ -19,13 +19,13 @@ const MentalHealthAct1983Part6PageData = [
   },
   {
     key: "mental-2",
-    link: "/removal-of-patients-to-channel-islands-or-isle-of-man",
+    link: "/removal-of-patients-to-northern-ireland",
     icon: img2MentalHealthAct1983Part6Image,
     title: "Removal of patients to Northern Ireland.",
   },
   {
     key: "mental-3",
-    link: "/removal-of-patients-to-northern-ireland",
+    link: "/removal-of-patients-to-channel-islands-or-isle-of-man",
     icon: img3MentalHealthAct1983Part6Image,
     title: "After-Removal of patients to Channel Islands or Isle of Man.",
   },

@@ -13,7 +13,7 @@ import {
   img10MentalHealthAct1983Image,
   img11MentalHealthAct1983Image,
   img12MentalHealthAct1983Image,
-  img13MentalHealthAct1983Image
+  img13MentalHealthAct1983Image,
 } from "@/assets";
 import React from "react";
 
@@ -44,7 +44,7 @@ const MentalHealthAct1983PageData = [
   },
   {
     key: "mental-5",
-    link: "/",
+    link: "/part-iv-consent-to-treatment",
     icon: img5MentalHealthAct1983Image,
     title: "Part IV Consent to Treatment",
   },
@@ -58,31 +58,32 @@ const MentalHealthAct1983PageData = [
     key: "mental-7",
     link: "/mental-health-act-1983-part-v",
     icon: img7MentalHealthAct1983Image,
-  title: "Part V Mental Health Review Tribunals",
+    title: "Part V Mental Health Review Tribunals",
   },
   {
     key: "mental-8",
     link: "/mental-health-act-1983-part-6",
     icon: img8MentalHealthAct1983Image,
-    title: "Part VIII Miscellaneous Functions of Local Authorities and the Secretary of State",
+    title: "Part VI Removal and Return of Patients Within United Kingdom, etc.",
   },
   {
     key: "mental-9",
     link: "/part-vii-management-of-property-and-affairs-of-patients",
     icon: img9MentalHealthAct1983Image,
-      title: "Part VII Management of Property and Affairs of Patients",
+    title: "Part VII Management of Property and Affairs of Patients",
   },
   {
     key: "mental-10",
     link: "/mental-health-act-1983-part-8",
     icon: img10MentalHealthAct1983Image,
-  title: "Part VIII Miscellaneous Functions of Local Authorities and the Secretary of State",
+    title:
+      "Part VIII Miscellaneous Functions of Local Authorities and the Secretary of State",
   },
   {
     key: "mental-11",
     link: "/Part-9-offences",
     icon: img11MentalHealthAct1983Image,
-     title: "Part IX Offences",
+    title: "Part IX Offences",
   },
   {
     key: "mental-12",
@@ -95,7 +96,7 @@ const MentalHealthAct1983PageData = [
     link: "/schedule-act-1983",
     icon: img13MentalHealthAct1983Image,
     title: "Schedule",
-  }
+  },
 ];
 
 const MentalHealthAct1983Page = () => {
