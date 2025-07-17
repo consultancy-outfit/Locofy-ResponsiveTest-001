@@ -36,7 +36,7 @@ const HowTheProcessWorksPageData = [
     },
     {
         key: "scope-4",
-        link: "/",
+        link: "/scoping-paper-investigating-deaths-across-mental-health-acute-and-community-settings-reviewing-and-improving",
         icon: HowToWorks5,
         title: "Scoping paper  Investigating deaths across mental health",
     },

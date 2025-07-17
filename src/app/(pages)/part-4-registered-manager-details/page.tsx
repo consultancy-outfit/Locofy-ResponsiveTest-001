@@ -5,7 +5,7 @@ import React from "react";
 const Part4RegisteredManagerDetailsPage = () => {
   return (
     <CommonPage
-      pageTitle={`part 4 Registered Manager Details`}
+      pageTitle={`Part 4 Registered Manager Details`}
       src={Part4RegisteredManagerDetailsImage}
       backRoute="/documents"
     />
