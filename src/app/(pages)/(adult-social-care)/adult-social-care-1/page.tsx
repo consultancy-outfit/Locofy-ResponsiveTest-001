@@ -102,7 +102,7 @@ const AdultSocialCare1Page = () => {
 					width={40}
 					height={40}
 					onClick={() => {
-						router.replace("/adult-social-care-1");
+						router.replace("/specific-type-of-services");
 					}}
 					style={{ cursor: "pointer" }}
 				/>

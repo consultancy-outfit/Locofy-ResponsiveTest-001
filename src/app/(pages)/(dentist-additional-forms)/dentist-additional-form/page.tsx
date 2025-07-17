@@ -101,7 +101,7 @@ const DentistAdditionalFormPage = () => {
 					width={40}
 					height={40}
 					onClick={() => {
-						router.replace("/dentist-additional-form");
+						router.replace("/specific-type-of-services");
 					}}
 					style={{ cursor: "pointer" }}
 				/>

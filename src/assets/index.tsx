@@ -408,3 +408,11 @@ export { default as InsuranceSupportingInformationImage } from "./InsuranceSuppo
 export { default as Section1ConfirmationAndEvidenceOfInsuranceCoverImage } from "./Section1ConfirmationAndEvidenceOfInsuranceCoverImage.svg";
 export { default as Section2ConfirmationAndEvidenceOfInsuranceCoverImage } from "./Section2ConfirmationAndEvidenceOfInsuranceCoverImage.svg";
 export { default as Section3OtherInformationImage } from "./Section3OtherInformationImage.svg";
+export { default as IconSpecificTypeOfServices1 } from "./IconSpecificTypeOfServices1.svg";
+export { default as IconSpecificTypeOfServices2 } from "./IconSpecificTypeOfServices2.svg";
+export { default as IconSpecificTypeOfServices3 } from "./IconSpecificTypeOfServices3.svg";
+export { default as IconSpecificTypeOfServices4 } from "./IconSpecificTypeOfServices4.svg";
+export { default as IconSpecificTypeOfServices5 } from "./IconSpecificTypeOfServices5.svg";
+export { default as IconSpecificTypeOfServices6 } from "./IconSpecificTypeOfServices6.svg";
+export { default as IconSpecificTypeOfServices7 } from "./IconSpecificTypeOfServices7.svg";
+export { default as IconSpecificTypeOfServices8 } from "./IconSpecificTypeOfServices8.svg";

@@ -101,7 +101,7 @@ const AdditionalFormForAmbulanceServicesPage = () => {
 					width={40}
 					height={40}
 					onClick={() => {
-						router.replace("/additional-form-for-ambulance-services-1");
+						router.replace("/specific-type-of-services");
 					}}
 					style={{ cursor: "pointer" }}
 				/>

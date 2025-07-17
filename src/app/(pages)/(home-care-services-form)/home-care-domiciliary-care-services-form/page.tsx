@@ -102,7 +102,7 @@ const HomeCareDomiciliaryCareServicesFormPage = () => {
 					width={40}
 					height={40}
 					onClick={() => {
-						router.replace("/home-care-domiciliary-care-services-form");
+						router.replace("/specific-type-of-services");
 					}}
 					style={{ cursor: "pointer" }}
 				/>

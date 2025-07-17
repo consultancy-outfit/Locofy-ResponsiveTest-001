@@ -56,7 +56,7 @@ const InsuranceSupportingInformationPage = () => {
 					width={40}
 					height={40}
 					onClick={() => {
-						router.replace("/insurance-supporting-information");
+						router.replace("/specific-type-of-services");
 					}}
 					style={{ cursor: "pointer" }}
 				/>
