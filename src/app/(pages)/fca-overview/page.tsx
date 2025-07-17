@@ -9,7 +9,7 @@ const FcaOverviewPage = () => {
       pageTitle={`FCA Application / FCA Overview`}
       src={FcaOverviewImage}
       backRoute="/fca-application" 
-      amendmentButtonRoute="/fca-overview-new-comparison"
+      amendmentButtonRoute="/fca-application"
       amendmentButtonTitle="View FCA Details" 
     />
   );

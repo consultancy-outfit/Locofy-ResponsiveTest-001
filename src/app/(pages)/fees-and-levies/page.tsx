@@ -7,7 +7,7 @@ const FeesAndLeviesPage = () => {
     <CommonPage
       pageTitle="Fees and levies"
       src={FeesAndLeviesImage}
-      backRoute="/semi"
+      backRoute="/pisp_spi"
     />
   );
 };

@@ -41,9 +41,14 @@ const MultiImagesAmendmentComparisonBtnOne: React.FC<CommonPageProps> = ({
     router.push(backRoute);
   }, [router, backRoute]);
 
+  // const onAmendmentButtonClick1 = useCallback(() => {
+  //   router.push(amendmentButtonRoute1);
+  // }, [router, amendmentButtonRoute1]);
   const onAmendmentButtonClick1 = useCallback(() => {
-    router.push(amendmentButtonRoute1);
-  }, [router, amendmentButtonRoute1]);
+    if (amendmentButtonRoute1) {
+        window.open(amendmentButtonRoute1, "_blank");
+    }
+}, [amendmentButtonRoute1]);
 
 //   const onAmendmentButtonClick2 = useCallback(() => {
 //     router.push(amendmentButtonRoute2);

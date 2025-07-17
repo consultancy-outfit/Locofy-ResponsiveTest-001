@@ -7,7 +7,7 @@ const PsdAgentsPage = () => {
     <CommonPage
       pageTitle={`PSD Agents`}
       src={PsdAgentsImage}
-      backRoute="//pisp_spi"
+      backRoute="/pisp_spi"
     />
   );
 };

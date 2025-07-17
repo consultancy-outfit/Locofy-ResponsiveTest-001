@@ -7,7 +7,7 @@ const SecurityPolicyPage = () => {
     <CommonPage
       pageTitle="Security policy"
       src={SecurityPolicyImage}
-      backRoute="/semi"
+      backRoute="/pisp_spi"
     />
   );
 };

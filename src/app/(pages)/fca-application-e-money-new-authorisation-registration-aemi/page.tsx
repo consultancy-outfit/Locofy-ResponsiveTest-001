@@ -66,6 +66,8 @@ const FcaApplicationEMoneyNewAuthorisationRegistrationAemiPage = () => {
       amendmentButtonTitle1="Reference Doc"
       amendmentButtonRoute2="terms-in-application-pack-sec3"
       amendmentButtonTitle2="KEY TERMS"
+        downloadUrl="https://orcalo-my.sharepoint.com/:b:/g/personal/muhammad-rutab_sohail_consultancyoutfit_co_uk/EbTYOfv4Xv9FnRSzgJnvU4UB4AbqCar-GmVjJx2NksxqTw?e=wb80Vr"
+  downloadFileName="FCA_Reference_Doc.pdf"
     />
   );
 };

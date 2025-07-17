@@ -138,7 +138,7 @@ const internalLinks = [
     title: "SPI",
   },
   {
-    href: "/raisp",
+    href: "/raisp-registration-account-information-service-provider",
     x: 819.64,
     y: 1998.36,
     width: 234.18,

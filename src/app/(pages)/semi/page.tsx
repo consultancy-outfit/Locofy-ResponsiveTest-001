@@ -56,9 +56,14 @@ const SemiPage = () => {
         // { src: SemiImage22, route: "/SEMI2", alt: "Image 22" },
       ]}
       pageTitle="FCA Application/E-Money New Authorisation &  Registration/SEMI"
-      amendmentButtonRoute1="/semi"
+      amendmentButtonRoute1="https://orcalo-my.sharepoint.com/:b:/g/personal/muhammad-rutab_sohail_consultancyoutfit_co_uk/EbTYOfv4Xv9FnRSzgJnvU4UB4AbqCar-GmVjJx2NksxqTw?e=wb80Vr"
       amendmentButtonTitle1="Reference Doc"
       backRoute="/e-money-new-authorisation-registration"
+      
+
+      
+      
+      
     />
   );
 };

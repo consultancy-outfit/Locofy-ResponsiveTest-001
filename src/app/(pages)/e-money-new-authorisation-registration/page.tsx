@@ -26,7 +26,7 @@ const EMoneyNewAuthorisationRegistrationPage = () => {
     <MultiPathPage
       arrayData={EMoneyNewAuthorisationRegistrationPageData}
       pageTitle="E-Money New Authorisation / Registration"
-      backRoute="/"
+      backRoute="/fca-application"
     />
   );
 };

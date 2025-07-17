@@ -7,7 +7,7 @@ const PispSpiPage = () => {
         <MultiImagesAmendmentComparisonBtn
             images={[
                 { src: pispSpiImage, route: "/pisp_spi", alt: "Image" },
-                { src: pispSpiImage1, route: "/identification-details-and-timings", alt: "Image 1" },
+                { src: pispSpiImage1, route: "/pisp-spi-identification-details-and-timings", alt: "Image 1" },
                 { src: pispSpiImage2, route: "/conditions-of-registration", alt: "Image 2" },
                 { src: pispSpiImage3, route: "/programme-of-operations", alt: "Image 3" },
                 { src: pispSpiImage4, route: "/safeguarding", alt: "Image 4" },
@@ -23,8 +23,9 @@ const PispSpiPage = () => {
             amendmentButtonTitle1="Reference Doc"
             amendmentButtonTitle2="KEY TERMS"
            backRoute="/payment-service-new-authorisation-registration"
-  downloadUrl="https://www.fca.org.uk/publication/forms/psd-spi-registration-application-form.doc"
-//   downloadFileName="psd-spi-registration-application-form.doc"
+//   downloadUrl="https://www.fca.org.uk/publication/forms/psd-spi-registration-application-form.doc"
+  downloadFileName="psd-spi-registration-application-form.doc"
+   downloadUrl="https://orcalo-my.sharepoint.com/:b:/g/personal/muhammad-rutab_sohail_consultancyoutfit_co_uk/EbTYOfv4Xv9FnRSzgJnvU4UB4AbqCar-GmVjJx2NksxqTw?e=wb80Vr"
         />
     );
 };

@@ -62,7 +62,7 @@ export { default as SemiImage19 } from "./SemiImage19.svg";
 export { default as SemiImage20 } from "./SemiImage20.svg";
 export { default as SemiImage21 } from "./SemiImage21.svg";
 // export { default as SemiImage22 } from "./SemiImage22.svg";
-export { default as IdentificationDetailsAndTimingsImage } from "./IdentificationDetailsAndTimingsImage.svg";
+export { default as IdentificationDetailsAndTimingsImage } from "./SemiIdentificationAndTimings.svg";
 export { default as IdentificationDetailsAndTimings1Image } from "./IdentificationDetailsAndTimings1Image.svg";
 export { default as IdentificationDetailsAndTimings2Image } from "./IdentificationDetailsAndTimings2Image.svg";
 export { default as IdentificationDetailsAndTimings3Image } from "./IdentificationDetailsAndTimings3Image.svg";
@@ -80,8 +80,8 @@ export { default as QualifyingHoldingsAndCloseLinksImage } from "./QualifyingHol
 export { default as ProcedureToMonitorHandleAndFollowUpOnSecurityIncidentsAndCustomerComplaintsImage } from "./ProcedureToMonitorHandleAndFollowUpOnSecurityIncidentsAndCustomerComplaintsImage.svg";
 export { default as ProcessInPlaceToFileMonitorTrackAndRestrictAccessToSensitivePaymentDataImage } from "./ProcessInPlaceToFileMonitorTrackAndRestrictAccessToSensitivePaymentDataImage.svg";
 export { default as ThePrinciplesAndDefinitionsApplicableToTheCollectionOfStatisticalDataOnPerformanceTransactionsAndFraudImage } from "./ThePrinciplesAndDefinitionsApplicableToTheCollectionOfStatisticalDataOnPerformanceTransactionsAndFraudImage.svg";
-export { default as SecurityPolicyImage } from "./SecurityPolicyImage.svg";
-export { default as FeesAndLeviesImage } from "./FeesAndLeviesImage.svg";
+export { default as SecurityPolicyImage } from "./DecisionTreeSection.svg";
+export { default as FeesAndLeviesImage } from "./FeesAndLevies.svg";
 
 export { default as FcaApplicationEMoneyNewAuthorisationRegistrationAemiImage1 } from "./FcaApplicationEMoneyNewAuthorisationRegistrationAemiImage1.svg";
 export { default as FcaApplicationEMoneyNewAuthorisationRegistrationAemiImage2 } from "./FcaApplicationEMoneyNewAuthorisationRegistrationAemiImage2.svg";
@@ -95,7 +95,7 @@ export { default as FcaApplicationEMoneyNewAuthorisationRegistrationAemiImage9 }
 export { default as FcaApplicationEMoneyNewAuthorisationRegistrationAemiImage10 } from "./FcaApplicationEMoneyNewAuthorisationRegistrationAemiImage10.svg";
 export { default as FcaApplicationEMoneyNewAuthorisationRegistrationAemiImage11 } from "./FcaApplicationEMoneyNewAuthorisationRegistrationAemiImage11.svg";
 export { default as FcaApplicationEMoneyNewAuthorisationRegistrationAemiImage12 } from "./FcaApplicationEMoneyNewAuthorisationRegistrationAemiImage12.svg";
-export { default as FcaApplicationEMoneyNewAuthorisationRegistrationAemiImage13 } from "./FcaApplicationEMoneyNewAuthorisationRegistrationAemiImage13.svg";
+export { default as FcaApplicationEMoneyNewAuthorisationRegistrationAemiImage13 } from "./UnrelatedPaymentServicesOne.svg";
 export { default as FcaApplicationEMoneyNewAuthorisationRegistrationAemiImage14 } from "./FcaApplicationEMoneyNewAuthorisationRegistrationAemiImage14.svg";
 export { default as FcaApplicationEMoneyNewAuthorisationRegistrationAemiImage15 } from "./FcaApplicationEMoneyNewAuthorisationRegistrationAemiImage15.svg";
 export { default as FcaApplicationEMoneyNewAuthorisationRegistrationAemiImage16 } from "./FcaApplicationEMoneyNewAuthorisationRegistrationAemiImage16.svg";
@@ -109,6 +109,7 @@ export { default as FcaApplicationEMoneyNewAuthorisationRegistrationAemiImage23 
 export { default as FcaApplicationEMoneyNewAuthorisationRegistrationAemiImage24 } from "./FcaApplicationEMoneyNewAuthorisationRegistrationAemiImage24.svg";
 export { default as FcaApplicationEMoneyNewAuthorisationRegistrationAemiImage25 } from "./FcaApplicationEMoneyNewAuthorisationRegistrationAemiImage25.svg";
 export { default as FcaApplicationEMoneyNewAuthorisationRegistrationAemiImage26 } from "./FcaApplicationEMoneyNewAuthorisationRegistrationAemiImage26.svg";
+export { default as FcaApplicationThree } from "./FcaApplication3.svg";
 
 export { default as IdentificationDetailsAndTimingsSec1Image } from "./IdentificationDetailsAndTimingsSec1Image.svg";
 export { default as OtherNamesSec1Image } from "./OtherNamesSec1Image.svg";
@@ -222,7 +223,7 @@ export { default as FcaApplicationPageImageone } from "./FcaApplicationPageImage
 export { default as FcaApplicationPageImagetwo } from "./FcaApplicationPageImagetwo.svg";
 export { default as FcaApplicationPageImagethree } from "./FcaApplicationPageImagethree.svg";
 export { default as FcaApplicationPageImagefour } from "./FcaApplicationPageImagefour.svg";
-export { default as FCAChapter3Authorisationandregistrationup1 } from "./FCAChapter3Authorisationandregistrationup1.svg";
+export { default as FCAChapter3Authorisationandregistrationup1 } from "./ChapterThree.svg";
 export { default as StructuralOrganisationandCloseLinks } from "./StructuralOrganisationandCloseLinks.svg";
 export { default as InitialCapitalRequirements } from "./InitialCapitalRequirements.svg";
 export { default as LocationofOfficesandBusinessActivities } from "./LocationofOfficesandBusinessActivities.svg";
