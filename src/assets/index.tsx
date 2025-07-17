@@ -456,3 +456,6 @@ export { default as LegalSafetyComplianceImage } from "./LegalSafetyComplianceIm
 export { default as RegulatedActivitiesImage } from "./RegulatedActivitiesImage.svg";
 export { default as ServiceTypesImage } from "./ServiceTypesImage.svg";
 export { default as CommunityHealthNhsBloodTransplant2Img } from "./CommunityHealthNhsBloodTransplant2Img.svg";
+export { default as CqcFeeStructureImage } from "./CqcFeeStructureImage.svg";
+export { default as DomiciliaryDentalOnly9Image } from "./DomiciliaryDentalOnly9Image.svg";
+export { default as arrowLeft } from "./arrow-left.svg";

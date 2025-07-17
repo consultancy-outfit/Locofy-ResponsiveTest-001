@@ -6,7 +6,7 @@ const assetsDir = path.join(__dirname, "src", "assets");
 const indexTsxPath = path.join(assetsDir, "index.tsx");
 
 const pages = [
-  { name: "4 Service Types", backRoute: "/additional-location-form-for-new-provider-registration-applications-2" },
+  { name: "Domiciliary Dental Only-9", backRoute: "/cqc-fee-structure" },
   
 
  
@@ -78,7 +78,7 @@ import React from "react";
 const ${pascalComponent} = () => {
   return (
     <CommonPage
-      pageTitle={\`${name}\`}
+      pageTitle={\`Domiciliary Dental Only\`}
       src={${imageName}}
       backRoute="${backRoute}"
     />
