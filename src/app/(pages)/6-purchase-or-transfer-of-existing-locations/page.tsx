@@ -1,4 +1,4 @@
-import { PurchaseOrTransferOfExistingLocationSImag } from "@/assets";
+import { Section6 } from "@/assets";
 import { CommonPage } from "@/components";
 import React from "react";
 
@@ -6,8 +6,8 @@ const PurchaseOrTransferOfExistingLocationSPage = () => {
   return (
     <CommonPage
       pageTitle={`Purchase or transfer of existing location(s)`}
-      src={PurchaseOrTransferOfExistingLocationSImag}
-      backRoute="/add-location"
+      src={Section6}
+      backRoute="/sc1-application-for-registration-as-a-new-provider-of-regulated-activities"
     />
   );
 };

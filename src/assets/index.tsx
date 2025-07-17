@@ -302,6 +302,8 @@ export { default as TemporaryContactDetailsImage } from "./TemporaryContactDetai
 export { default as DisclosureBarringServiceDbsImage } from "./314DisclosureBarringServiceDbsImage.svg";
 export { default as ReferenceImage1 } from "./ReferenceImage1.svg";
 export { default as PurchaseOrTransferOfExistingLocationSImage } from "./61PurchaseOrTransferOfExistingLocationSImage.svg";
+export { default as Section6 } from "./section6.svg";
+
 export { default as FoodSafetyImage } from "./65FoodSafetyImage.svg";
 export { default as ConditionOfRegistrationAboutTheNumberOfPersonsAccommodatedToReceiveNursingOrPersonalCareAtThisLocationImage } from "./611ConditionOfRegistrationAboutTheNumberOfPersonsAccommodatedToReceiveNursingOrPersonalCareAtThisLocationImage.svg";
 export { default as Section7HowYouWillProvideYourServiceToBeCompletedByAllApplicantsImage } from "./Section7HowYouWillProvideYourServiceToBeCompletedByAllApplicantsImage.svg";
@@ -322,7 +324,6 @@ export { default as Section11ApplicationDeclarationImage } from "./Section11Appl
 
 export { default as img1NewProviderApplicationBreakdownImage } from "./img1NewProviderApplicationBreakdownImage.svg";
 export { default as img2NewProviderApplicationBreakdownImage } from "./img2NewProviderApplicationBreakdownImage.svg";
-export { default as AddAPartnerImage } from "./AddAPartnerImage.svg";
 export { default as Sc1ApplicationForRegistrationAsANewProviderOfRegulatedActivitiesImage } from "./Sc1ApplicationForRegistrationAsANewProviderOfRegulatedActivitiesImage.svg";
 export { default as img1CareQualityCommissionImage } from "./img1CareQualityCommissionImage.svg";
 export { default as img2CareQualityCommissionImage } from "./img2CareQualityCommissionImage.svg";
@@ -364,6 +365,8 @@ export { default as applicationToCancelOneRegulatedActivity } from "./applicatio
 export { default as applicationToCarryOnaNewRegulatedActivityPage } from "./applicationToCarryOnaNewRegulatedActivityPage.svg";
 export { default as applicationToCancelOnaNewRegulatedActivityPage } from "./applicationToCancelOnaNewRegulatedActivityPage.svg";
 export { default as formpurposeLoegalBasis } from "./formpurpose-loegal-basis.svg";
+
+export { default as AddPartnerDiagram } from "./AddPartnerDiagram.svg";
 export { default as feesManagersAndTransfers } from "./fees-managers-andtransfers.svg";
 export { default as confidentialityTechnicalSubmissionPage  } from "./confidentiality-technical-submission.svg";
 export { default as Section1ServiceProviderTheAdditionalRegulatedActivityPage  } from "./section-1-service-provider-and-the-additional-regulated-activity.svg";

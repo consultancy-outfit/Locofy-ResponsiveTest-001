@@ -1,8 +1,8 @@
-<svg width="1860" height="5541" viewBox="0 0 1860 5541" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-<rect x="2" y="2" width="1856" height="5537" rx="12" fill="white"/>
-<rect x="2" y="2" width="1856" height="5537" rx="12" stroke="#666666" stroke-width="4" stroke-linecap="round" stroke-dasharray="8 12"/>
-<rect x="26" y="26" width="1808" height="2188.4" fill="url(#pattern0_1313_3215)"/>
-<rect x="26" y="2214.4" width="1808" height="3252.34" fill="url(#pattern1_1313_3215)"/>
+<svg width="1860" height="5542" viewBox="0 0 1860 5542" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<rect x="2" y="2.25781" width="1856" height="5537" rx="12" fill="white"/>
+<rect x="2" y="2.25781" width="1856" height="5537" rx="12" stroke="#666666" stroke-width="4" stroke-linecap="round" stroke-dasharray="8 12"/>
+<rect x="26" y="26.2578" width="1808" height="2188.4" fill="url(#pattern0_1313_3215)"/>
+<rect x="26" y="2214.66" width="1808" height="3252.34" fill="url(#pattern1_1313_3215)"/>
 <defs>
 <pattern id="pattern0_1313_3215" patternContentUnits="objectBoundingBox" width="1" height="1">
 <use xlink:href="#image0_1313_3215" transform="matrix(0.000403063 0 0 0.000333 0 -0.0849151)"/>
