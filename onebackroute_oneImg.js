@@ -8,7 +8,6 @@ const indexTsxPath = path.join(assetsDir, "index.tsx");
 const pages = [
   { name: "4 Service Types", backRoute: "/additional-location-form-for-new-provider-registration-applications-2" },
   
-
  
 ];
 
