@@ -433,7 +433,6 @@ export { default as Part1StatementOfPurposeMustBeReviewedAndUpdatedAnnuallyOrWhe
 export { default as Part2AimsAndObjectivesImage } from "./Part2AimsAndObjectivesImage.svg";
 export { default as Part3LocationSelectRegulatedActivitiesImage } from "./Part3LocationSelectRegulatedActivitiesImage.svg";
 export { default as Part4RegisteredManagerDetailsImage } from "./Part4RegisteredManagerDetailsImage.svg";
-<<<<<<< HEAD
 export { default as RemoveaLocation } from "./Remove-a-Location-Image.svg";
 export { default as applicationdetials } from "./applicationdetials.svg";
 export { default as otherinformation } from "./otherinformation.svg";
@@ -441,7 +440,6 @@ export { default as thelocationyouwanttoremove } from "./locationyouwanttoremove
 export { default as Applicationdeclaration } from "./Applicationdeclaration.svg";
 export { default as Howtosubmitthisapplication } from "./Howtosubmitthisapplication.svg";
 
-=======
 export { default as ScopingPaperInvestigatingDeathsAcrossMentalHealthAcuteAndCommunitySettingsReviewingAndImprovingImage } from "./ScopingPaperInvestigatingDeathsAcrossMentalHealthAcuteAndCommunitySettingsReviewingAndImprovingImage.svg";
 export { default as AddLocationImage } from "./AddLocationImage.svg";
 export { default as LocationsRegulatedActivitiesAndServiceTypesImage } from "./LocationsRegulatedActivitiesAndServiceTypesImage.svg";
@@ -452,7 +450,7 @@ export { default as DetailsForLocationNumberImag } from "./DetailsForLocationNum
 export { default as PlanningConsentImag } from "./PlanningConsentImag.svg";
 export { default as TheServiceTypesProvidedAtThisLocationImag } from "./TheServiceTypesProvidedAtThisLocationImag.svg";
 export { default as LocationOverviewImage } from "./LocationOverviewImage.svg";
-export { default as ConditionOfRegistrationAboutProvidingASpecialistServiceToPeopleWithALearningDisabilityOrPeopleWithALearningDisabilityAndAutismImag } from "./ConditionOfRegistrationAboutProvidingASpecialistServiceToPeopleWithALearningDisabilityOrPeopleWithALearningDisabilityAndAutismImage.svg";
+// export { default as ConditionOfRegistrationAboutProvidingASpecialistServiceToPeopleWithALearningDisabilityOrPeopleWithALearningDisabilityAndAutismImag } from "./ConditionOfRegistrationAboutProvidingASpecialistServiceToPeopleWithALearningDisabilityOrPeopleWithALearningDisabilityAndAutismImage.svg";
 export { default as ServiceUserBandsImag } from "./ServiceUserBandsImag.svg";
 export { default as ConditionOfRegistrationAboutProvidingASpecialistServiceToPeopleWithALearningDisabilityOrPeopleWithALearningDisabilityAndAutismImage1 } from "./ConditionOfRegistrationAboutProvidingASpecialistServiceToPeopleWithALearningDisabilityOrPeopleWithALearningDisabilityAndAutismImage1.svg";
 export { default as ConditionOfRegistrationNumberOfPersonsForNursingOrPersonalCareImage } from "./ConditionOfRegistrationNumberOfPersonsForNursingOrPersonalCareImage.svg";
@@ -465,4 +463,9 @@ export { default as LegalSafetyComplianceImage } from "./LegalSafetyComplianceIm
 export { default as RegulatedActivitiesImage } from "./RegulatedActivitiesImage.svg";
 export { default as ServiceTypesImage } from "./ServiceTypesImage.svg";
 export { default as CommunityHealthNhsBloodTransplant2Img } from "./CommunityHealthNhsBloodTransplant2Img.svg";
->>>>>>> 774ff6c66269d3077f3bfaaa50ea3a4320961ad8
+export { default as LocationOverview } from "./LocationOverview.svg";
+export { default as ContactDetails } from "./ContactDetails.svg";
+export { default as JobShareInformation } from "./JobShareInformation.svg";
+export { default as RegulatedActivitiesActivitiesyouareapplyingtomanage } from "./RegulatedActivitiesActivitiesyouareapplyingtomanage.svg";
+export { default as AdditionalLocationFormForNew } from "./AdditionalLocationFormImage.svg";
+

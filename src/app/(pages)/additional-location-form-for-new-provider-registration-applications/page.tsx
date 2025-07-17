@@ -2,11 +2,11 @@
 import React from "react";
 import Image from "next/image";
 import { Box, Typography, Link, Stack } from "@mui/material";
-import { RemoveaLocation } from "@/assets";
+import { AdditionalLocationFormForNew } from "@/assets";
 import { useRouter } from "next/navigation";
-import { CheckboxForm } from "@/components/checkbox-form";
 import { CommonBackIcon } from "@/assets/common-assets";
-const RemoveLocationImageMap = () => {
+
+const AdditionalLocationForm = () => {
   const router = useRouter();
 
   const handleClick = (title: string) => {
@@ -19,7 +19,7 @@ const RemoveLocationImageMap = () => {
         flexDirection={"row"}
         alignItems={"center"}
         mt={{ md: 2, xs: 1 }}
-        mb={{ md: 4, sm: 3, xs: 2 }} 
+        mb={{ md: 4, sm: 3, xs: 2 }}
       >
         <Image
           src={CommonBackIcon}
@@ -41,34 +41,33 @@ const RemoveLocationImageMap = () => {
             fontFamily: "inherit",
           }}
         >
-          Remove a Location
+          Additional section for information about an additional location – Manager application
         </Typography>
       </Stack>
-      <CheckboxForm onChange={() => {}} />
       <Box position="relative" width="100%" height="auto">
         {/* Image */}
         <Image
-          src={RemoveaLocation} // Update path as needed
-          alt="Remove Location Diagram"
-          width={1848}
-          height={3225}
+          src={AdditionalLocationFormForNew}
+          alt="Additional Location Form Diagram"
+          width={1822}
+          height={2160}
           layout="responsive"
         />
 
         {/* Interactive Areas */}
         <Box position="absolute" top={0} left={0} width="100%" height="100%">
-          {/* Application Details */}
+          {/* Location Overview */}
           <Link
             component="button"
-            onClick={() => handleClick("/application-details")}
+            onClick={() => handleClick("location-overview")}
             sx={{
               position: "absolute",
               textDecoration: "none",
               color: "transparent",
-              left: "6.74%",
-              top: "18.4%",
-              width: "15.67%",
-              height: "0.98%",
+              left: "5.89%",
+              top: "30.6%",
+              width: "15.38%",
+              height: "1.92%",
               "&:hover": {
                 border: "2px solid white",
                 opacity: 0.2,
@@ -76,43 +75,21 @@ const RemoveLocationImageMap = () => {
               },
             }}
           >
-            <Typography variant="srOnly">Application Details</Typography>
+            <Typography variant="srOnly">Location Overview</Typography>
           </Link>
 
-          {/* Other Information */}
+          {/* Contact Details */}
           <Link
             component="button"
-            onClick={() => handleClick("/other-information")}
+            onClick={() => handleClick("contact-details")}
             sx={{
               position: "absolute",
-              color: "transparent",
               textDecoration: "none",
-              left: "6.93%",
-              top: "26.5%",
-              width: "14.53%",
-              height: "1.2%",
-              "&:hover": {
-                border: "2px solid white",
-                opacity: 0.2,
-                borderRadius: "4px",
-              },
-            }}
-          >
-            <Typography variant="srOnly">Other Information</Typography>
-          </Link>
-
-          {/* Location (s) to Remove */}
-          <Link
-            component="button"
-            onClick={() => handleClick("the-location-you-want-to-remove")}
-            sx={{
-              position: "absolute",
-              left: "7.03%",
               color: "transparent",
-              textDecoration: "none",
-              top: "35.05%",
-              width: "17.19%",
-              height: "1.52%",
+              left: "6.84%",
+              top: "43.34%",
+              width: "12.25%",
+              height: "1.6%",
               "&:hover": {
                 border: "2px solid white",
                 opacity: 0.2,
@@ -120,21 +97,21 @@ const RemoveLocationImageMap = () => {
               },
             }}
           >
-            <Typography variant="srOnly">Location (s) to Remove</Typography>
+            <Typography variant="srOnly">Contact Details</Typography>
           </Link>
 
-          {/* Application Declaration */}
+          {/* Job Share Information */}
           <Link
             component="button"
-            onClick={() => handleClick("application-declarion-remove-location")}
+            onClick={() => handleClick("job-share-information")}
             sx={{
               position: "absolute",
-              left: "7.03%",
+              textDecoration: "none",
               color: "transparent",
-              textDecoration: "none",
-              top: "57.86%",
-              width: "18.99%",
-              height: "1.52%",
+              left: "6.36%",
+              top: "55.52%",
+              width: "18.14%",
+              height: "2.08%",
               "&:hover": {
                 border: "2px solid white",
                 opacity: 0.2,
@@ -142,19 +119,25 @@ const RemoveLocationImageMap = () => {
               },
             }}
           >
-            <Typography variant="srOnly">Application Declaration</Typography>
+            <Typography variant="srOnly">Job Share Information</Typography>
           </Link>
 
-          {/* Submission Instructions */}
+          {/* Regulated Activities */}
           <Link
             component="button"
-            onClick={() => handleClick("how-to-submit-this-application")}
+            onClick={() =>
+              handleClick(
+                "regulated-activities-activities-you-are-applying-to-manage"
+              )
+            }
             sx={{
               position: "absolute",
-              left: "7.12%",
-              top: "84.53%",
-              width: "17.95%",
-              height: "1.74%",
+              textDecoration: "none",
+              color: "transparent",
+              left: "7.22%",
+              top: "68.33%",
+              width: "17.0%",
+              height: "1.6%",
               "&:hover": {
                 border: "2px solid white",
                 opacity: 0.2,
@@ -162,7 +145,7 @@ const RemoveLocationImageMap = () => {
               },
             }}
           >
-            <Typography variant="srOnly">Submission Instructions</Typography>
+            <Typography variant="srOnly">Regulated Activities</Typography>
           </Link>
         </Box>
       </Box>
@@ -170,4 +153,4 @@ const RemoveLocationImageMap = () => {
   );
 };
 
-export default RemoveLocationImageMap;
+export default AdditionalLocationForm;
