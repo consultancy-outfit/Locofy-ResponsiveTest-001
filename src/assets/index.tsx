@@ -365,10 +365,10 @@ export { default as applicationToCarryOnaNewRegulatedActivityPage } from "./appl
 export { default as applicationToCancelOnaNewRegulatedActivityPage } from "./applicationToCancelOnaNewRegulatedActivityPage.svg";
 export { default as formpurposeLoegalBasis } from "./formpurpose-loegal-basis.svg";
 export { default as feesManagersAndTransfers } from "./fees-managers-andtransfers.svg";
-export { default as confidentialityTechnicalSubmissionPage  } from "./confidentiality-technical-submission.svg";
-export { default as Section1ServiceProviderTheAdditionalRegulatedActivityPage  } from "./section-1-service-provider-and-the-additional-regulated-activity.svg";
-export { default as Section2NominatedIndividualsPage  } from "./section-2-nominated-individuals.svg";
-export { default as Section3ApplicationDetailsPage  } from "./section-3-application-details.svg";
+export { default as confidentialityTechnicalSubmissionPage } from "./confidentiality-technical-submission.svg";
+export { default as Section1ServiceProviderTheAdditionalRegulatedActivityPage } from "./section-1-service-provider-and-the-additional-regulated-activity.svg";
+export { default as Section2NominatedIndividualsPage } from "./section-2-nominated-individuals.svg";
+export { default as Section3ApplicationDetailsPage } from "./section-3-application-details.svg";
 export { default as Section4LocationsPage } from "./section-4-locations.svg";
 export { default as Section5ExistingLocationsWhereYouWant } from "./section-5-Existing-locations-where-you-want.svg";
 export { default as DetailsForLocationNumberPage } from "./details-for-location-number.svg";
@@ -430,3 +430,10 @@ export { default as Part1StatementOfPurposeMustBeReviewedAndUpdatedAnnuallyOrWhe
 export { default as Part2AimsAndObjectivesImage } from "./Part2AimsAndObjectivesImage.svg";
 export { default as Part3LocationSelectRegulatedActivitiesImage } from "./Part3LocationSelectRegulatedActivitiesImage.svg";
 export { default as Part4RegisteredManagerDetailsImage } from "./Part4RegisteredManagerDetailsImage.svg";
+export { default as RemoveaLocation } from "./Remove-a-Location-Image.svg";
+export { default as applicationdetials } from "./applicationdetials.svg";
+export { default as otherinformation } from "./otherinformation.svg";
+export { default as thelocationyouwanttoremove } from "./locationyouwanttoremove.svg";
+export { default as Applicationdeclaration } from "./Applicationdeclaration.svg";
+export { default as Howtosubmitthisapplication } from "./Howtosubmitthisapplication.svg";
+
