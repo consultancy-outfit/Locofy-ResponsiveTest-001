@@ -50,7 +50,7 @@ export const HomeSection = () => {
    {
       alt: "SC2: Submit Application to Register as a Manager",
       title: "SC2: Submit Application to Register as a Manager",
-      href: "/SC2-Submit-Application-to-Register-as-a-Manager",
+      href: "/sc2-submit-application-to-register-as-a-manager",
       coords: "1107.52,90.09,1349.52,128.95",
       shape: "rect",
       type: "link",
@@ -407,20 +407,22 @@ export const HomeSection = () => {
   }, []);
 
   useEffect(() => {
-    const handleClickOutside = (event: MouseEvent) => {
-      const target = event.target as Node;
-      if (
-        legendRef.current &&
-        !legendRef.current.contains(target) &&
-        iconRef.current &&
-        !iconRef.current.contains(target)
-      ) {
-        setIsOpen(false);
-      }
-    };
-    document.addEventListener("click", handleClickOutside);
-    return () => document.removeEventListener("click", handleClickOutside);
-  }, []);
+  if (typeof document === 'undefined') return; 
+  
+  const handleClickOutside = (event: MouseEvent) => {
+    const target = event.target as Node;
+    if (
+      legendRef.current &&
+      !legendRef.current.contains(target) &&
+      iconRef.current &&
+      !iconRef.current.contains(target)
+    ) {
+      setIsOpen(false);
+    }
+  };
+  document.addEventListener("click", handleClickOutside);
+  return () => document.removeEventListener("click", handleClickOutside);
+}, []);
 
   const handleAreaClick = useCallback((area: Area) => {
     if (area.type === "link") {
