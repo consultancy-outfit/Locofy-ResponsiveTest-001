@@ -9,10 +9,10 @@ const ConsentAndTreatmentSafeguardsPage = () => {
     <AmendmentComparison
       pageTitle={`Mental Health / Mental Health Act 1983 / Consent and Treatment Safeguards    `}
       src={ConsentAndTreatmentSafeguardsImage}
-      backRoute="/mental-health-act-1983-part-iii"
-      amendmentButtonRoute="/chap-1-amendment-comparison"
+      backRoute="/part-iv-consent-to-treatment"
+      amendmentButtonRoute="/amendment-comparison-guardians-of-consent"
     />
   );
-};
+}; 
 
 export default ConsentAndTreatmentSafeguardsPage;

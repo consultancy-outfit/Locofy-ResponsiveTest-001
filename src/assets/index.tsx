@@ -148,7 +148,9 @@ export { default as RemandsToHospitalImage } from "./RemandsToHospitalImage.svg"
 export { default as HospitalAndGuardianshipOrdersImage } from "./HospitalAndGuardianshipOrdersImage.svg";
 export { default as RestrictionOrdersImage } from "./RestrictionOrdersImage.svg";
 export { default as HospitalAndLimitationDirectionsImage } from "./HospitalAndLimitationDirectionsImage.svg";
+export { default as HospitalAndLimitationDirectionsImage1 } from "./HospitalAndLimitationDirectionsImage1.svg";
 export { default as DetentionDuringHerMajestySPleasureImage } from "./DetentionDuringHerMajestySPleasureImage.svg";
+export { default as DetentionDuringHerMajestySPleasureImage1 } from "./DetentionDuringHerMajestySPleasureImage1.svg";
 export { default as TransferToHospitalOfPrisonersEtcImage } from "./TransferToHospitalOfPrisonersEtcImage.svg";
 export { default as Supplemental1Image } from "./Supplemental1Image.svg";
 export { default as Chap1AmendmentComparisonImage } from "./Chap1AmendmentComparisonImage.svg";
@@ -169,6 +171,7 @@ export { default as AmendmentComparisonDurationOfDetentionOrGuardianshipAndDisch
 export { default as img1CriminalProcedureInsanityAct1964Image } from "./img1CriminalProcedureInsanityAct1964Image.svg";
 export { default as img2CriminalProcedureInsanityAct1964Image } from "./img2CriminalProcedureInsanityAct1964Image.svg";
 export { default as img1ScheduleAct1964Image } from "./img1ScheduleAct1964Image.svg";
+export { default as img1ScheduleAct1964Image1 } from "./img1ScheduleAct1964Image1.svg";
 export { default as img2ScheduleAct1964Image } from "./img2ScheduleAct1964Image.svg";
 export { default as img3ScheduleAct1964Image } from "./img3ScheduleAct1964Image.svg";
 export { default as CriminalProcedureInsanityAct1965Image } from "./CriminalProcedureInsanityAct1965Image.svg";
@@ -197,6 +200,7 @@ export { default as img6ScheduleAct1983Image } from "./img6ScheduleAct1983Image.
 export { default as Part10MiscellaneousAndSupplementaryImage } from "./Part10MiscellaneousAndSupplementaryImage.svg";
 export { default as Part10SupplementaryImage } from "./Part10SupplementaryImage.svg";
 export { default as Part10acSupplementaryImage } from "./Part10acSupplementaryImage.svg";
+export { default as Part10acSupplementaryImage1 } from "./Part10acSupplementaryImage1.svg";
 export { default as img1MentalHealthAct1983Part9Image } from "./img1MentalHealthAct1983Part9Image.svg";
 export { default as img2MentalHealthAct1983Part9Image } from "./img2MentalHealthAct1983Part9Image.svg";
 export { default as Part10SupplementaryImageACc } from "./Part10SupplementaryImageACc.svg";
@@ -233,6 +237,7 @@ export { default as RemovalOfPatientsToNorthernIrelandAcImage } from "./RemovalO
 export { default as RemovalOfAliensAcImage } from "./RemovalOfAliensAcImage.svg";
 export { default as ReturnOfPatientsAbsentWithoutLeaveAcImage } from "./ReturnOfPatientsAbsentWithoutLeaveAcImage.svg";
 export { default as GeneralAcImage } from "./GeneralAcImage.svg";
+export { default as GeneralAcImage1 } from "./GeneralAcImage1.svg";
 export { default as img1MentalHealthAct1983PartVImage } from "./img1MentalHealthAct1983PartVImage.svg";
 export { default as img2MentalHealthAct1983PartVImage } from "./img2MentalHealthAct1983PartVImage.svg";
 export { default as img3MentalHealthAct1983PartVImage } from "./img3MentalHealthAct1983PartVImage.svg";
@@ -254,6 +259,7 @@ export { default as img1MentalHealthAct1983PartIiiImage } from "./img1MentalHeal
 export { default as img2MentalHealthAct1983PartIiiImage } from "./img2MentalHealthAct1983PartIiiImage.svg";
 export { default as img3MentalHealthAct1983PartIiiImage } from "./img3MentalHealthAct1983PartIiiImage.svg";
 export { default as img4MentalHealthAct1983PartIiiImage } from "./img4MentalHealthAct1983PartIiiImage.svg";
+export { default as img4MentalHealthAct1983PartIiiImage1 } from "./img4MentalHealthAct1983PartIiiImage1.svg";
 export { default as img5MentalHealthAct1983PartIiiImage } from "./img5MentalHealthAct1983PartIiiImage.svg";
 export { default as img6MentalHealthAct1983PartIiiImage } from "./img6MentalHealthAct1983PartIiiImage.svg";
 export { default as img7MentalHealthAct1983PartIiiImage } from "./img7MentalHealthAct1983PartIiiImage.svg";
@@ -270,5 +276,6 @@ export { default as Part3RestrictionOrdersImage } from "./Part3RestrictionOrders
 export { default as Part3HospitalAndLimitationDirectionsImage } from "./Part3HospitalAndLimitationDirectionsImage.svg";
 export { default as Part3DetentionDuringHerMajestySPleasureImage } from "./Part3DetentionDuringHerMajestySPleasureImage.svg";
 export { default as Part3TransferToHospitalOfPrisonersEtcImage } from "./Part3TransferToHospitalOfPrisonersEtcImage.svg";
+export { default as TransferToHospitalOfPrisonersEtcAcImage } from "./TransferToHospitalOfPrisonersEtcAcImage.svg";
 export { default as Part3SupplementalImage } from "./Part3SupplementalImage.svg";
 export { default as CriminalProcedureImage } from "./CriminalProcedureImage.svg";

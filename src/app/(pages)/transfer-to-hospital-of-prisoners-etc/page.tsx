@@ -10,7 +10,7 @@ const TransferToHospitalOfPrisonersEtcPage = () => {
       pageTitle={`Mental Health / Mental Health Act 1983 / Transfer to hospital of prisoners, etc.`}
       src={TransferToHospitalOfPrisonersEtcImage}
       backRoute="/mental-health-act-1983-part-iii"
-      amendmentButtonRoute="/chap-6-amendment-comparison"
+      amendmentButtonRoute="/transfer-to-hospital-of-prisoners-etc-ac"
     />
   );
 };

@@ -8,33 +8,9 @@ const assetsDir = path.join(__dirname, "src", "assets");
 // List of pages to create, each with a name and a custom backRoute
 const pages = [
   {
-    name: "Remands to Part  III AC",
+    name: "Amendment Comparison - Guardians of Consent",
     backRoute: "/Part 3 Remands to hospital"
   },
-  {
-    name: "Hospital and guardianship  Part  III AC",
-    backRoute: "/Part 3 Hospital and guardianship orders"
-  },
-  {
-    name: "Restriction order  Part  III AC",
-    backRoute: "/Part 3 Restriction orders"
-  },
-  {
-    name: "Hospital and limitation Part  III AC",
-    backRoute: "/Part 3 Hospital and limitation directions"
-  },
-  {
-    name: "Detention during Part III AC",
-    backRoute: "/Part 3 Detention during Her Majesty’s pleasure"
-  },
-  {
-    name: "Transfer  Part Part III AC",
-    backRoute: "/Part 3 Transfer to hospital of prisoners, etc."
-  },
-  {
-    name: "Supplemental Part Part III AC",
-    backRoute: "/Part 3 Supplemental"
-  }
 ];
 // Convert to PascalCase
 const toPascalCase = (str) =>
