@@ -7,7 +7,7 @@ const AmendmentComparisonGuardiansOfConsentPage = () => {
     <CommonPage
       pageTitle={`Mental Health / Mental Health Act 1983 / Amendment Comparison - Guardians of Consent   `}
       src={AmendmentComparisonGuardiansOfConsentImage}
-      backRoute="/"
+      backRoute="/consent-and-treatment-safeguards"
     />
   );
 };

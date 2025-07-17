@@ -276,5 +276,6 @@ export { default as Part3RestrictionOrdersImage } from "./Part3RestrictionOrders
 export { default as Part3HospitalAndLimitationDirectionsImage } from "./Part3HospitalAndLimitationDirectionsImage.svg";
 export { default as Part3DetentionDuringHerMajestySPleasureImage } from "./Part3DetentionDuringHerMajestySPleasureImage.svg";
 export { default as Part3TransferToHospitalOfPrisonersEtcImage } from "./Part3TransferToHospitalOfPrisonersEtcImage.svg";
+export { default as TransferToHospitalOfPrisonersEtcAcImage } from "./TransferToHospitalOfPrisonersEtcAcImage.svg";
 export { default as Part3SupplementalImage } from "./Part3SupplementalImage.svg";
 export { default as CriminalProcedureImage } from "./CriminalProcedureImage.svg";
