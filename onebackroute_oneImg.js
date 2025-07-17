@@ -6,16 +6,7 @@ const assetsDir = path.join(__dirname, "src", "assets");
 const indexTsxPath = path.join(assetsDir, "index.tsx");
 
 const pages = [
-  { name: "Section 1: Applicant & Provider Details", backRoute: "/Application for registration as a manager of regulated activity/activities" },
-  { name: " Managing Multiple Locations", backRoute: "/Application for registration as a manager of regulated activity/activities" },
-  
-{ name: "Employment History", backRoute: "/Application for registration as a manager of regulated activity/activities" },
-  { name: "Declarations by a Health or Social Care Professional ", backRoute: "/Application for registration as a manager of regulated activity/activities" },
-  { name: " Applicant Details", backRoute: "/Application for registration as a manager of regulated activity/activities" },
-  { name: "Refusals or Cancellations", backRoute: "/Application for registration as a manager of regulated activity/activities" },
-  
-{ name: "History as a Registered Person ( Have you been registered under) ", backRoute: "/Application for registration as a manager of regulated activity/activities" },
-  { name: "Service Provider’s Details", backRoute: "/Application for registration as a manager of regulated activity/activities" },
+  { name: "4 Service Types", backRoute: "/additional-location-form-for-new-provider-registration-applications-2" },
   
  
 ];
