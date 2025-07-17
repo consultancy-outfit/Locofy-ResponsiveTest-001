@@ -452,3 +452,4 @@ export { default as ReadinessOriginImage } from "./ReadinessOriginImage.svg";
 export { default as LegalSafetyComplianceImage } from "./LegalSafetyComplianceImage.svg";
 export { default as RegulatedActivitiesImage } from "./RegulatedActivitiesImage.svg";
 export { default as ServiceTypesImage } from "./ServiceTypesImage.svg";
+export { default as CommunityHealthNhsBloodTransplant2Img } from "./CommunityHealthNhsBloodTransplant2Img.svg";
