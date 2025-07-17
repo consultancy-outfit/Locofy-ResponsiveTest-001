@@ -478,7 +478,6 @@ export { default as SupportingNotes2Image } from "./SupportingNotes2Image.svg";
 export { default as Section2FinalDeclarationImage } from "./Section2FinalDeclarationImage.svg";
 export { default as ApplicationRegistrationAsAManager } from "./Application for registration as a manager of regulated activity - Image.svg";
 export { default as ApplicationContinueAsAManager } from "./ApplicationToContinueAsAManager.svg";
-
 export { default as EligibilityCriteriaImage } from "./EligibilityCriteriaImage.svg";
 export { default as ProviderDefinitionsManagerResponsibilitiesLegalBasisHealthAndSocialCareActImage } from "./ProviderDefinitionsManagerResponsibilitiesLegalBasisHealthAndSocialCareActImage.svg";
 export { default as FormCompletionRulesSubmitWithProviderAppImage } from "./FormCompletionRulesSubmitWithProviderAppImage.svg";
