@@ -502,7 +502,7 @@ export { default as DetailsForLocationNumberImag } from "./DetailsForLocationNum
 export { default as PlanningConsentImag } from "./PlanningConsentImag.svg";
 export { default as TheServiceTypesProvidedAtThisLocationImag } from "./TheServiceTypesProvidedAtThisLocationImag.svg";
 export { default as LocationOverviewImage } from "./LocationOverviewImage.svg";
-// export { default as ConditionOfRegistrationAboutProvidingASpecialistServiceToPeopleWithALearningDisabilityOrPeopleWithALearningDisabilityAndAutismImag } from "./ConditionOfRegistrationAboutProvidingASpecialistServiceToPeopleWithALearningDisabilityOrPeopleWithALearningDisabilityAndAutismImage.svg";
+export { default as ConditionOfRegistrationAboutProvidingASpecialistServiceToPeopleWithALearningDisabilityOrPeopleWithALearningDisabilityAndAutismImag } from "./ConditionOfRegistrationAboutProvidingASpecialistServiceToPeopleWithALearningDisabilityOrPeopleWithALearningDisabilityAndAutismImage.svg";
 export { default as ServiceUserBandsImag } from "./ServiceUserBandsImag.svg";
 export { default as ConditionOfRegistrationAboutProvidingASpecialistServiceToPeopleWithALearningDisabilityOrPeopleWithALearningDisabilityAndAutismImage1 } from "./ConditionOfRegistrationAboutProvidingASpecialistServiceToPeopleWithALearningDisabilityOrPeopleWithALearningDisabilityAndAutismImage1.svg";
 export { default as ConditionOfRegistrationNumberOfPersonsForNursingOrPersonalCareImage } from "./ConditionOfRegistrationNumberOfPersonsForNursingOrPersonalCareImage.svg";
@@ -515,6 +515,9 @@ export { default as LegalSafetyComplianceImage } from "./LegalSafetyComplianceIm
 export { default as RegulatedActivitiesImage } from "./RegulatedActivitiesImage.svg";
 export { default as ServiceTypesImage } from "./ServiceTypesImage.svg";
 export { default as CommunityHealthNhsBloodTransplant2Img } from "./CommunityHealthNhsBloodTransplant2Img.svg";
+export { default as CqcFeeStructureImage } from "./CqcFeeStructureImage.svg";
+export { default as DomiciliaryDentalOnly9Image } from "./DomiciliaryDentalOnly9Image.svg";
+export { default as arrowLeft } from "./arrow-left.svg";
 export { default as Section1ApplicantProviderDetailsImage } from "./Section1ApplicantProviderDetailsImage.svg";
 export { default as ApplicantDetailsImage } from "./ApplicantDetailsImage.svg";
 export { default as AlternativeCorrespondenceAddressOptionalImage } from "./AlternativeCorrespondenceAddressOptionalImage.svg";
