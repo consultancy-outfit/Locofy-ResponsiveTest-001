@@ -223,3 +223,5 @@ export { default as RequirementsthreeImage } from "./RequirementsthreeImage.svg"
 export { default as TrainingPlanImage1 } from "./training-plan-image-1.svg";
 export { default as TrainingPlanImage2 } from "./training-plan-image-2.svg";
 export { default as TrainingPlanImage3 } from "./training-plan-image-3.svg";
+export { default as apprenticeshipsLogo } from "./apprenticeships-logo.svg";
+// export { default as requestSectionHdn1 } from "./request-section-hdn1.svg";
