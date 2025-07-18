@@ -1,6 +1,6 @@
 "use client";
 
-import { requestSectionHdn1 } from "@/assets";
+import { ApoListin2, ApoListing } from "@/assets";
 import CommonImgMapPage from "@/components/common-img-map-page";
 import { Box } from "@mui/material";
 // import Image from "next/image";
@@ -9,74 +9,6 @@ import { Box } from "@mui/material";
 // import { CommonBackIcon } from "@/assets/common-assets";
 // import { CheckboxForm } from "@/components/checkbox-form";
 // import { ApoListing } from "@/assets";
-
-const areas = [
-  {
-    alt: "https://www.figma.com/proto/NBRxXeeWyXuQvkDtN3MSOf/LARS?node-id=5443-50&t=RhCX5ntCmQuSkreU-0&scaling=min-zoom&content-scaling=fixed&page-id=5385%3A3786",
-    title: "https://www.figma.com/proto/NBRxXeeWyXuQvkDtN3MSOf/LARS?node-id=5443-50&t=RhCX5ntCmQuSkreU-0&scaling=min-zoom&content-scaling=fixed&page-id=5385%3A3786",
-    href: "https://www.figma.com/proto/NBRxXeeWyXuQvkDtN3MSOf/LARS?node-id=5443-50&t=RhCX5ntCmQuSkreU-0&scaling=min-zoom&content-scaling=fixed&page-id=5385%3A3786",
-    coords: "273,623,763,717",
-    shape: "rect",
-  },
-  {
-    alt: "Conducts initial assessments",
-    title: "Conducts initial assessments",
-    href: "https://www.figma.com/proto/NBRxXeeWyXuQvkDtN3MSOf/LARS?node-id=5539-188&t=kJ6CHlI8zCva2l9I-0&scaling=min-zoom&content-scaling=fixed&page-id=5385%3A3786",
-    coords: "471,906,1084,1000",
-    shape: "rect",
-  },
-  {
-    alt: "DAS Guidance",
-    title: "DAS Guidance",
-    href: "https://www.figma.com/proto/NBRxXeeWyXuQvkDtN3MSOf/LARS?node-id=5390-2&t=kJ6CHlI8zCva2l9I-0&scaling=min-zoom&content-scaling=fixed&page-id=5385%3A3786",
-    coords: "893,1166,1179,1278",
-    shape: "rect",
-  },
-  {
-    alt: "Funding Rules",
-    title: "Funding Rules",
-    href: "https://www.figma.com/proto/NBRxXeeWyXuQvkDtN3MSOf/LARS?node-id=5489-224&t=kJ6CHlI8zCva2l9I-0&scaling=min-zoom&content-scaling=fixed&page-id=5385%3A3786",
-    coords: "2837,1281,3159,1411",
-    shape: "rect",
-  },
-  {
-    alt: "signs Levy/Non-Levy Agreement",
-    title: "signs Levy/Non-Levy Agreement",
-    href: "https://www.figma.com/proto/NBRxXeeWyXuQvkDtN3MSOf/LARS?node-id=5454-69&t=kJ6CHlI8zCva2l9I-0&scaling=min-zoom&content-scaling=fixed&page-id=5385%3A3786",
-    coords: "854,1596,1456,1694",
-    shape: "rect",
-  },
-  {
-    alt: "Training Plan",
-    title: "Training Plan",
-    href: "https://www.figma.com/proto/NBRxXeeWyXuQvkDtN3MSOf/LARS?node-id=5482-2439&t=kJ6CHlI8zCva2l9I-0&scaling=min-zoom&content-scaling=fixed&page-id=5385%3A3786",
-    coords: "122,1847,426,1983",
-    shape: "rect",
-  },
-  {
-    alt: "Appoints End-Point Assessment Organisation",
-    title: "Appoints End-Point Assessment Organisation",
-    href: "https://www.figma.com/proto/NBRxXeeWyXuQvkDtN3MSOf/LARS?node-id=5462-628&t=kJ6CHlI8zCva2l9I-0&scaling=min-zoom&content-scaling=fixed&page-id=5385%3A3786",
-    coords: "1441,2553,2217,2685",
-    shape: "rect",
-  },
-  {
-    alt: "Closes learner record",
-    title: "Closes learner record",
-    href: "https://www.figma.com/proto/NBRxXeeWyXuQvkDtN3MSOf/LARS?node-id=5427-496&t=kJ6CHlI8zCva2l9I-0&scaling=min-zoom&content-scaling=fixed&page-id=5385%3A3786",
-    coords: "1152,3417,1610,3526",
-    shape: "rect",
-  },
-  {
-    alt: "Conducts final funding audits",
-    title: "Conducts final funding audits",
-    href: "https://www.figma.com/proto/NBRxXeeWyXuQvkDtN3MSOf/LARS?node-id=5489-224&t=kJ6CHlI8zCva2l9I-0&scaling=min-zoom&content-scaling=fixed&page-id=5385%3A3786",
-    coords: "",
-    shape: "rect",
-  },
-];
-
-
 
 export default function ApprenticeshipsListingProcessPage() {
   // const router = useRouter();
@@ -97,19 +29,78 @@ export default function ApprenticeshipsListingProcessPage() {
   // const onAmendmentButtonClick = useCallback(() => {
   //   router.push(amendmentComparisonRoute);
   // }, [router, amendmentComparisonRoute]);
+const areas = [
+  {
+    alt: "Provides Application Form",
+    title: "Provides Application Form",
+    href: "https://www.figma.com/proto/NBRxXeeWyXuQvkDtN3MSOf/LARS?node-id=5443-50&t=RhCX5ntCmQuSkreU-0&scaling=min-zoom&content-scaling=fixed&page-id=5385%3A3786",
+    coords: "139,339,431,409",
+    shape: "rect",
+  },
+  {
+    alt: "Conducts initial assessments",
+    title: "Conducts initial assessments",
+    href: "https://www.figma.com/proto/NBRxXeeWyXuQvkDtN3MSOf/LARS?node-id=5539-188&t=kJ6CHlI8zCva2l9I-0&scaling=min-zoom&content-scaling=fixed&page-id=5385%3A3786",
+    coords: "280,503,579,562",
+    shape: "rect",
+  },
+  {
+    alt: "DAS Guidance",
+    title: "DAS Guidance",
+    href: "https://www.figma.com/proto/NBRxXeeWyXuQvkDtN3MSOf/LARS?node-id=5390-2&t=kJ6CHlI8zCva2l9I-0&scaling=min-zoom&content-scaling=fixed&page-id=5385%3A3786",
+    coords: "500,651,674,707",
+    shape: "rect",
+  },
+  {
+    alt: "Funding Rules",
+    title: "Funding Rules",
+    href: "https://www.figma.com/proto/NBRxXeeWyXuQvkDtN3MSOf/LARS?node-id=5489-224&t=kJ6CHlI8zCva2l9I-0&scaling=min-zoom&content-scaling=fixed&page-id=5385%3A3786",
+    coords: "1575,705,1757,781",
+    shape: "rect",
+  },
+  {
+    alt: "Training Plan",
+    title: "Training Plan",
+    href: "https://www.figma.com/proto/NBRxXeeWyXuQvkDtN3MSOf/LARS?node-id=5482-2439&t=kJ6CHlI8zCva2l9I-0&scaling=min-zoom&content-scaling=fixed&page-id=5385%3A3786",
+    coords: "75,1027,237,1093",
+    shape: "rect",
+  },
+  {
+    alt: "Appoints End-Point Assessment Organisation",
+    title: "Appoints End-Point Assessment Organisation",
+    href: "https://www.figma.com/proto/NBRxXeeWyXuQvkDtN3MSOf/LARS?node-id=5462-628&t=kJ6CHlI8zCva2l9I-0&scaling=min-zoom&content-scaling=fixed&page-id=5385%3A3786&fuid=1218603068772383201",
+    coords: "801,1423,1230,1487",
+    shape: "rect",
+  },
+  {
+    alt: "Closes learner record",
+    title: "Closes learner record",
+    href: "https://www.figma.com/proto/NBRxXeeWyXuQvkDtN3MSOf/LARS?node-id=5427-496&t=kJ6CHlI8zCva2l9I-0&scaling=min-zoom&content-scaling=fixed&page-id=5385%3A3786",
+    coords: "651,1906,893,1957",
+    shape: "rect",
+  },
+  {
+    alt: "Conducts final funding audite",
+    title: "Conducts final funding audite",
+    href: "https://www.figma.com/proto/NBRxXeeWyXuQvkDtN3MSOf/LARS?node-id=5489-224&t=kJ6CHlI8zCva2l9I-0&scaling=min-zoom&content-scaling=fixed&page-id=5385%3A3786",
+    coords: "1253,2015,1555,2067",
+    shape: "rect",
+  },
+];
+
 
   return (
-    <>
-
+    <Box>
 
 
       <CommonImgMapPage
-        image={requestSectionHdn1}
-        backRoute="/"
+        image={ApoListing}
+        backRoute="/apprenticeshipjourney-1"
         areas={areas}
-        pageTitle=""
-        amendmentButtonRoute1="Apprenticeships Overview"
-        amendmentButtonRoute2="Apprenticeships Breakdown"
+        target="_blank"
+        pageTitle="Apprenticeships / Apprenticeships Listing Process"
+        amendmentButtonRoute1="/overview-of-apprenticeship-delivery-process"
+        amendmentButtonRoute2="/apprenticeship"
         amendmentButtonTitle1="Apprenticeships Overview"
         amendmentButtonTitle2="Apprenticeships Breakdown"
       />
@@ -203,6 +194,6 @@ export default function ApprenticeshipsListingProcessPage() {
         height={40}
         style={{ width: "100%", height: "100%" }}
       /> */}
-    </>
+    </Box>
   );
 }
