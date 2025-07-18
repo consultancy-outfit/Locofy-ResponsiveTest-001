@@ -155,15 +155,15 @@ import React from "react";
 
 const ${pascal}PageData = [
   ${arrayData
-    .map(
-      (item) => `{
+      .map(
+        (item) => `{
     key: "${item.key}",
     link: "${item.link}",
     icon: ${item.icon},
     title: "${item.title}",
   }`
-    )
-    .join(",\n  ")}
+      )
+      .join(",\n  ")}
 ];
 
 const ${pascal}Page = () => {

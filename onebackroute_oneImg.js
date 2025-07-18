@@ -6,46 +6,9 @@ const assetsDir = path.join(__dirname, "src", "assets");
 const indexTsxPath = path.join(assetsDir, "index.tsx");
 
 const pages = [
-  {
-    name: "Eligibility Criteria",
-    backRoute:
-      "/application-to-continue-registration-as-a-manager-under-a-new-provide",
-  },
-  {
-    name: "Provider Definitions,  Manager Responsibilities & Legal Basis ( Health and Social Care Act)",
-    backRoute:
-      "/application-to-continue-registration-as-a-manager-under-a-new-provide",
-  },
-  {
-    name: "Form Completion Rules &  Submit with Provider App ",
-    backRoute:
-      "/application-to-continue-registration-as-a-manager-under-a-new-provide",
-  },
-  {
-    name: "Section 1: Application details",
-    backRoute:
-      "/application-to-continue-registration-as-a-manager-under-a-new-provide",
-  },
-  {
-    name: "Section 2: Regulated Activities and locations",
-    backRoute:
-      "/application-to-continue-registration-as-a-manager-under-a-new-provide",
-  },
-  {
-    name: "Section 3: Additional Information",
-    backRoute:
-      "/application-to-continue-registration-as-a-manager-under-a-new-provide",
-  },
-  {
-    name: "Section 4: Application  declaration",
-    backRoute:
-      "/application-to-continue-registration-as-a-manager-under-a-new-provide",
-  },
-  {
-    name: "How to submit this application and accompanying documents",
-    backRoute:
-      "/application-to-continue-registration-as-a-manager-under-a-new-provide",
-  },
+  { name: "4 Service Types", backRoute: "/additional-location-form-for-new-provider-registration-applications-2" },
+  
+ 
 ];
 
 const toPascalCase = (str) =>
