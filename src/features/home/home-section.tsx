@@ -6,16 +6,7 @@ import KeyboardArrowDownIcon from "@mui/icons-material/KeyboardArrowDown";
 import { colorLegends, appLogo } from "@/assets/common-assets";
 import { useRouter } from "next/navigation";
 
-// const PlayCircleRoundedSVG = `<path d='M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 14.5v-9l6 4.5-6 4.5z'/>`;
-// const StopCircleRoundedSVG = `<path d='M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-4 14V8h8v8H8z'/>`;
-// const NotesRoundedSVG = `<path d='M4 14h6v-2H4v2zm0-5h9V7H4v2zm0 10h9v-2H4v2zm13-1l-4 4V8l4 4h-3l3 3V9l-3-3h3l3 3V6.5l3-3.5L22 4.5V20l-3 3-3-3h3zm-4 4z'/>`;
-
-// const renderSvgIcon = (path: string, color: string): JSX.Element => (
-//   <svg width={24} height={20} viewBox="0 0 24 24" fill={color}>
-//     <g dangerouslySetInnerHTML={{ __html: path }} />
-//   </svg>
-// );
-
+// Define the Area interface with all its properties, including `target`
 interface Area {
   alt: string;
   title: string;
@@ -24,6 +15,7 @@ interface Area {
   shape: "rect";
   type: "link" | "audio";
   audioSrc?: string;
+  target?: string; // This makes the 'target' property optional for any Area object
 }
 
 export const HomeSection = () => {
@@ -47,18 +39,19 @@ export const HomeSection = () => {
       type: "audio",
       audioSrc: "https://orcalo.blob.core.windows.net/locofy/CQC/1.%20Applicant%20Logs%20In%20and%20Initiates%20Application.mp4",
     },
-   {
+    {
       alt: "SC2: Submit Application to Register as a Manager",
       title: "SC2: Submit Application to Register as a Manager",
-      href: "/sc2-submit-application-to-register-as-a-manager",
+      href: "https://www.cqc.org.uk/",
       coords: "1107.52,90.09,1349.52,128.95",
       shape: "rect",
       type: "link",
+      target: "_blank", // This is correctly defined now
     },
     {
       alt: "Log in to Portal",
       title: "Log in to Portal",
-      href: "/",
+      href: "/care-quality-commission-cqc-overview",
       coords: "1356.58,91.85,1591.51,130.71",
       shape: "rect",
       type: "link",
@@ -66,7 +59,7 @@ export const HomeSection = () => {
     {
       alt: "CQC Breakdown Diagram",
       title: "CQC Breakdown Diagram",
-      href: "/cqc-breakdown-diagram",
+      href: "/care-quality-commission",
       coords: "1598.58,91.85,1830.97,128.95",
       shape: "rect",
       type: "link",
@@ -74,7 +67,7 @@ export const HomeSection = () => {
     {
       alt: "SC1: Submit Application to Register as a Provider",
       title: "🔗 SC1: Submit Application to Register as a Provider",
-      href: "/submit-application-provider",
+      href: "/sc1-application-for-registration-as-a-new-provider-of-regulated-activities",
       coords: "95.38,521.08,355.04,561.71",
       shape: "rect",
       type: "link",
@@ -82,7 +75,7 @@ export const HomeSection = () => {
     {
       alt: "Application Options Displayed",
       title: "Application Options Displayed",
-      href: "/application-options-displayed",
+      href: "/application-for-registration-as-a-manager-of-regulated-activityactivities",
       coords: "409.80,589.97,683.59,637.66",
       shape: "rect",
       type: "link",
@@ -92,19 +85,21 @@ export const HomeSection = () => {
       title: "Choose or Modify Regulated Activities",
       href: "/care-quality-commission-regulated-services-14",
       coords: "104.22,773.68,284.39,798.40",
-     shape: "rect",
-      type: "link",},
+      shape: "rect",
+      type: "link",
+    },
     {
       alt: "Verify Supporting Documents (Near Upload Docs)",
       title: "Verify Supporting Documents (Near Upload Docs)",
       href: "/manage-location",
       coords: "120.11,966.21,272.02,987.41",
       shape: "rect",
-      type: "link",},
-  {
+      type: "link",
+    },
+    {
       alt: "Select Regulated Activities",
       title: "Select Regulated Activities",
-      href: "/Select-regulated-activities",
+      href: "/specific-type-of-services",
       coords: "111.28,1208.21,289.69,1234.70",
       shape: "rect",
       type: "link",
@@ -122,8 +117,8 @@ export const HomeSection = () => {
       title: "Applicant Logs In and Initiates Application",
       href: "#",
       coords: "552.88,372.71,577.61,397.44",
-       shape: "rect",
-       type: "audio",
+      shape: "rect",
+      type: "audio",
       audioSrc: "https://orcalo.blob.core.windows.net/locofy/CQC/1.%20Applicant%20Logs%20In%20and%20Initiates%20Application.mp4",
     },
     {
@@ -167,7 +162,7 @@ export const HomeSection = () => {
       title: "Choose or Modify Regulated Activities",
       href: "#",
       coords: "539.62,729.94,564.25,752.33",
-     shape: "rect",
+      shape: "rect",
       type: "audio",
       audioSrc: "https://orcalo.blob.core.windows.net/locofy/CQC/6.%20Choose%20or%20Modify%20Regulated%20Activities.mp4",
     },
@@ -194,7 +189,7 @@ export const HomeSection = () => {
       title: " Add/remove locations",
       href: "#",
       coords: "277.65,967.28,308.99,991.91",
-        shape: "rect",
+      shape: "rect",
       type: "audio",
       audioSrc: "https://orcalo.blob.core.windows.net/locofy/CQC/10.%20AddRemove%20Locations.mp4",
     },
@@ -380,9 +375,11 @@ export const HomeSection = () => {
     },
   ];
 
+  // Rest of your component code remains the same...
+
   useEffect(() => {
     // Preload audio files
-    interactiveAreas.forEach(area => {
+    interactiveAreas.forEach((area) => {
       if (area.type === "audio" && area.audioSrc && !audioRefs.current[area.href]) {
         const audio = new Audio(area.audioSrc);
         audio.load();
@@ -392,7 +389,7 @@ export const HomeSection = () => {
 
     // Cleanup on unmount
     return () => {
-      Object.values(audioRefs.current).forEach(audio => {
+      Object.values(audioRefs.current).forEach((audio) => {
         audio.pause();
         audio.currentTime = 0;
       });
@@ -407,110 +404,124 @@ export const HomeSection = () => {
   }, []);
 
   useEffect(() => {
-  if (typeof document === 'undefined') return; 
-  
-  const handleClickOutside = (event: MouseEvent) => {
-    const target = event.target as Node;
-    if (
-      legendRef.current &&
-      !legendRef.current.contains(target) &&
-      iconRef.current &&
-      !iconRef.current.contains(target)
-    ) {
-      setIsOpen(false);
-    }
-  };
-  document.addEventListener("click", handleClickOutside);
-  return () => document.removeEventListener("click", handleClickOutside);
-}, []);
+    if (typeof document === "undefined") return;
 
-  const handleAreaClick = useCallback((area: Area) => {
-    if (area.type === "link") {
-      router.push(area.href);
-    } else if (area.type === "audio" && area.audioSrc) {
-      const id = area.href;
-      const audio = audioRefs.current[id];
-
-      if (!audio) {
-        console.warn(`Audio for ${area.title} not preloaded.`);
-        return;
+    const handleClickOutside = (event: MouseEvent) => {
+      const target = event.target as Node;
+      if (
+        legendRef.current &&
+        !legendRef.current.contains(target) &&
+        iconRef.current &&
+        !iconRef.current.contains(target)
+      ) {
+        setIsOpen(false);
       }
+    };
+    document.addEventListener("click", handleClickOutside);
+    return () => document.removeEventListener("click", handleClickOutside);
+  }, []);
 
-      if (playingAudioIds.has(id)) {
-        // Stop the audio if it's currently playing
-        audio.pause();
-        audio.currentTime = 0;
-        setPlayingAudioIds(prev => {
-          const newSet = new Set(prev);
-          newSet.delete(id);
-          return newSet;
-        });
-      } else {
-        // Stop all other playing audios
-        Object.entries(audioRefs.current).forEach(([audioId, audioElement]) => {
-          if (audioId !== id && !audioElement.paused) {
-            audioElement.pause();
-            audioElement.currentTime = 0;
-            setPlayingAudioIds(prev => {
-              const newSet = new Set(prev);
-              newSet.delete(audioId);
-              return newSet;
-            });
-          }
-        });
+  const handleAreaClick = useCallback(
+    (area: Area) => {
+      if (area.type === "link") {
+        // If target is '_blank', open in new tab manually
+        if (area.target === "_blank") {
+          window.open(area.href, "_blank");
+        } else {
+          router.push(area.href);
+        }
+      } else if (area.type === "audio" && area.audioSrc) {
+        const id = area.href;
+        const audio = audioRefs.current[id];
 
-        // Play the selected audio
-        audio.currentTime = 0;
-        audio.play().catch(error => {
-          console.error("Error playing audio:", error);
-        });
-        setPlayingAudioIds(prev => new Set(prev).add(id));
+        if (!audio) {
+          console.warn(`Audio for ${area.title} not preloaded.`);
+          return;
+        }
 
-        // Reset state when audio ends
-        audio.onended = () => {
-          setPlayingAudioIds(prev => {
+        if (playingAudioIds.has(id)) {
+          // Stop the audio if it's currently playing
+          audio.pause();
+          audio.currentTime = 0;
+          setPlayingAudioIds((prev) => {
             const newSet = new Set(prev);
             newSet.delete(id);
             return newSet;
           });
-        };
+        } else {
+          // Stop all other playing audios
+          Object.entries(audioRefs.current).forEach(([audioId, audioElement]) => {
+            if (audioId !== id && !audioElement.paused) {
+              audioElement.pause();
+              audioElement.currentTime = 0;
+              setPlayingAudioIds((prev) => {
+                const newSet = new Set(prev);
+                newSet.delete(audioId);
+                return newSet;
+              });
+            }
+          });
+
+          // Play the selected audio
+          audio.currentTime = 0;
+          audio.play().catch((error) => {
+            console.error("Error playing audio:", error);
+          });
+          setPlayingAudioIds((prev) => new Set(prev).add(id));
+
+          // Reset state when audio ends
+          audio.onended = () => {
+            setPlayingAudioIds((prev) => {
+              const newSet = new Set(prev);
+              newSet.delete(id);
+              return newSet;
+            });
+          };
+        }
       }
-    }
-  }, [playingAudioIds, router]);
+    },
+    [playingAudioIds, router]
+  );
 
-  const getScaledCoords = useCallback((coords: string) => {
-    const [x1, y1, x2, y2] = coords.split(",").map(Number);
-    const currentImage = document.querySelector('img[usemap="#image-map"]');
-    if (!currentImage) return coords;
+  const getScaledCoords = useCallback(
+    (coords: string) => {
+      const [x1, y1, x2, y2] = coords.split(",").map(Number);
+      const currentImage = document.querySelector('img[usemap="#image-map"]');
+      if (!currentImage) return coords;
 
-    const { clientWidth, clientHeight } = currentImage;
-    const scaleX = clientWidth / originalImageWidth;
-    const scaleY = clientHeight / originalImageHeight;
+      const { clientWidth, clientHeight } = currentImage;
+      const scaleX = clientWidth / originalImageWidth;
+      const scaleY = clientHeight / originalImageHeight;
 
-    const scaledX1 = (x1 * scaleX).toFixed(2);
-    const scaledY1 = (y1 * scaleY).toFixed(2);
-    const scaledX2 = (x2 * scaleX).toFixed(2);
-    const scaledY2 = (y2 * scaleY).toFixed(2);
+      const scaledX1 = (x1 * scaleX).toFixed(2);
+      const scaledY1 = (y1 * scaleY).toFixed(2);
+      const scaledX2 = (x2 * scaleX).toFixed(2);
+      const scaledY2 = (y2 * scaleY).toFixed(2);
 
-    return `${scaledX1},${scaledY1},${scaledX2},${scaledY2}`;
-  }, [originalImageWidth, originalImageHeight]);
+      return `${scaledX1},${scaledY1},${scaledX2},${scaledY2}`;
+    },
+    [originalImageWidth, originalImageHeight]
+  );
 
-  const getButtonPosition = useCallback((coords: string) => {
-    const [x1, y1] = coords.split(",").map(Number);
-    const currentImage = document.querySelector('img[usemap="#image-map"]');
-    if (!currentImage) return { left: "0px", top: "0px" };
+  const getButtonPosition = useCallback(
+    (coords: string) => {
+      const [x1, y1] = coords.split(",").map(Number);
+      const currentImage = document.querySelector('img[usemap="#image-map"]');
+      if (!currentImage) return { left: "0px", top: "0px" };
 
-    const { clientWidth, clientHeight } = currentImage;
-    const scaleX = clientWidth / originalImageWidth;
-    const scaleY = clientHeight / originalImageHeight;
+      const { clientWidth, clientHeight } = currentImage;
+      const scaleX = clientWidth / originalImageWidth;
+      const scaleY = clientHeight / originalImageHeight;
 
-    const offsetX = 5; 
-    const offsetY = -5;
-    const left = (x1 + offsetX) * scaleX;
-    const top = (y1 + offsetY) * scaleY;
+      const offsetX = 5;
+      const offsetY = -5;
+      const left = (x1 + offsetX) * scaleX;
+      const top = (y1 + offsetY) * scaleY;
 
-    return { left: `${left}px`, top: `${top}px` };
-  }, [originalImageWidth, originalImageHeight]);
+      return { left: `${left}px`, top: `${top}px` };
+    },
+    [originalImageWidth, originalImageHeight]
+  );
 
   return (
     <Box sx={{ p: 3, position: "relative" }}>
@@ -580,11 +591,13 @@ export const HomeSection = () => {
               coords={getScaledCoords(area.coords)}
               shape={area.shape}
               onClick={(e) => {
-                e.preventDefault();
+                e.preventDefault(); // Prevent default link behavior if handling with Next.js router or audio
                 handleAreaClick(area);
               }}
               style={{ cursor: "pointer" }}
               data-index={index}
+              // 🎯 Apply target only if it's a link type and has a target property
+              {...(area.type === "link" && area.target && { target: area.target })}
             />
           ))}
         </map>
@@ -631,7 +644,7 @@ export const HomeSection = () => {
 
         {/* Render play/stop buttons for audio areas */}
         {interactiveAreas
-          .filter(area => area.type === "audio" && area.audioSrc)
+          .filter((area) => area.type === "audio" && area.audioSrc)
           .map((area, index) => (
             <Box
               key={`audio-btn-${index}`}
@@ -679,13 +692,7 @@ export const HomeSection = () => {
             }}
             onClick={(e) => e.stopPropagation()}
           >
-            <img
-              src={colorLegends.src}
-              alt="Color Legend"
-              width={40}
-              height={40}
-              style={{ width: "100%", height: "100%" }}
-            />
+            <img src={colorLegends.src} alt="Color Legend" width={40} height={40} style={{ width: "100%", height: "100%" }} />
           </Box>
         </>
       )}
