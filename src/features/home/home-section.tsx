@@ -10,12 +10,15 @@ import KeyboardArrowDownIcon from "@mui/icons-material/KeyboardArrowDown";
 export const HomeSection = () => {
   const [isOpen, setIsOpen] = useState(false);
   const legendRef = useRef<HTMLDivElement>(null);
-  const iconRef = useRef<HTMLDivElement>(null);
+  const iconRef = useRef<HTMLSpanElement>(null);
 
   const toggleDropdown = (e: React.MouseEvent) => {
     e.stopPropagation();
     setIsOpen((prev) => !prev);
   };
+  useEffect(() => {
+    console.log("isOpen:", isOpen);
+  }, [isOpen]);
 
   useEffect(() => {
     const handleClickOutside = (event: MouseEvent) => {
@@ -51,9 +54,9 @@ export const HomeSection = () => {
 
       <Stack
         flexDirection="row"
-        alignItems={"center"}
+        alignItems="center"
         justifyContent="space-between"
-        flexWrap={"wrap"}
+        flexWrap="wrap"
         mt={2}
       >
         <Typography
@@ -74,21 +77,26 @@ export const HomeSection = () => {
           color="#5A5867"
           fontSize={{ xs: "1rem", sm: "1.5rem", md: "1.8rem" }}
           fontWeight={600}
-          textTransform={"uppercase"}
+          textTransform="uppercase"
           ml={2}
         >
-          Colour Legend{" "}
-          <span ref={iconRef}>
-            <KeyboardArrowDownIcon
-              sx={{
-                fontSize: "25px",
-                border: "2px solid",
-                borderRadius: "40px",
-                cursor: "pointer",
-              }}
-              onClick={toggleDropdown}
-            />
-          </span>
+          Colour Legend
+          <Box
+            ref={iconRef}
+            onClick={toggleDropdown}
+            sx={{
+              display: "inline-flex",
+              alignItems: "center",
+              justifyContent: "center",
+              border: "2px solid",
+              borderRadius: "40px",
+              cursor: "pointer",
+              ml: 1,
+              p: "2px",
+            }}
+          >
+            <KeyboardArrowDownIcon sx={{ fontSize: "25px" }} />
+          </Box>
         </Typography>
       </Stack>
 
@@ -97,13 +105,14 @@ export const HomeSection = () => {
           border: "3px dashed #000",
           borderRadius: "10px",
           padding: "10px",
+          position: "relative",
         }}
       >
         <Stack
           flexDirection="row"
-          alignItems={"center"}
+          alignItems="center"
           justifyContent="space-between"
-          flexWrap={"wrap"}
+          flexWrap="wrap"
           mb={5}
         >
           <Typography
@@ -114,7 +123,7 @@ export const HomeSection = () => {
             fontWeight={600}
             ml={2}
           >
-            End-to-End Mental health Listing Process
+            End-to-End Mental Health Listing Process
           </Typography>
 
           <Link href="/court-hearing" style={{ textDecoration: "none" }}>
@@ -145,15 +154,27 @@ export const HomeSection = () => {
         {isOpen && (
           <Box
             ref={legendRef}
-            sx={{ position: "absolute", top: "150px", right: "50px" }}
+            sx={{
+              position: "fixed", // <-- stays on screen
+              bottom: 20,
+              left: 20,
+              zIndex: 1300,
+              backgroundColor: "#fff",
+              border: "1px solid #ccc",
+              borderRadius: "8px",
+              padding: "10px",
+              boxShadow: "0 2px 10px rgba(0,0,0,0.2)",
+              width: { xs: "80%", sm: "300px" },
+              maxWidth: "90vw",
+            }}
             onClick={(e) => e.stopPropagation()}
           >
             <Image
               src={colorLegends}
               alt="Color Legend"
-              width={40}
-              height={40}
-              style={{ width: "100%", height: "100%" }}
+              width={250}
+              height={150}
+              style={{ width: "100%", height: "auto" }}
             />
           </Box>
         )}

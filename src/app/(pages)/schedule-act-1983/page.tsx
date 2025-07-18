@@ -53,7 +53,7 @@ const ScheduleAct1983Page = () => {
   return (
     <MultiPathPage
       arrayData={ScheduleAct1983PageData}
-      pageTitle="Schedule Act 1964"
+      pageTitle="Schedule Act 1983"
       backRoute="/mental-health-act-1983"
     />
   );
