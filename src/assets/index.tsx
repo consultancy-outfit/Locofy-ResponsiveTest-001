@@ -147,7 +147,7 @@ export { default as Chapter8ConductOfBusinessRequirementsImage } from "./Chapter
 export { default as Chapter10SafeguardingImage } from "./Chapter10SafeguardingImage.svg";
 export { default as Chapter11ComplaintsHandlingImage } from "./Chapter11ComplaintsHandlingImage.svg";
 export { default as Chapter12SupervisionImage } from "./Chapter12SupervisionImage.svg";
-export { default as Chapter13ReportingAndNotificationsImage } from "./Chapter13ReportingAndNotificationsImage.svg";
+export { default as Chapter13ReportingAndNotificationsImage } from "./NewChapterThirteen.svg";
 export { default as Chapter14EnforcementImage } from "./Chapter14EnforcementImage.svg";
 export { default as Chapter15FeesImage } from "./Chapter15FeesImage.svg";
 export { default as Chapter16PaymentServiceProvidersAccessToPaymentAccountServicesImage } from "./Chapter16PaymentServiceProvidersAccessToPaymentAccountServicesImage.svg";

@@ -9,7 +9,7 @@ const paymentInitiationAisConfirmationAvailabilityFunds = () => {
     };
     return (
         <MultiImagesNoBtn
-            backRoute="/"
+            backRoute="/payment-services-and-electronic-money-our-approach"
             pageTitle="FCA Application / FCA Guide to Payment Services & E-Money Regulation / Chapter 17: Payment initiation & Account information services and confirmation of availability of funds"
             images={[
                 { src: paymentInitiationAisConfirmationAvailabilityFunds1, route: "/chapter-17-ayment-initiation-ais-and-confirmation-of-availability-of-funds", alt: "Image" },

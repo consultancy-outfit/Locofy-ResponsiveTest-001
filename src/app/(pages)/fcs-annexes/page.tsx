@@ -170,7 +170,7 @@ const FcsAnnexes = () => {
     return (
         <CommonImgMapPage
             backRoute="/payment-services-and-electronic-money-our-approach"
-            pageTitle="FCA Application / FCA Guide to Payment Services and Electronic Money Regulation / Risk Management, Security Standards, and Reference Materials / Annexes"
+            pageTitle="FCA Application / FCA Guide to Payment Services and Electronic Money Regulation  / Annexes"
             image={fcaAnnexes}
             areas={areas}
             amendmentButtonTitle1="Glossary of Terms"

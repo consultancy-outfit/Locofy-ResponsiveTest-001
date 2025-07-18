@@ -6,7 +6,7 @@ const AcronymsAndAbbreviations = () => {
     return (
         <CommonImgMapPage
             backRoute="/fcs-annexes"
-            pageTitle="FCA Application / FCA Guide to Payment Services and Electronic Money Regulation / Risk Management, Security Standards, and Reference Materials / Acronyms & Abbreviations"
+            pageTitle="FCA Application / FCA Guide to Payment Services and Electronic Money Regulation / Acronyms & Abbreviations"
             image={acronymsAndAbbreviationsImg}
         />
     )

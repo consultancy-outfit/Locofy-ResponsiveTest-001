@@ -6,7 +6,7 @@ const AnnexFigures = () => {
     return (
         <CommonImgMapPage
             backRoute="/fcs-annexes"
-            pageTitle="FCA Application / FCA Guide to Payment Services and Electronic Money Regulation / Risk Management, Security Standards, and Reference Materials / Annex Figures"
+            pageTitle="FCA Application / FCA Guide to Payment Services and Electronic Money Regulation / Annex Figures"
             image={annexFiguresImg}
         />
     )
