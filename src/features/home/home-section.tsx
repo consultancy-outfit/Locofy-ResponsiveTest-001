@@ -15,11 +15,12 @@ interface Area {
   shape: "rect";
   type: "link" | "audio";
   audioSrc?: string;
-  target?: string; // This makes the 'target' property optional for any Area object
+  target?: string; 
 }
 
 export const HomeSection = () => {
-  const [isOpen, setIsOpen] = useState<boolean>(false);
+const [isOpen, setIsOpen] = useState<boolean>(false);
+  const [hasMounted, setHasMounted] = useState<boolean>(false); // ✅ NEW
   const legendRef = useRef<HTMLDivElement>(null);
   const iconRef = useRef<HTMLDivElement>(null);
   const [playingAudioIds, setPlayingAudioIds] = useState<Set<string>>(new Set());
@@ -28,6 +29,12 @@ export const HomeSection = () => {
 
   const originalImageWidth = 1860;
   const originalImageHeight = 2427;
+
+  useEffect(() => {
+    setHasMounted(true);
+  }, []);
+
+  if (!hasMounted) return null; 
 
   const interactiveAreas: Area[] = [
     {
@@ -46,7 +53,7 @@ export const HomeSection = () => {
       coords: "1107.52,90.09,1349.52,128.95",
       shape: "rect",
       type: "link",
-      target: "_blank", // This is correctly defined now
+      target: "_blank", 
     },
     {
       alt: "Log in to Portal",
