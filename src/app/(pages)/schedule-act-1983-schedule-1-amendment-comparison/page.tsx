@@ -7,7 +7,7 @@ const ScheduleAct1983Schedule1AmendmentComparisonPage = () => {
     <CommonPage
       pageTitle="Amendment Comparison"
       src={ScheduleAct1983Schedule1AmendmentComparisonImage}
-      backRoute="/schedule-act-1964"
+      backRoute="/schedule-act-1983-schedule-1"
     />
   );
 };

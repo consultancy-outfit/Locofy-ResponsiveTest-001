@@ -7,7 +7,7 @@ const AmendmentComparisonSupplementalPage = () => {
     <CommonPage
       pageTitle={`Mental Health / Mental Health Act 1983 / Amendment Comparison - Supplemental    `}
       src={AmendmentComparisonSupplementalImage}
-      backRoute="/mental-health-act-1983-part-ii"
+      backRoute="/part-27"
     />
   );
 };

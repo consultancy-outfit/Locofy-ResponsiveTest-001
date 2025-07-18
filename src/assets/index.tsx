@@ -119,6 +119,7 @@ export { default as img11MentalHealthAct1983Image } from "./img11MentalHealthAct
 export { default as img12MentalHealthAct1983Image } from "./img12MentalHealthAct1983Image.svg";
 export { default as img13MentalHealthAct1983Image } from "./img13MentalHealthAct1983Image.svg";
 export { default as AmendmentComparisonApplicationOfActImage } from "./AmendmentComparisonApplicationOfActImage.svg";
+export { default as AmendmentComparisonApplicationOfActImage1 } from "./AmendmentComparisonApplicationOfActImage1.svg";
 export { default as AmendmentComparisonImage } from "./AmendmentComparisonImage.svg";
 export { default as img1MentalHealthAct1983PartIiImage } from "./img1MentalHealthAct1983PartIiImage.svg";
 export { default as img2MentalHealthAct1983PartIiImage } from "./img2MentalHealthAct1983PartIiImage.svg";
@@ -205,6 +206,7 @@ export { default as img1MentalHealthAct1983Part9Image } from "./img1MentalHealth
 export { default as img2MentalHealthAct1983Part9Image } from "./img2MentalHealthAct1983Part9Image.svg";
 export { default as Part10SupplementaryImageACc } from "./Part10SupplementaryImageACc.svg";
 export { default as Part9OffencesAcImage } from "./Part9OffencesAcImage.svg";
+export { default as Part9OffencesImage } from "./Part9OffencesImage.svg";
 export { default as ApprovedMentalHealthProfessionalsImage } from "./ApprovedMentalHealthProfessionalsImage.svg";
 export { default as VisitingPatientsImage } from "./VisitingPatientsImage.svg";
 export { default as AfterCareImage } from "./AfterCareImage.svg";
